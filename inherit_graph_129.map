@@ -1,0 +1,15 @@
+<map id="Графічна ієрархія класів" name="Графічна ієрархія класів">
+<area shape="rect" id="node1" href="$interface_swift___transport.html" title="Swift_Transport" alt="" coords="5,136,120,161"/>
+<area shape="rect" id="node2" href="$class_swift___transport___abstract_smtp_transport.html" title="Swift_Transport_Abstract\lSmtpTransport" alt="" coords="186,55,356,93"/>
+<area shape="rect" id="node7" href="$class_swift___transport___load_balanced_transport.html" title="Swift_Transport_LoadBalanced\lTransport" alt="" coords="168,129,374,168"/>
+<area shape="rect" id="node11" href="$class_swift___transport___mail_transport.html" title="Swift_Transport_MailTransport" alt="" coords="170,216,372,241"/>
+<area shape="rect" id="node3" href="$class_swift___transport___esmtp_transport.html" title="Swift_Transport_EsmtpTransport" alt="" coords="422,5,638,31"/>
+<area shape="rect" id="node5" href="$class_swift___transport___sendmail_transport.html" title="Swift_Transport_Sendmail\lTransport" alt="" coords="442,55,619,93"/>
+<area shape="rect" id="node4" href="$class_swift___smtp_transport.html" title="Swift_SmtpTransport" alt="" coords="699,5,844,31"/>
+<area shape="rect" id="node6" href="$class_swift___sendmail_transport.html" title="Swift_SendmailTransport" alt="" coords="686,61,856,87"/>
+<area shape="rect" id="node8" href="$class_swift___load_balanced_transport.html" title="Swift_LoadBalancedTransport" alt="" coords="431,117,630,143"/>
+<area shape="rect" id="node9" href="$class_swift___transport___failover_transport.html" title="Swift_Transport_Failover\lTransport" alt="" coords="446,167,615,205"/>
+<area shape="rect" id="node10" href="$class_swift___failover_transport.html" title="Swift_FailoverTransport" alt="" coords="690,173,852,199"/>
+<area shape="rect" id="node12" href="$class_swift___mail_transport.html" title="Swift_MailTransport" alt="" coords="461,229,600,255"/>
+<area shape="rect" id="node13" href="$interface_swift___transport___smtp_agent.html" title="Swift_Transport_SmtpAgent" alt="" coords="177,5,365,31"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Swift_Mime_HeaderEncoder_Base64HeaderEncoder" name="Swift_Mime_HeaderEncoder_Base64HeaderEncoder">
+<area shape="rect" id="node2" href="$class_swift___encoder___base64_encoder.html" title="{Swift_Encoder_Base64Encoder\n||+ encodeString()\l+ charsetChanged()\l}" alt="" coords="5,248,215,335"/>
+<area shape="rect" id="node3" href="$interface_swift___encoder.html" title="{Swift_Encoder\n||+ encodeString()\l}" alt="" coords="162,127,282,200"/>
+<area shape="rect" id="node5" href="$interface_swift___mime___header_encoder.html" title="{Swift_Mime_HeaderEncoder\n||+ getName()\l}" alt="" coords="239,255,430,328"/>
+<area shape="rect" id="node4" href="$interface_swift___mime___charset_observer.html" title="{Swift_Mime_CharsetObserver\n||+ charsetChanged()\l}" alt="" coords="123,5,322,79"/>
+</map>

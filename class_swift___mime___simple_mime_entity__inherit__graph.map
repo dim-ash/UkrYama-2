@@ -1,0 +1,14 @@
+<map id="Swift_Mime_SimpleMimeEntity" name="Swift_Mime_SimpleMimeEntity">
+<area shape="rect" id="node5" href="$class_swift___mime___attachment.html" title="{Swift_Mime_Attachment\n||+ __construct()\l+ getNestingLevel()\l+ getDisposition()\l+ setDisposition()\l+ getFilename()\l+ setFilename()\l+ getSize()\l+ setSize()\l+ setFile()\l}" alt="" coords="164,816,329,996"/>
+<area shape="rect" id="node10" href="$class_swift___mime___mime_part.html" title="{Swift_Mime_MimePart\n|# $_userFormat\l# $_userCharset\l# $_userDelSp\l|+ __construct()\l+ setBody()\l+ getCharset()\l+ setCharset()\l+ getFormat()\l+ setFormat()\l+ getDelSp()\l+ setDelSp()\l+ getNestingLevel()\l+ charsetChanged()\l# _fixHeaders()\l# _setNestingLevel()\l}" alt="" coords="381,783,536,1029"/>
+<area shape="rect" id="node2" href="$interface_swift___mime___mime_entity.html" title="{Swift_Mime_MimeEntity\n|+ LEVEL_TOP\l+ LEVEL_MIXED\l+ LEVEL_ALTERNATIVE\l+ LEVEL_RELATED\l|+ getNestingLevel()\l+ getContentType()\l+ getId()\l+ getChildren()\l+ setChildren()\l+ getHeaders()\l+ getBody()\l+ setBody()\l+ toString()\l+ toByteStream()\l}" alt="" coords="266,127,437,360"/>
+<area shape="rect" id="node3" href="$interface_swift___mime___charset_observer.html" title="{Swift_Mime_CharsetObserver\n||+ charsetChanged()\l}" alt="" coords="139,5,338,79"/>
+<area shape="rect" id="node4" href="$interface_swift___mime___encoding_observer.html" title="{Swift_Mime_EncodingObserver\n||+ encoderChanged()\l}" alt="" coords="363,5,571,79"/>
+<area shape="rect" id="node6" href="$class_swift___attachment.html" title="{Swift_Attachment\n||+ __construct()\l+ newInstance()\l+ fromPath()\l}" alt="" coords="5,1137,130,1237"/>
+<area shape="rect" id="node7" href="$class_swift___mime___embedded_file.html" title="{Swift_Mime_EmbeddedFile\n||+ __construct()\l+ getNestingLevel()\l}" alt="" coords="155,1144,338,1231"/>
+<area shape="rect" id="node8" href="$class_swift___embedded_file.html" title="{Swift_EmbeddedFile\n||+ __construct()\l+ newInstance()\l+ fromPath()\l}" alt="" coords="175,1345,318,1445"/>
+<area shape="rect" id="node9" href="$class_swift___image.html" title="{Swift_Image\n||+ __construct()\l+ newInstance()\l+ fromPath()\l}" alt="" coords="188,1493,305,1593"/>
+<area shape="rect" id="node11" href="$class_swift___mime___simple_message.html" title="{Swift_Mime_SimpleMessage\n||+ __construct()\l+ getNestingLevel()\l+ setSubject()\l+ getSubject()\l+ setDate()\l+ getDate()\l+ setReturnPath()\l+ getReturnPath()\l+ setSender()\l+ getSender()\lі ще &#160;25...\l# _getIdField()\l}" alt="" coords="362,1077,555,1297"/>
+<area shape="rect" id="node13" href="$class_swift___mime_part.html" title="{Swift_MimePart\n||+ __construct()\l+ newInstance()\l}" alt="" coords="579,1144,695,1231"/>
+<area shape="rect" id="node12" href="$class_swift___message.html" title="{Swift_Message\n||+ __construct()\l+ addPart()\l+ newInstance()\l}" alt="" coords="400,1345,517,1445"/>
+</map>

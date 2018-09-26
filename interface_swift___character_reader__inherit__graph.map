@@ -1,0 +1,5 @@
+<map id="Swift_CharacterReader" name="Swift_CharacterReader">
+<area shape="rect" id="node2" href="$class_swift___character_reader___generic_fixed_width_reader.html" title="{Swift_CharacterReader\l_GenericFixedWidthReader\n||+ __construct()\l+ getCharPositions()\l+ getMapType()\l+ validateByteSequence()\l+ getInitialByteSize()\l}" alt="" coords="5,193,191,333"/>
+<area shape="rect" id="node3" href="$class_swift___character_reader___us_ascii_reader.html" title="{Swift_CharacterReader\l_UsAsciiReader\n||+ getCharPositions()\l+ getMapType()\l+ validateByteSequence()\l+ getInitialByteSize()\l}" alt="" coords="215,200,389,327"/>
+<area shape="rect" id="node4" href="$class_swift___character_reader___utf8_reader.html" title="{Swift_CharacterReader\l_Utf8Reader\n||+ getCharPositions()\l+ getMapType()\l+ validateByteSequence()\l+ getInitialByteSize()\l}" alt="" coords="414,200,588,327"/>
+</map>

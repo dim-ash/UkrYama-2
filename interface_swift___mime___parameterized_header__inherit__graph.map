@@ -1,0 +1,4 @@
+<map id="Swift_Mime_ParameterizedHeader" name="Swift_Mime_ParameterizedHeader">
+<area shape="rect" id="node3" href="$class_swift___mime___headers___parameterized_header.html" title="{Swift_Mime_Headers\l_ParameterizedHeader\n||+ __construct()\l+ getFieldType()\l+ setCharset()\l+ setParameter()\l+ getParameter()\l+ setParameters()\l+ getParameters()\l+ getFieldBody()\l# toTokens()\l}" alt="" coords="19,421,179,615"/>
+<area shape="rect" id="node2" href="$interface_swift___mime___header.html" title="{Swift_Mime_Header\n|+ TYPE_TEXT\l+ TYPE_PARAMETERIZED\l+ TYPE_MAILBOX\l+ TYPE_DATE\l+ TYPE_ID\l+ TYPE_PATH\l|+ getFieldType()\l+ setFieldBodyModel()\l+ setCharset()\l+ getFieldBodyModel()\l+ getFieldName()\l+ getFieldBody()\l+ toString()\l}" alt="" coords="5,5,193,225"/>
+</map>

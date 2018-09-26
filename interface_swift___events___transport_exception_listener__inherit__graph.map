@@ -1,0 +1,4 @@
+<map id="Swift_Events_TransportExceptionListener" name="Swift_Events_TransportExceptionListener">
+<area shape="rect" id="node3" href="$class_swift___plugins___logger_plugin.html" title="{Swift_Plugins_LoggerPlugin\n||+ __construct()\l+ add()\l+ clear()\l+ dump()\l+ commandSent()\l+ responseReceived()\l+ beforeTransportStarted()\l+ transportStarted()\l+ beforeTransportStopped()\l+ transportStopped()\l+ exceptionThrown()\l}" alt="" coords="22,261,209,468"/>
+<area shape="rect" id="node2" href="$interface_swift___events___event_listener.html" title="{Swift_Events_EventListener\n||}" alt="" coords="22,5,209,79"/>
+</map>

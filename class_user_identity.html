@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Клас UserIdentity</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Загальнодоступні елементи</a> &#124;
+<a href="class_user_identity-members.html">Список всіх елементів</a>  </div>
+  <div class="headertitle">
+<div class="title">Клас UserIdentity</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Схема успадкувань для UserIdentity</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_user_identity__inherit__graph.svg" width="126" height="206"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Діаграма зв'язків класу UserIdentity:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_user_identity__coll__graph.svg" width="126" height="206"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Загальнодоступні елементи</h2></td></tr>
+<tr class="memitem:aa35289adb761fbe6c8766630cde60f44"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_identity.html#aa35289adb761fbe6c8766630cde60f44">authenticate</a> ()</td></tr>
+<tr class="separator:aa35289adb761fbe6c8766630cde60f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Детальний опис</h2>
+<div class="textblock"><p><a class="el" href="class_user_identity.html">UserIdentity</a> represents the data needed to identity a user. It contains the authentication method that checks if the provided data can identity the user. </p>
+
+<p class="definition">Див. визначення в файлі <a class="el" href="_user_identity_8php_source.html">UserIdentity.php</a>, рядок <a class="el" href="_user_identity_8php_source.html#l00008">8</a></p>
+</div><h2 class="groupheader">Опис методів компонент</h2>
+<a id="aa35289adb761fbe6c8766630cde60f44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa35289adb761fbe6c8766630cde60f44">&#9670;&nbsp;</a></span>authenticate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UserIdentity::authenticate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Authenticates a user. The example implementation makes sure if the username and password are both 'demo'. In practical applications, this should be changed to authenticate against some persistent user identity storage (e.g. database). </p><dl class="section return"><dt>Повертає</dt><dd>boolean whether authentication succeeds. </dd></dl>
+
+<p class="definition">Див. визначення в файлі <a class="el" href="_user_identity_8php_source.html">UserIdentity.php</a>, рядок <a class="el" href="_user_identity_8php_source.html#l00018">18</a></p>
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        $users=array(</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="comment">// username =&gt; password</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="stringliteral">&#39;demo&#39;</span>=&gt;<span class="stringliteral">&#39;demo&#39;</span>,</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="stringliteral">&#39;admin&#39;</span>=&gt;<span class="stringliteral">&#39;admin&#39;</span>,</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        );</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">if</span>(!isset($users[$this-&gt;username]))</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            $this-&gt;errorCode=self::ERROR_USERNAME_INVALID;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>($users[$this-&gt;username]!==$this-&gt;password)</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            $this-&gt;errorCode=self::ERROR_PASSWORD_INVALID;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">else</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            $this-&gt;errorCode=self::ERROR_NONE;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">return</span> !$this-&gt;errorCode;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<hr/>Документація цього класу була створена з файлу:<ul>
+<li>/Users/dash/Projects/repos/povesma/UkrYama-2/protected/components/<a class="el" href="_user_identity_8php_source.html">UserIdentity.php</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

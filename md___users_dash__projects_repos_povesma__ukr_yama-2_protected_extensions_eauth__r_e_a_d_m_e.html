@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Yii EAuth extension</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title"><a class="el" href="namespace_yii.html">Yii</a> <a class="el" href="class_e_auth.html">EAuth</a> extension </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><a class="el" href="class_e_auth.html">EAuth</a> extension allows to authenticate users with accounts on other websites. Supported protocols: OpenID, OAuth 1.0 and OAuth 2.0.</p>
+<p><a class="el" href="class_e_auth.html">EAuth</a> is a extension for provide a unified (does not depend on the selected service) method to authenticate the user. So, the extension itself does not perform login, does not register the user and does not bind the user accounts from different providers.</p>
+<h3>Why own extension and not a third-party service?</h3>
+<p>The implementation of the authorization on your own server has several advantages:</p>
+<ul>
+<li>Full control over the process: what will be written in the authorization window, what data we get, etc.</li>
+<li>Ability to change the appearance of the widget.</li>
+<li>When logging via OAuth is possible to invoke methods on API.</li>
+<li>Fewer dependencies on third-party services - more reliable application.</li>
+</ul>
+<h3>The extension allows you to:</h3>
+<ul>
+<li>Ignore the nuances of authorization through the different types of services, use the class based adapters for each service.</li>
+<li>Get a unique user ID that can be used to register user in your application.</li>
+<li>Extend the standard authorization classes to obtain additional data about the user.</li>
+<li>Work with the API of social networks by extending the authorization classes.</li>
+<li>Set up a list of supported services, customize the appearance of the widget, use the popup window without closing your application.</li>
+</ul>
+<h3>Extension includes:</h3>
+<ul>
+<li>The component that contains utility functions.</li>
+<li>A widget that displays a list of services in the form of icons and allowing authorization in the popup window.</li>
+<li>Base classes to create your own services.</li>
+<li>Ready for authenticate via Google, Twitter, Facebook and other providers.</li>
+</ul>
+<h3>Supported providers "out of box":</h3>
+<ul>
+<li>OpenID: Google, Yandex(ru)</li>
+<li>OAuth: Twitter, LinkedIn</li>
+<li>OAuth 2.0: Google, Facebook, Live, GitHub, VKontake(ru), Mail.ru(ru), Moi Krug(ru), Odnoklassniki(ru)</li>
+</ul>
+<h3>Resources</h3>
+<ul>
+<li><a href="https://github.com/Nodge/yii-eauth">Yii EAuth</a></li>
+<li><a href="http://yiiframework.com/">Yii Framework</a></li>
+<li><a href="http://openid.net/">OpenID</a></li>
+<li><a href="http://oauth.net/">OAuth</a></li>
+<li><a href="http://oauth.net/2/">OAuth 2.0</a></li>
+<li><a href="http://www.yiiframework.com/extension/loid">loid extension</a></li>
+<li><a href="http://www.yiiframework.com/extension/eoauth">EOAuth extension</a></li>
+</ul>
+<h3>Requirements</h3>
+<ul>
+<li><a class="el" href="namespace_yii.html">Yii</a> 1.1 or above</li>
+<li>PHP curl extension</li>
+<li><a href="http://www.yiiframework.com/extension/loid">loid extension</a></li>
+<li><a href="http://www.yiiframework.com/extension/eoauth">EOAuth extension</a></li>
+</ul>
+<h2>Installation</h2>
+<ul>
+<li>Install loid and EOAuth extensions</li>
+<li>Extract the release file under <code>protected/extensions</code></li>
+<li>In your <code>protected/config/main.php</code>, add the following:</li>
+</ul>
+<div class="fragment"><div class="line">&lt;?php</div><div class="line">...</div><div class="line">    <span class="stringliteral">&#39;import&#39;</span>=&gt;array(</div><div class="line">        <span class="stringliteral">&#39;ext.eoauth.*&#39;</span>,</div><div class="line">        <span class="stringliteral">&#39;ext.eoauth.lib.*&#39;</span>,</div><div class="line">        <span class="stringliteral">&#39;ext.lightopenid.*&#39;</span>,</div><div class="line">        <span class="stringliteral">&#39;ext.eauth.*&#39;</span>,</div><div class="line">        <span class="stringliteral">&#39;ext.eauth.services.*&#39;</span>,</div><div class="line">    ),</div><div class="line">...</div><div class="line">    <span class="stringliteral">&#39;components&#39;</span>=&gt;array(</div><div class="line">        <span class="stringliteral">&#39;loid&#39;</span> =&gt; array(</div><div class="line">            <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;ext.lightopenid.loid&#39;</span>,</div><div class="line">        ),</div><div class="line">        <span class="stringliteral">&#39;eauth&#39;</span> =&gt; array(</div><div class="line">            <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;ext.eauth.EAuth&#39;</span>,</div><div class="line">            <span class="stringliteral">&#39;popup&#39;</span> =&gt; <span class="keyword">true</span>, <span class="comment">// Use the popup window instead of redirecting.</span></div><div class="line">            <span class="stringliteral">&#39;cache&#39;</span> =&gt; <span class="keyword">false</span>, <span class="comment">// Cache component name or false to disable cache. Defaults to &#39;cache&#39;.</span></div><div class="line">            <span class="stringliteral">&#39;cacheExpire&#39;</span> =&gt; 0, <span class="comment">// Cache lifetime. Defaults to 0 - means unlimited.</span></div><div class="line">            <span class="stringliteral">&#39;services&#39;</span> =&gt; array( <span class="comment">// You can change the providers and their classes.</span></div><div class="line">                <span class="stringliteral">&#39;google&#39;</span> =&gt; array(</div><div class="line">                    <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;GoogleOpenIDService&#39;</span>,</div><div class="line">                ),</div><div class="line">                <span class="stringliteral">&#39;yandex&#39;</span> =&gt; array(</div><div class="line">                    <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;YandexOpenIDService&#39;</span>,</div><div class="line">                ),</div><div class="line">                <span class="stringliteral">&#39;twitter&#39;</span> =&gt; array(</div><div class="line">                    <span class="comment">// register your app here: https://dev.twitter.com/apps/new</span></div><div class="line">                    <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;TwitterOAuthService&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;key&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;secret&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                ),</div><div class="line">                <span class="stringliteral">&#39;google_oauth&#39;</span> =&gt; array(</div><div class="line">                    <span class="comment">// register your app here: https://code.google.com/apis/console/</span></div><div class="line">                    <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;GoogleOAuthService&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_id&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_secret&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;title&#39;</span> =&gt; <span class="stringliteral">&#39;Google (OAuth)&#39;</span>,</div><div class="line">                ),</div><div class="line">                <span class="stringliteral">&#39;yandex_oauth&#39;</span> =&gt; array(</div><div class="line">                    <span class="comment">// register your app here: https://oauth.yandex.ru/client/my</span></div><div class="line">                    <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;YandexOAuthService&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_id&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_secret&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;title&#39;</span> =&gt; <span class="stringliteral">&#39;Yandex (OAuth)&#39;</span>,</div><div class="line">                ),</div><div class="line">                <span class="stringliteral">&#39;facebook&#39;</span> =&gt; array(</div><div class="line">                    <span class="comment">// register your app here: https://developers.facebook.com/apps/</span></div><div class="line">                    <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;FacebookOAuthService&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_id&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_secret&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                ),</div><div class="line">                <span class="stringliteral">&#39;linkedin&#39;</span> =&gt; array(</div><div class="line">                    <span class="comment">// register your app here: https://www.linkedin.com/secure/developer</span></div><div class="line">                    <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;LinkedinOAuthService&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;key&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;secret&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                ),</div><div class="line">                <span class="stringliteral">&#39;github&#39;</span> =&gt; array(</div><div class="line">                    <span class="comment">// register your app here: https://github.com/settings/applications</span></div><div class="line">                    <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;GitHubOAuthService&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_id&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_secret&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                ),</div><div class="line">                <span class="stringliteral">&#39;live&#39;</span> =&gt; array(</div><div class="line">                    <span class="comment">// register your app here: https://manage.dev.live.com/Applications/Index</span></div><div class="line">                    <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;LiveOAuthService&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_id&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_secret&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                ),</div><div class="line">                <span class="stringliteral">&#39;vkontakte&#39;</span> =&gt; array(</div><div class="line">                    <span class="comment">// register your app here: https://vk.com/editapp?act=create&amp;site=1</span></div><div class="line">                    <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;VKontakteOAuthService&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_id&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_secret&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                ),</div><div class="line">                <span class="stringliteral">&#39;mailru&#39;</span> =&gt; array(</div><div class="line">                    <span class="comment">// register your app here: http://api.mail.ru/sites/my/add</span></div><div class="line">                    <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;MailruOAuthService&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_id&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_secret&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                ),</div><div class="line">                <span class="stringliteral">&#39;moikrug&#39;</span> =&gt; array(</div><div class="line">                    <span class="comment">// register your app here: https://oauth.yandex.ru/client/my</span></div><div class="line">                    <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;MoikrugOAuthService&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_id&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_secret&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                ),</div><div class="line">                <span class="stringliteral">&#39;odnoklassniki&#39;</span> =&gt; array(</div><div class="line">                    <span class="comment">// register your app here: http://dev.odnoklassniki.ru/wiki/pages/viewpage.action?pageId=13992188</span></div><div class="line">                    <span class="comment">// ... or here: http://www.odnoklassniki.ru/dk?st.cmd=appsInfoMyDevList&amp;st._aid=Apps_Info_MyDev</span></div><div class="line">                    <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;OdnoklassnikiOAuthService&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_id&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_public&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;client_secret&#39;</span> =&gt; <span class="stringliteral">&#39;...&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;title&#39;</span> =&gt; <span class="stringliteral">&#39;Odnokl.&#39;</span>,</div><div class="line">                ),</div><div class="line">            ),</div><div class="line">        ),</div><div class="line">        ...</div><div class="line">    ),</div><div class="line">...</div></div><!-- fragment --><h2>Usage</h2>
+<h4>The action</h4>
+<div class="fragment"><div class="line">&lt;?php</div><div class="line">...</div><div class="line">    <span class="keyword">public</span> <span class="keyword">function</span> actionLogin() {</div><div class="line">        $service = Yii::app()-&gt;request-&gt;getQuery(<span class="stringliteral">&#39;service&#39;</span>);</div><div class="line">        <span class="keywordflow">if</span> (isset($service)) {</div><div class="line">            $authIdentity = Yii::app()-&gt;eauth-&gt;getIdentity($service);</div><div class="line">            $authIdentity-&gt;redirectUrl = Yii::app()-&gt;user-&gt;returnUrl;</div><div class="line">            $authIdentity-&gt;cancelUrl = $this-&gt;createAbsoluteUrl(<span class="stringliteral">&#39;site/login&#39;</span>);</div><div class="line"></div><div class="line">            <span class="keywordflow">if</span> ($authIdentity-&gt;authenticate()) {</div><div class="line">                $identity = <span class="keyword">new</span> <a class="code" href="class_e_auth_user_identity.html">EAuthUserIdentity</a>($authIdentity);</div><div class="line"></div><div class="line">                <span class="comment">// successful authentication</span></div><div class="line">                <span class="keywordflow">if</span> ($identity-&gt;authenticate()) {</div><div class="line">                    Yii::app()-&gt;user-&gt;login($identity);</div><div class="line"></div><div class="line">                    <span class="comment">// special redirect with closing popup window</span></div><div class="line">                    $authIdentity-&gt;redirect();</div><div class="line">                }</div><div class="line">                <span class="keywordflow">else</span> {</div><div class="line">                    <span class="comment">// close popup window and redirect to cancelUrl</span></div><div class="line">                    $authIdentity-&gt;cancel();</div><div class="line">                }</div><div class="line">            }</div><div class="line"></div><div class="line">            <span class="comment">// Something went wrong, redirect to login page</span></div><div class="line">            $this-&gt;redirect(array(<span class="stringliteral">&#39;site/login&#39;</span>));</div><div class="line">        }</div><div class="line"></div><div class="line">        <span class="comment">// default authorization code through login/password ..</span></div><div class="line">    }</div></div><!-- fragment --><h4>The view</h4>
+<div class="fragment"><div class="line">&lt;h2&gt;Do you already have an account on one of these sites? Click the logo to log in with it here:&lt;/h2&gt;</div><div class="line">&lt;?php</div><div class="line">    $this-&gt;widget(<span class="stringliteral">&#39;ext.eauth.EAuthWidget&#39;</span>, array(<span class="stringliteral">&#39;action&#39;</span> =&gt; <span class="stringliteral">&#39;site/login&#39;</span>));</div><div class="line">?&gt;</div></div><!-- fragment --><h4>Getting more user data (optional)</h4>
+<p>To receive all the necessary data to your application, you can override the base class of any provider. Base classes are stored in <code>protected/extensions/eauth/services/</code>. Examples of extended classes can be found in <code>protected/extensions/eauth/custom_services/</code>.</p>
+<p>After overriding the base class, you need to modify your configuration file to set new name of the class. Also you may need to override the <code><a class="el" href="class_e_auth_user_identity.html">EAuthUserIdentity</a></code> class to store additional data.</p>
+<h4>Translations (optional)</h4>
+<ul>
+<li>Copy the file <code>/protected/extensions/eauth/messages/[lang]/eauth.php</code> to <code>/protected/messages/[lang]/eauth.php</code> to translate the <a class="el" href="class_e_auth.html">EAuth</a> extension into other languages.</li>
+<li>To add a new language, you can use the blank file <code>/protected/extensions/eauth/messages/blank/eauth.php</code>.</li>
+</ul>
+<h2>License</h2>
+<p>Some time ago I developed this extension for <a href="http://listick.ru">LiStick.ru</a> and I still support the extension.</p>
+<p>The extension was released under the <a href="http://www.opensource.org/licenses/bsd-license.php">New BSD License</a>, so you'll find the latest version on <a href="https://github.com/Nodge/yii-eauth">GitHub</a>. </p>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

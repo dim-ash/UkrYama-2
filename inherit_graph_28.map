@@ -1,0 +1,6 @@
+<map id="Графічна ієрархія класів" name="Графічна ієрархія класів">
+<area shape="rect" id="node1" href="$class_c_k_finder___connector___error_handler___base.html" title="CKFinder_Connector\l_ErrorHandler_Base" alt="" coords="5,68,152,107"/>
+<area shape="rect" id="node2" href="$class_c_k_finder___connector___error_handler___file_upload.html" title="CKFinder_Connector\l_ErrorHandler_FileUpload" alt="" coords="206,5,382,44"/>
+<area shape="rect" id="node3" href="$class_c_k_finder___connector___error_handler___http.html" title="CKFinder_Connector\l_ErrorHandler_Http" alt="" coords="221,68,368,107"/>
+<area shape="rect" id="node4" href="$class_c_k_finder___connector___error_handler___quick_upload.html" title="CKFinder_Connector\l_ErrorHandler_QuickUpload" alt="" coords="200,131,389,169"/>
+</map>

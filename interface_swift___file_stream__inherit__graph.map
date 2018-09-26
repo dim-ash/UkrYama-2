@@ -1,0 +1,4 @@
+<map id="Swift_FileStream" name="Swift_FileStream">
+<area shape="rect" id="node3" href="$class_swift___byte_stream___file_byte_stream.html" title="{Swift_ByteStream_FileByte\lStream\n||+ __construct()\l+ getPath()\l+ read()\l+ setReadPointer()\l# _commit()\l# _flush()\l}" alt="" coords="5,261,188,415"/>
+<area shape="rect" id="node2" href="$interface_swift___output_byte_stream.html" title="{Swift_OutputByteStream\n||+ read()\l+ setReadPointer()\l}" alt="" coords="13,5,180,92"/>
+</map>

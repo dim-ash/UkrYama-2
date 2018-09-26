@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/modules/comments/widgets/views/ECommentsWidgetComments.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_b9874050543d9bf801828959d5af7e08.html">modules</a></li><li class="navelem"><a class="el" href="dir_8a0612b1f8cdae276467196b9afc677c.html">comments</a></li><li class="navelem"><a class="el" href="dir_db39350856e0edb4f2ee464b3218688c.html">widgets</a></li><li class="navelem"><a class="el" href="dir_a2797b5e8b3502cf5d91e9e76a7930ad.html">views</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">ECommentsWidgetComments.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_e_comments_widget_comments_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php <span class="keywordflow">if</span> (count($comments) &gt; 0): ?&gt;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;    &lt;ul <span class="keyword">class</span>=<span class="stringliteral">&quot;comments-list&quot;</span>&gt;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;        &lt;?php <span class="keywordflow">foreach</span> ($comments as $comment): ?&gt;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;            &lt;li <span class="keywordtype">id</span>=<span class="stringliteral">&quot;comment-&lt;?php echo $comment-&gt;id; ?&gt;&quot;</span>&gt;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;                &lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;comment&quot;</span>&gt;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;                &lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;gravatar&quot;</span>&gt;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;                &lt;?php <span class="keywordflow">if</span>($comment-&gt;user-&gt;relProfile &amp;&amp; $comment-&gt;user-&gt;relProfile-&gt;avatar) echo CHtml::image($comment-&gt;user-&gt;relProfile-&gt;avatar_folder.<span class="charliteral">&#39;/&#39;</span>.$comment-&gt;user-&gt;relProfile-&gt;avatar); </div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="_e_comments_widget_comments_8php.html#a0544c3fe466e421738dae463968b70ba">    8</a></span>&#160;                        <span class="keywordflow">else</span> echo CHtml::image(<span class="stringliteral">&#39;/images/userpic-user.png&#39;</span>);</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;                ?&gt;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                &lt;/div&gt;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                    &lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;comment-header&quot;</span>&gt;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                        &lt;?php echo $comment-&gt;username; ?&gt;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                        &lt;a name=<span class="stringliteral">&quot;comment-&lt;?php echo $comment-&gt;count; ?&gt;&quot;</span>&gt;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                            &lt;?php echo Yii::app()-&gt;dateFormatter-&gt;formatDateTime($comment-&gt;create_time); ?&gt;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                        &lt;/a&gt;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                    &lt;/div&gt;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                    &lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;comment_text&quot;</span>&gt;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                        &lt;?php echo CHtml::encode($comment-&gt;comment_text); ?&gt;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                    &lt;/div&gt;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                    &lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;comment-footer&quot;</span>&gt;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                        &lt;?php</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        <span class="keywordflow">if</span> ($this-&gt;allowSubcommenting &amp;&amp; (!$this-&gt;registeredOnly || !Yii::app()-&gt;user-&gt;isGuest)) {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                            echo <a class="code" href="views_2_e_comments_form_widget_8php.html#a3de80f9e427073d40808269e3a8c0ab3">CHtml::link</a>(Yii::t(<span class="stringliteral">&#39;CommentsModule.msg&#39;</span>, <span class="stringliteral">&#39;Reply&#39;</span>), <span class="charliteral">&#39;#&#39;</span>, array(<span class="stringliteral">&#39;rel&#39;</span> =&gt; $comment-&gt;id, <span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;add-comment&#39;</span>));</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        }</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        ?&gt;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        &lt;?php <span class="keywordflow">if</span> ($this-&gt;adminMode): ?&gt;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                            &lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;admin-panel&quot;</span>&gt;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                &lt;?php</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                echo <a class="code" href="views_2_e_comments_form_widget_8php.html#a3de80f9e427073d40808269e3a8c0ab3">CHtml::link</a>(Yii::t(<span class="stringliteral">&#39;CommentsModule.msg&#39;</span>, <span class="stringliteral">&#39;Delete&#39;</span>), Yii::app()-&gt;urlManager-&gt;createUrl(</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                                                <a class="code" href="class_comments_module.html#ab3a324e94a79c6f17d3a03c9d6647f89">CommentsModule::DELETE_ACTION_ROUTE</a>, array(<span class="stringliteral">&#39;id&#39;</span> =&gt; $comment-&gt;id)</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                                        ), array(<span class="stringliteral">&#39;class&#39;</span> =&gt; <span class="stringliteral">&#39;delete&#39;</span>));</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                ?&gt;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                            &lt;/div&gt;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                        </div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="_e_comments_widget_comments_8php.html#ab4d017bcc79cd2827c3dce8af2570e91">   36</a></span>&#160;                    &lt;?php <a class="code" href="_e_comments_widget_comments_8php.html#ab4d017bcc79cd2827c3dce8af2570e91">endif</a>; ?&gt;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                        &lt;/div&gt;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                &lt;/div&gt;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                &lt;?php <span class="keywordflow">if</span> (count($comment-&gt;childs) &gt; 0 &amp;&amp; $this-&gt;allowSubcommenting) $this-&gt;render(<span class="stringliteral">&#39;ECommentsWidgetComments&#39;</span>, array(<span class="stringliteral">&#39;comments&#39;</span> =&gt; $comment-&gt;childs)); ?&gt;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            &lt;/li&gt;</div><div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="_e_comments_widget_comments_8php.html#a672d9707ef91db026c210f98cc601123">   42</a></span>&#160;        &lt;?php <a class="code" href="_e_comments_widget_comments_8php.html#a672d9707ef91db026c210f98cc601123">endforeach</a>; ?&gt;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    &lt;/ul&gt;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;&lt;?php <span class="keywordflow">else</span>: ?&gt;</div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="_e_comments_widget_comments_8php.html#a8e01dcc96c43199448ee66f7c2ae8ea6">   45</a></span>&#160;    &lt;p&gt;&lt;?php echo Yii::t(<span class="stringliteral">&#39;CommentsModule.msg&#39;</span>, <span class="stringliteral">&#39;No comments&#39;</span>); ?&gt;&lt;/p&gt;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;&lt;?php <a class="code" href="_e_comments_widget_comments_8php.html#ab4d017bcc79cd2827c3dce8af2570e91">endif</a>; ?&gt;</div><div class="ttc" id="class_comments_module_html_ab3a324e94a79c6f17d3a03c9d6647f89"><div class="ttname"><a href="class_comments_module.html#ab3a324e94a79c6f17d3a03c9d6647f89">CommentsModule\DELETE_ACTION_ROUTE</a></div><div class="ttdeci">const DELETE_ACTION_ROUTE</div><div class="ttdef"><b>Definition:</b> <a href="_comments_module_8php_source.html#l00025">CommentsModule.php:25</a></div></div>
+<div class="ttc" id="_e_comments_widget_comments_8php_html_ab4d017bcc79cd2827c3dce8af2570e91"><div class="ttname"><a href="_e_comments_widget_comments_8php.html#ab4d017bcc79cd2827c3dce8af2570e91">endif</a></div><div class="ttdeci">endif</div><div class="ttdef"><b>Definition:</b> <a href="_e_comments_widget_comments_8php_source.html#l00036">ECommentsWidgetComments.php:36</a></div></div>
+<div class="ttc" id="views_2_e_comments_form_widget_8php_html_a3de80f9e427073d40808269e3a8c0ab3"><div class="ttname"><a href="views_2_e_comments_form_widget_8php.html#a3de80f9e427073d40808269e3a8c0ab3">link</a></div><div class="ttdeci">$newComment link</div><div class="ttdef"><b>Definition:</b> <a href="views_2_e_comments_form_widget_8php_source.html#l00022">ECommentsFormWidget.php:22</a></div></div>
+<div class="ttc" id="_e_comments_widget_comments_8php_html_a672d9707ef91db026c210f98cc601123"><div class="ttname"><a href="_e_comments_widget_comments_8php.html#a672d9707ef91db026c210f98cc601123">endforeach</a></div><div class="ttdeci">endforeach</div><div class="ttdef"><b>Definition:</b> <a href="_e_comments_widget_comments_8php_source.html#l00042">ECommentsWidgetComments.php:42</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

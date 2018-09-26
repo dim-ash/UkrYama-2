@@ -1,0 +1,7 @@
+<map id="Swift_ByteStream_FileByteStream" name="Swift_ByteStream_FileByteStream">
+<area shape="rect" id="node2" href="$class_swift___byte_stream___abstract_filterable_input_stream.html" title="{Swift_ByteStream_Abstract\lFilterableInputStream\n||+ addFilter()\l+ removeFilter()\l+ write()\l+ commit()\l+ bind()\l+ unbind()\l+ flushBuffers()\l# _commit()\l# _flush()\l}" alt="" coords="145,180,329,373"/>
+<area shape="rect" id="node3" href="$interface_swift___input_byte_stream.html" title="{Swift_InputByteStream\n||+ write()\l+ commit()\l+ bind()\l+ unbind()\l+ flushBuffers()\l}" alt="" coords="5,5,162,132"/>
+<area shape="rect" id="node4" href="$interface_swift___filterable.html" title="{Swift_Filterable\n||+ addFilter()\l+ removeFilter()\l}" alt="" coords="186,25,302,112"/>
+<area shape="rect" id="node5" href="$interface_swift___file_stream.html" title="{Swift_FileStream\n||+ getPath()\l}" alt="" coords="353,240,476,313"/>
+<area shape="rect" id="node6" href="$interface_swift___output_byte_stream.html" title="{Swift_OutputByteStream\n||+ read()\l+ setReadPointer()\l}" alt="" coords="331,25,498,112"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="Графічна ієрархія класів" name="Графічна ієрархія класів">
+<area shape="rect" id="node2" href="$class_community_form.html" title="CommunityForm" alt="" coords="170,5,290,31"/>
+<area shape="rect" id="node3" href="$class_contact_form.html" title="ContactForm" alt="" coords="181,55,279,80"/>
+<area shape="rect" id="node4" href="$class_hole.html" title="Hole" alt="" coords="206,104,255,129"/>
+<area shape="rect" id="node5" href="$class_hole_request_form.html" title="HoleRequestForm" alt="" coords="165,153,295,179"/>
+<area shape="rect" id="node6" href="$class_login_form.html" title="LoginForm" alt="" coords="188,203,273,228"/>
+<area shape="rect" id="node7" href="$class_picture_files.html" title="PictureFiles" alt="" coords="185,252,276,277"/>
+<area shape="rect" id="node8" href="$class_request_form.html" title="RequestForm" alt="" coords="179,301,281,327"/>
+<area shape="rect" id="node9" href="$class_user_groups_installation.html" title="UserGroupsInstallation" alt="" coords="152,351,309,376"/>
+</map>

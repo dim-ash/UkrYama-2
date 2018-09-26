@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/modules/userGroups/views/admin/users.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_b9874050543d9bf801828959d5af7e08.html">modules</a></li><li class="navelem"><a class="el" href="dir_5f2ca876ed623614a551661d5ad436e2.html">userGroups</a></li><li class="navelem"><a class="el" href="dir_167940cd985516714244c84ab4925725.html">views</a></li><li class="navelem"><a class="el" href="dir_fcf17e3fb805538dfad087e4ae5fb662.html">admin</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">users.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="users_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;h1&gt;&lt;?php echo Yii::t(<span class="stringliteral">&#39;userGroupsModule.general&#39;</span>, <span class="stringliteral">&#39;Users&#39;</span>); ?&gt;&lt;/h1&gt;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;&lt;?php <span class="keywordflow">if</span>(Yii::app()-&gt;user-&gt;hasFlash(<span class="stringliteral">&#39;user&#39;</span>)):?&gt;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    &lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;info&quot;</span>&gt;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;        &lt;?php echo Yii::app()-&gt;user-&gt;getFlash(<span class="stringliteral">&#39;user&#39;</span>); ?&gt;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    &lt;/div&gt;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="users_8php.html#a82cd33ca97ff99f2fcc5e9c81d65251b">    6</a></span>&#160;&lt;?php <a class="code" href="users_8php.html#a82cd33ca97ff99f2fcc5e9c81d65251b">endif</a>; ?&gt;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;&lt;?php $this-&gt;widget(<span class="stringliteral">&#39;zii.widgets.grid.CGridView&#39;</span>, array(</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="stringliteral">&#39;dataProvider&#39;</span>=&gt;$userModel-&gt;search(),</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="stringliteral">&#39;id&#39;</span>=&gt;<span class="stringliteral">&#39;user-groups-user-grid&#39;</span>,</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="stringliteral">&#39;enableSorting&#39;</span>=&gt;<span class="keyword">false</span>,</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="stringliteral">&#39;enablePagination&#39;</span>=&gt;<span class="keyword">false</span>,</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="stringliteral">&#39;filter&#39;</span>=&gt;$userModel,</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="stringliteral">&#39;summaryText&#39;</span>=&gt;<span class="keyword">false</span>,</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="stringliteral">&#39;selectionChanged&#39;</span>=&gt;<span class="stringliteral">&#39;function(id) { getPermission(&quot;&#39;</span>.Yii::app()-&gt;baseUrl.<span class="stringliteral">&#39;&quot;, &quot;&#39;</span>.<a class="code" href="class_user_groups_access.html#acfbf5d0b8423fd4773272f26a46c2d8c">UserGroupsAccess::USER</a>.<span class="stringliteral">&#39;&quot;, $.fn.yiiGridView.getSelection(id))}&#39;</span>,</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="stringliteral">&#39;columns&#39;</span>=&gt;array(</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="stringliteral">&#39;username&#39;</span>,</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        array(</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="stringliteral">&#39;name&#39;</span>=&gt;<span class="stringliteral">&#39;status&#39;</span>,</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <span class="stringliteral">&#39;value&#39;</span>=&gt;<span class="stringliteral">&#39;UserGroupsLookup::resolve(&quot;status&quot;,$data-&gt;status).</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="stringliteral">                ((int)$data-&gt;status === UserGroupsUser::WAITING_ACTIVATION || (int)$data-&gt;status === UserGroupsUser::PASSWORD_CHANGE_REQUEST </span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="stringliteral">                ? &quot;: &lt;b&gt;&quot;.$data-&gt;activation_code.&quot;&lt;/b&gt;&quot; : NULL).</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="stringliteral">                ((int)$data-&gt;status === UserGroupsUser::BANNED ? &quot;: &lt;b&gt;&quot;.$data-&gt;ban.&quot;&lt;/b&gt;&quot; : NULL)&#39;</span>,</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="stringliteral">&#39;type&#39;</span>=&gt;<span class="stringliteral">&#39;raw&#39;</span>,</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="stringliteral">&#39;filter&#39;</span> =&gt; CHtml::dropDownList(<span class="stringliteral">&#39;UserGroupsUser[status]&#39;</span>, $userModel-&gt;status, array_merge(array(<span class="stringliteral">&#39;null&#39;</span> =&gt; Yii::t(<span class="stringliteral">&#39;userGroupsModule.admin&#39;</span>,<span class="stringliteral">&#39;all&#39;</span>)), CHtml::listData(<a class="code" href="class_user_groups_lookup.html#ad65ba34125299ee56bb8d8031da194ff">UserGroupsLookup::model</a>()-&gt;findAll(), <span class="stringliteral">&#39;value&#39;</span>, <span class="stringliteral">&#39;text&#39;</span>)) ),</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        ),</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        Array(</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="stringliteral">&#39;name&#39;</span>=&gt;<span class="stringliteral">&#39;group_name&#39;</span>,</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="stringliteral">&#39;filter&#39;</span>=&gt;CHtml::listData( <a class="code" href="class_user_groups_group.html#aeed7174b71c984d952de676d2fc88db6">UserGroupsGroup::model</a>()-&gt;findAll(Array(<span class="stringliteral">&#39;order&#39;</span>=&gt;<span class="stringliteral">&#39;level&#39;</span>)), <span class="stringliteral">&#39;id&#39;</span>, <span class="stringliteral">&#39;groupname&#39;</span> ),  </div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        ),</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    ),</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;)); ?&gt;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;&lt;?php</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordflow">if</span> (Yii::app()-&gt;user-&gt;pbac(<span class="stringliteral">&#39;userGroups.admin.admin&#39;</span>))   </div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    echo CHtml::ajaxLink(Yii::t(<span class="stringliteral">&#39;userGroupsModule.admin&#39;</span>, <span class="stringliteral">&#39;add user&#39;</span>), </div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    Yii::app()-&gt;createUrl(<span class="stringliteral">&#39;/userGroups/admin/accessList&#39;</span>, array(<span class="stringliteral">&#39;what&#39;</span>=&gt;<a class="code" href="class_user_groups_access.html#acfbf5d0b8423fd4773272f26a46c2d8c">UserGroupsAccess::USER</a>, <span class="stringliteral">&#39;id&#39;</span>=&gt;<span class="stringliteral">&#39;new&#39;</span>)), </div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    array(<span class="stringliteral">&#39;success&#39;</span>=&gt;<span class="stringliteral">&#39;js: function(data){ $(&quot;#user-detail&quot;).slideUp(&quot;slow&quot;, function(){ $(&quot;#user-detail&quot;).html(data).slideDown();}); }&#39;</span>),</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    array(<span class="stringliteral">&#39;id&#39;</span>=&gt;<span class="stringliteral">&#39;new-user-&#39;</span>.time()));</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    </div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;?&gt;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;&lt;div <span class="keywordtype">id</span>=<span class="stringliteral">&quot;user-detail&quot;</span> <a class="code" href="profile_2myarea_8php.html#a512f6e1f115ab887521d2634ac9bae56">style</a>=<span class="stringliteral">&quot;display:none;&quot;</span>&gt;&lt;/div&gt;</div><div class="ttc" id="profile_2myarea_8php_html_a512f6e1f115ab887521d2634ac9bae56"><div class="ttname"><a href="profile_2myarea_8php.html#a512f6e1f115ab887521d2634ac9bae56">style</a></div><div class="ttdeci">initmap for(i=0;i&lt; 4;i++) if(startpoints) if(startpoints.length==0 &amp;&amp;ind &gt; 1) else if(startpoints.length==0 &amp;&amp;ind&lt;=1) var style</div><div class="ttdef"><b>Definition:</b> <a href="profile_2myarea_8php_source.html#l00098">myarea.php:98</a></div></div>
+<div class="ttc" id="class_user_groups_lookup_html_ad65ba34125299ee56bb8d8031da194ff"><div class="ttname"><a href="class_user_groups_lookup.html#ad65ba34125299ee56bb8d8031da194ff">UserGroupsLookup\model</a></div><div class="ttdeci">static model($className=__CLASS__)</div><div class="ttdef"><b>Definition:</b> <a href="_user_groups_lookup_8php_source.html#l00020">UserGroupsLookup.php:20</a></div></div>
+<div class="ttc" id="users_8php_html_a82cd33ca97ff99f2fcc5e9c81d65251b"><div class="ttname"><a href="users_8php.html#a82cd33ca97ff99f2fcc5e9c81d65251b">endif</a></div><div class="ttdeci">endif</div><div class="ttdef"><b>Definition:</b> <a href="users_8php_source.html#l00006">users.php:6</a></div></div>
+<div class="ttc" id="class_user_groups_access_html_acfbf5d0b8423fd4773272f26a46c2d8c"><div class="ttname"><a href="class_user_groups_access.html#acfbf5d0b8423fd4773272f26a46c2d8c">UserGroupsAccess\USER</a></div><div class="ttdeci">const USER</div><div class="ttdef"><b>Definition:</b> <a href="_user_groups_access_8php_source.html#l00060">UserGroupsAccess.php:60</a></div></div>
+<div class="ttc" id="class_user_groups_group_html_aeed7174b71c984d952de676d2fc88db6"><div class="ttname"><a href="class_user_groups_group.html#aeed7174b71c984d952de676d2fc88db6">UserGroupsGroup\model</a></div><div class="ttdeci">static model($className=__CLASS__)</div><div class="ttdef"><b>Definition:</b> <a href="_user_groups_group_8php_source.html#l00025">UserGroupsGroup.php:25</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

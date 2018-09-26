@@ -1,0 +1,10 @@
+<map id="Swift_Plugins_ThrottlerPlugin" name="Swift_Plugins_ThrottlerPlugin">
+<area shape="rect" id="node2" href="$class_swift___plugins___bandwidth_monitor_plugin.html" title="{Swift_Plugins_BandwidthMonitor\lPlugin\n||+ beforeSendPerformed()\l+ sendPerformed()\l+ commandSent()\l+ responseReceived()\l+ write()\l+ commit()\l+ bind()\l+ unbind()\l+ flushBuffers()\l+ getBytesOut()\l+ getBytesIn()\l+ reset()\l}" alt="" coords="332,301,548,535"/>
+<area shape="rect" id="node3" href="$interface_swift___events___send_listener.html" title="{Swift_Events_SendListener\n||+ beforeSendPerformed()\l+ sendPerformed()\l}" alt="" coords="5,147,190,233"/>
+<area shape="rect" id="node4" href="$interface_swift___events___event_listener.html" title="{Swift_Events_EventListener\n||}" alt="" coords="228,5,415,79"/>
+<area shape="rect" id="node5" href="$interface_swift___events___command_listener.html" title="{Swift_Events_CommandListener\n||+ commandSent()\l}" alt="" coords="214,153,429,227"/>
+<area shape="rect" id="node6" href="$interface_swift___events___response_listener.html" title="{Swift_Events_ResponseListener\n||+ responseReceived()\l}" alt="" coords="454,153,667,227"/>
+<area shape="rect" id="node7" href="$interface_swift___input_byte_stream.html" title="{Swift_InputByteStream\n||+ write()\l+ commit()\l+ bind()\l+ unbind()\l+ flushBuffers()\l}" alt="" coords="691,127,848,253"/>
+<area shape="rect" id="node8" href="$interface_swift___plugins___sleeper.html" title="{Swift_Plugins_Sleeper\n||+ sleep()\l}" alt="" coords="572,381,727,455"/>
+<area shape="rect" id="node9" href="$interface_swift___plugins___timer.html" title="{Swift_Plugins_Timer\n||+ getTimestamp()\l}" alt="" coords="750,381,893,455"/>
+</map>

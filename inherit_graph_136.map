@@ -1,0 +1,6 @@
+<map id="Графічна ієрархія класів" name="Графічна ієрархія класів">
+<area shape="rect" id="node1" href="$interface_u_g_mail_message.html" title="UGMailMessage" alt="" coords="5,55,125,80"/>
+<area shape="rect" id="node2" href="$class_u_g_mail_activation.html" title="UGMailActivation" alt="" coords="177,5,300,31"/>
+<area shape="rect" id="node3" href="$class_u_g_mail_invitation.html" title="UGMailInvitation" alt="" coords="179,55,298,80"/>
+<area shape="rect" id="node4" href="$class_u_g_mail_pass_reset.html" title="UGMailPassReset" alt="" coords="173,104,303,129"/>
+</map>

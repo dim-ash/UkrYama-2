@@ -1,0 +1,5 @@
+<map id="UGMailMessage" name="UGMailMessage">
+<area shape="rect" id="node2" href="$class_u_g_mail_activation.html" title="{UGMailActivation\n||+ mailHeader()\l+ mailSubject()\l+ mailBody()\l+ mailSuccess()\l+ mailError()\l}" alt="" coords="5,180,129,307"/>
+<area shape="rect" id="node3" href="$class_u_g_mail_invitation.html" title="{UGMailInvitation\n||+ mailHeader()\l+ mailSubject()\l+ mailBody()\l+ mailSuccess()\l+ mailError()\l}" alt="" coords="153,180,272,307"/>
+<area shape="rect" id="node4" href="$class_u_g_mail_pass_reset.html" title="{UGMailPassReset\n||+ mailHeader()\l+ mailSubject()\l+ mailBody()\l+ mailSuccess()\l+ mailError()\l}" alt="" coords="297,180,427,307"/>
+</map>

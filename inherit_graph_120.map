@@ -1,0 +1,11 @@
+<map id="Графічна ієрархія класів" name="Графічна ієрархія класів">
+<area shape="rect" id="node1" href="$interface_swift___mime___header.html" title="Swift_Mime_Header" alt="" coords="5,229,147,255"/>
+<area shape="rect" id="node2" href="$class_swift___mime___headers___abstract_header.html" title="Swift_Mime_Headers\l_AbstractHeader" alt="" coords="213,163,361,201"/>
+<area shape="rect" id="node9" href="$interface_swift___mime___parameterized_header.html" title="Swift_Mime_Parameterized\lHeader" alt="" coords="195,253,379,292"/>
+<area shape="rect" id="node3" href="$class_swift___mime___headers___date_header.html" title="Swift_Mime_Headers\l_DateHeader" alt="" coords="427,5,575,44"/>
+<area shape="rect" id="node4" href="$class_swift___mime___headers___identification_header.html" title="Swift_Mime_Headers\l_IdentificationHeader" alt="" coords="427,68,575,107"/>
+<area shape="rect" id="node5" href="$class_swift___mime___headers___mailbox_header.html" title="Swift_Mime_Headers\l_MailboxHeader" alt="" coords="427,131,575,169"/>
+<area shape="rect" id="node6" href="$class_swift___mime___headers___path_header.html" title="Swift_Mime_Headers\l_PathHeader" alt="" coords="427,193,575,232"/>
+<area shape="rect" id="node7" href="$class_swift___mime___headers___unstructured_header.html" title="Swift_Mime_Headers\l_UnstructuredHeader" alt="" coords="427,256,576,295"/>
+<area shape="rect" id="node8" href="$class_swift___mime___headers___parameterized_header.html" title="Swift_Mime_Headers\l_ParameterizedHeader" alt="" coords="624,285,783,324"/>
+</map>

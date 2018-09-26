@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Yii EAuth Change Log</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title"><a class="el" href="namespace_yii.html">Yii</a> <a class="el" href="class_e_auth.html">EAuth</a> Change Log </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><h3>In progress...</h3>
+<ul>
+<li>Added Microsoft Live OAuth provider.</li>
+<li>Added Yandex OAuth provider.</li>
+<li>Added <a class="el" href="class_custom_facebook_service.html">CustomFacebookService</a> example class.</li>
+<li>Added 'cache' and 'cacheExpire' options to control cache.</li>
+<li>Added list of services to display in the <a class="el" href="class_e_auth_widget.html">EAuthWidget</a>.</li>
+<li>Changed VK.com API urls.</li>
+</ul>
+<h3>Version 1.1.8 (10.06.2012)</h3>
+<ul>
+<li>Added optional headers in EOAuthServiceBase::initRequest().</li>
+<li>Added LinkedIn OAuth provider.</li>
+<li>Added GitHub OAuth provider.</li>
+<li>Fixed sending signed requests with the query parameters in the <a class="el" href="class_e_o_auth_service.html">EOAuthService</a>.</li>
+</ul>
+<h3>Version 1.1.7 (30.03.2012)</h3>
+<ul>
+<li>Fixed issue #11. Twitter must authorize user everytime they login.</li>
+<li>Fixed issue #10. VKontakte must authorize user everytime they login with empty oauth scope.</li>
+<li>Fixed translations.</li>
+<li>Fixed bug in the <a class="el" href="class_e_o_auth_service.html#af6ca5c829b86ea17cfe46b459c0ee947">EOAuthService::initRequest()</a>, incorrect variable use in http header.</li>
+<li>Fixed error with CURL <a class="el" href="class_h_t_t_p.html">HTTP</a> chunked transfer encoding.</li>
+</ul>
+<h3>Version 1.1.6 (01.02.2012)</h3>
+<ul>
+<li>Added <a class="el" href="class_e_auth_user_identity.html">EAuthUserIdentity</a> class.</li>
+<li>Added translations support.</li>
+<li>Fixed EAuthServiceBase::hasArrtubite() and <a class="el" href="class_e_auth_service_base.html#addb3a1741a200699dc0674f44c6db7eb">EAuthServiceBase::getId()</a> methods.</li>
+</ul>
+<h3>Version 1.1.5 (03.01.2012)</h3>
+<ul>
+<li>Added MoiKrug OAuth provider.</li>
+<li>Added Odnoklassniki OAuth provider.</li>
+<li>Added ability to write in the log of unsuccessful requests in the <a class="el" href="class_e_auth_service_base.html#a2ef82d5bd40925e17595c4896925f86a">EAuthServiceBase::makeRequest()</a>.</li>
+<li>Added access_token lifetime handling, #1 closed. Please, check your custom OAuth 2.0 classes!</li>
+<li>Added links to provider files to register your applications.</li>
+<li>Changed url for the Yandex OpenID.</li>
+<li>Fixed infinite loop when calling getAttrbiutes from fetchAttributes inside a provider class.</li>
+<li>Removed $_GET['js'] from the redirect_uri for the OAuth 2.0 providers, which could cause problems with a callback URL for some providers.</li>
+<li>Small fixes in the css of the widget.</li>
+</ul>
+<h3>Version 1.1.4 (13.11.2011)</h3>
+<ul>
+<li>Added handling for denied callback in the <a class="el" href="class_twitter_o_auth_service.html">TwitterOAuthService</a>.</li>
+<li>Fixed a redirect page for disabled javascript.</li>
+<li><a class="el" href="class_e_auth_widget.html">EAuthWidget</a> been rewritten for use with CController-&gt;widget() instead of EAuth-&gt;renderWidget().</li>
+<li>Added automatic detection of the current action in the widget.</li>
+<li>Fixed popup window size for the new Google design.</li>
+</ul>
+<h3>Version 1.1.3 (14.10.2011)</h3>
+<ul>
+<li><a class="el" href="class_mailru_o_auth_service.html#a9218c23b5dbb84245f790ee60f60493f">MailruOAuthService::makeSignedRequest()</a> now fully compatible with the basic method.</li>
+<li>Fixed error when <a class="el" href="class_mailru_o_auth_service.html#ae6eff5eedce2793666e68033b93cb3fd">MailruOAuthService::getAccessToken()</a> returns an empty token.</li>
+<li>Fixed: service IDs in the configuration is no longer associated with the names of services.</li>
+<li>Fixed <a class="el" href="class_mailru_o_auth_service.html#af62cc4e23d6b8b9692ede6cef8244e87">MailruOAuthService::getTokenUrl()</a> method to be fully compatible with the basic method.</li>
+<li>Added Google OAuth 2.0 provider, updated css file of the widget.</li>
+</ul>
+<h3>Version 1.1.2 (08.10.2011)</h3>
+<ul>
+<li>Fixed fetchJsonError() method in OAuth providers.</li>
+<li>Fixed examples of custom classes for OAuth 2.0 providers.</li>
+<li>Updated <a class="el" href="class_e_auth.html#a651de8acdac2922937f9c3a8a20a1b67">EAuth::redirect()</a> method to support the closing popup window without $_GET['js'] variable.</li>
+</ul>
+<h3>Version 1.1 (07.10.2011)</h3>
+<ul>
+<li>Fixed a wrong call urldecode instead of urldecode in the <a class="el" href="_facebook_o_auth_service_8php.html">FacebookOAuthService.php</a>.</li>
+<li>Fixed exception rethrowing: removed unnecessary $e-&gt;getPrevious() call.</li>
+<li>Fixed: the call $service-&gt;getItemAttributes() returns an empty array.</li>
+<li>Removed checking $_GET['error_reason'] in <a class="el" href="_e_o_auth2_service_8php.html">EOAuth2Service.php</a>.</li>
+<li><a class="el" href="class_e_auth_service_base.html">EAuthServiceBase</a> is an abstract class now.</li>
+<li>Updated curl requests api.</li>
+<li>Updated OAuth Service Providers.</li>
+<li>Method getItemAttributes() renamed to getAttributes().</li>
+<li>Added methods to work with a authorization session (Methods: getStateKeyPrefix, setState, hasState, getState).</li>
+<li>Added Mail.ru OAuth provider, updated css file of the widget.</li>
+<li>Added getters support for service attributes.</li>
+</ul>
+<h3>Version 1.0 (02.10.2011)</h3>
+<ul>
+<li>Initial release. </li>
+</ul>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

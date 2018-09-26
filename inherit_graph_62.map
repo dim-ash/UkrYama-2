@@ -1,0 +1,14 @@
+<map id="Графічна ієрархія класів" name="Графічна ієрархія класів">
+<area shape="rect" id="node2" href="$class_google___exception.html" title="Google_Exception" alt="" coords="141,104,271,129"/>
+<area shape="rect" id="node7" href="$classphpmailer_exception.html" title="phpmailerException" alt="" coords="137,165,275,191"/>
+<area shape="rect" id="node8" href="$class_swift___swift_exception.html" title="Swift_SwiftException" alt="" coords="133,239,278,264"/>
+<area shape="rect" id="node3" href="$class_google___auth_exception.html" title="Google_AuthException" alt="" coords="351,5,508,31"/>
+<area shape="rect" id="node4" href="$class_google___cache_exception.html" title="Google_CacheException" alt="" coords="345,55,514,80"/>
+<area shape="rect" id="node5" href="$class_google___i_o_exception.html" title="Google_IOException" alt="" coords="357,104,502,129"/>
+<area shape="rect" id="node6" href="$class_google___service_exception.html" title="Google_ServiceException" alt="" coords="342,153,517,179"/>
+<area shape="rect" id="node9" href="$class_swift___dependency_exception.html" title="Swift_DependencyException" alt="" coords="334,203,525,228"/>
+<area shape="rect" id="node10" href="$class_swift___io_exception.html" title="Swift_IoException" alt="" coords="366,252,493,277"/>
+<area shape="rect" id="node13" href="$class_swift___rfc_compliance_exception.html" title="Swift_RfcComplianceException" alt="" coords="326,301,533,327"/>
+<area shape="rect" id="node11" href="$class_swift___plugins___pop___pop3_exception.html" title="Swift_Plugins_Pop_Pop3Exception" alt="" coords="581,228,811,253"/>
+<area shape="rect" id="node12" href="$class_swift___transport_exception.html" title="Swift_TransportException" alt="" coords="609,277,782,303"/>
+</map>

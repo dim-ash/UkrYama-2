@@ -1,0 +1,7 @@
+<map id="Swift_Transport_AbstractSmtpTransport" name="Swift_Transport_AbstractSmtpTransport">
+<area shape="rect" id="node3" href="$class_swift___transport___esmtp_transport.html" title="{Swift_Transport_EsmtpTransport\n||+ __construct()\l+ setHost()\l+ getHost()\l+ setPort()\l+ getPort()\l+ setTimeout()\l+ getTimeout()\l+ setEncryption()\l+ getEncryption()\l+ setExtensionHandlers()\l+ getExtensionHandlers()\l+ executeCommand()\l+ __call()\l# _getBufferParams()\l# _doHeloCommand()\l# _doMailFromCommand()\l# _doRcptToCommand()\l}" alt="" coords="5,648,221,935"/>
+<area shape="rect" id="node5" href="$class_swift___transport___sendmail_transport.html" title="{Swift_Transport_Sendmail\lTransport\n||+ __construct()\l+ start()\l+ setCommand()\l+ getCommand()\l+ send()\l# _getBufferParams()\l}" alt="" coords="245,715,422,868"/>
+<area shape="rect" id="node2" href="$interface_swift___transport.html" title="{Swift_Transport\n||+ isStarted()\l+ start()\l+ stop()\l+ send()\l+ registerPlugin()\l}" alt="" coords="161,5,284,132"/>
+<area shape="rect" id="node4" href="$class_swift___smtp_transport.html" title="{Swift_SmtpTransport\n||+ __construct()\l+ newInstance()\l}" alt="" coords="41,983,186,1069"/>
+<area shape="rect" id="node6" href="$class_swift___sendmail_transport.html" title="{Swift_SendmailTransport\n||+ __construct()\l+ newInstance()\l}" alt="" coords="248,983,418,1069"/>
+</map>

@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/modules/comments/widgets/views/ECommentsLastListWidget.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_b9874050543d9bf801828959d5af7e08.html">modules</a></li><li class="navelem"><a class="el" href="dir_8a0612b1f8cdae276467196b9afc677c.html">comments</a></li><li class="navelem"><a class="el" href="dir_db39350856e0edb4f2ee464b3218688c.html">widgets</a></li><li class="navelem"><a class="el" href="dir_a2797b5e8b3502cf5d91e9e76a7930ad.html">views</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">ECommentsLastListWidget.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="views_2_e_comments_last_list_widget_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php <span class="keywordflow">if</span> (count($comments)&gt;0) { ?&gt;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;    &lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;commentControl&quot;</span>&gt;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;            &lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;commentHeader&quot;</span>&gt;&lt;h2&gt;&lt;?php echo Yii::t(<span class="stringliteral">&#39;CommentsModule.msg&#39;</span>, <span class="stringliteral">&#39;Last comments&#39;</span>);?&gt;&lt;/h2&gt;&lt;/div&gt;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;            &lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;commentResults&quot;</span>&gt;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;                &lt;?php <span class="keywordflow">foreach</span>($comments as $comment) { ?&gt;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;                    &lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;commentItem&quot;</span>&gt;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;                        &lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;commentName&quot;</span>&gt;&lt;?=$comment-&gt;user-&gt;fullname?&gt;&lt;/div&gt;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;                        &lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;commentSpacer&quot;</span>&gt;-&lt;/div&gt;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                        &lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;commentDate&quot;</span>&gt;&lt;?php echo CHtml::encode(<a class="code" href="class_y.html#a44f15a17682aaae96dee5ece378072f0">Y::dateFromTime</a>($comment-&gt;create_time)); ?&gt;&lt;/div&gt;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                        &lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;commentText&quot;</span>&gt;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                            &lt;a href=<span class="stringliteral">&quot;&lt;?=Yii::app()-&gt;createUrl(&#39;holes/view&#39;, array(&#39;id&#39;=&gt;$comment-&gt;owner_id, &#39;#&#39;=&gt;&#39;comment-&#39;.$comment-&gt;id))?&gt;&quot;</span>&gt;&lt;?php <span class="keywordflow">if</span> (mb_strlen($comment-&gt;comment_text) &gt; $textLength) { $str=mb_substr($comment-&gt;comment_text,0,$textLength); echo nl2br(CHtml::encode(mb_substr($str,0,  mb_strrpos($str,<span class="charliteral">&#39; &#39;</span>)))).<span class="stringliteral">&#39;...&#39;</span>; } <span class="keywordflow">else</span> echo nl2br(CHtml::encode($comment-&gt;comment_text)); ?&gt;&lt;/a&gt;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                        &lt;/div&gt;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                    &lt;/div&gt;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                &lt;?php } ?&gt;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            &lt;/div&gt;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    &lt;/div&gt;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;&lt;?php } ?&gt;</div><div class="ttc" id="class_y_html_a44f15a17682aaae96dee5ece378072f0"><div class="ttname"><a href="class_y.html#a44f15a17682aaae96dee5ece378072f0">Y\dateFromTime</a></div><div class="ttdeci">static dateFromTime($time)</div><div class="ttdef"><b>Definition:</b> <a href="_y_8php_source.html#l00031">Y.php:31</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

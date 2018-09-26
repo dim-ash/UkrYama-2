@@ -1,0 +1,3 @@
+<map id="Swift_Events_EventDispatcher" name="Swift_Events_EventDispatcher">
+<area shape="rect" id="node2" href="$class_swift___events___simple_event_dispatcher.html" title="{Swift_Events_SimpleEvent\lDispatcher\n||+ __construct()\l+ createSendEvent()\l+ createCommandEvent()\l+ createResponseEvent()\l+ createTransportChangeEvent()\l+ createTransportException\lEvent()\l+ bindEventListener()\l+ dispatchEvent()\l}" alt="" coords="5,220,221,413"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="EOAuthComponent" name="EOAuthComponent">
+<area shape="rect" id="node3" href="$class_e_o_auth_provider.html" title="{EOAuthProvider\n|+ $consumer\l+ $token\l+ $request_token_endpoint\l+ $authorize_token_endpoint\l+ $access_token_endpoint\l|+ __construct()\l+ GetOAuthHeader()\l}" alt="" coords="5,288,199,428"/>
+<area shape="rect" id="node4" href="$class_e_o_auth_user_identity.html" title="{EOAuthUserIdentity\n|+ $scope\l+ $key\l+ $secret\l|+ __construct()\l+ getError()\l+ setError()\l+ getIsAuthenticated()\l+ getId()\l+ getName()\l+ getPersistentStates()\l+ authenticate()\l+ setProvider()\l+ getProvider()\l}" alt="" coords="224,248,381,468"/>
+<area shape="rect" id="node5" href="$class_e_o_auth_utils.html" title="{EOAuthUtils\n||+ GetRequestToken()\l+ GetAuthorizationUrl()\l+ GetAccessToken()\l}" alt="" coords="404,308,563,408"/>
+</map>

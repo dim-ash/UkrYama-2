@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/modules/userGroups/components/yii-mail/vendors/swiftMailer/classes/Swift/Mime/EmbeddedFile.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_b9874050543d9bf801828959d5af7e08.html">modules</a></li><li class="navelem"><a class="el" href="dir_5f2ca876ed623614a551661d5ad436e2.html">userGroups</a></li><li class="navelem"><a class="el" href="dir_3af8527d3a292461f703522a7735f22d.html">components</a></li><li class="navelem"><a class="el" href="dir_e7389c68147bcb225836d133883587f9.html">yii-mail</a></li><li class="navelem"><a class="el" href="dir_7c00826db0b603d9f1219296bf24edb6.html">vendors</a></li><li class="navelem"><a class="el" href="dir_89bff85714102eab7b303e6d9fdb32ce.html">swiftMailer</a></li><li class="navelem"><a class="el" href="dir_be079ef1232344ba61031a6293168d37.html">classes</a></li><li class="navelem"><a class="el" href="dir_f4d1f2b2221467ba311892f8aaf2aa86.html">Swift</a></li><li class="navelem"><a class="el" href="dir_b6cfa79edc51292b48977ff600123c37.html">Mime</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">EmbeddedFile.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_mime_2_embedded_file_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This file is part of SwiftMailer.</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * (c) 2004-2009 Chris Corbyn</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * For the full copyright and license information, please view the LICENSE</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> */</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">//@require &#39;Swift/Mime/Attachment.php&#39;;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//@require &#39;Swift/Mime/ContentEncoder.php&#39;;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">//@require &#39;Swift/KeyCache.php&#39;;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">//@require</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_swift___mime___embedded_file.html">   22</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_swift___mime___embedded_file.html">Swift_Mime_EmbeddedFile</a> <span class="keyword">extends</span> <a class="code" href="class_swift___mime___attachment.html">Swift_Mime_Attachment</a></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  </div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_swift___mime___embedded_file.html#a186734ec520e1c33e3c29e86592fbc50">   32</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___mime___embedded_file.html#a186734ec520e1c33e3c29e86592fbc50">__construct</a>(<a class="code" href="interface_swift___mime___header_set.html">Swift_Mime_HeaderSet</a> $headers,</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="interface_swift___mime___content_encoder.html">Swift_Mime_ContentEncoder</a> $encoder, <a class="code" href="interface_swift___key_cache.html">Swift_KeyCache</a> $cache,</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    $mimeTypes = array())</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  {</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="_ng_character_stream_8php.html#ae48318bd771a44a767cb87c6d7dc89f3">parent::__construct</a>($headers, $encoder, $cache, $mimeTypes);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    $this-&gt;<a class="code" href="class_swift___mime___attachment.html#a29db367768a0e1bdabf9e61e81d481a8">setDisposition</a>(<span class="stringliteral">&#39;inline&#39;</span>);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    $this-&gt;<a class="code" href="class_swift___mime___simple_mime_entity.html#a9da0db99e4906bcbf4f6a6ea19c25b96">setId</a>($this-&gt;<a class="code" href="class_swift___mime___simple_mime_entity.html#a4b6b8714fe09566f2ffa35c52b5ac710">getId</a>());</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  }</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  </div><div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="class_swift___mime___embedded_file.html#a2a519cfcb54bcd1a9ed83ecb026b29c5">   46</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___mime___embedded_file.html#a2a519cfcb54bcd1a9ed83ecb026b29c5">getNestingLevel</a>()</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  {</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> self::LEVEL_RELATED;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  }</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  </div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div><div class="ttc" id="interface_swift___mime___header_set_html"><div class="ttname"><a href="interface_swift___mime___header_set.html">Swift_Mime_HeaderSet</a></div><div class="ttdef"><b>Definition:</b> <a href="_header_set_8php_source.html#l00021">HeaderSet.php:21</a></div></div>
+<div class="ttc" id="class_swift___mime___embedded_file_html_a186734ec520e1c33e3c29e86592fbc50"><div class="ttname"><a href="class_swift___mime___embedded_file.html#a186734ec520e1c33e3c29e86592fbc50">Swift_Mime_EmbeddedFile\__construct</a></div><div class="ttdeci">__construct(Swift_Mime_HeaderSet $headers, Swift_Mime_ContentEncoder $encoder, Swift_KeyCache $cache, $mimeTypes=array())</div><div class="ttdef"><b>Definition:</b> <a href="_mime_2_embedded_file_8php_source.html#l00032">EmbeddedFile.php:32</a></div></div>
+<div class="ttc" id="class_swift___mime___embedded_file_html_a2a519cfcb54bcd1a9ed83ecb026b29c5"><div class="ttname"><a href="class_swift___mime___embedded_file.html#a2a519cfcb54bcd1a9ed83ecb026b29c5">Swift_Mime_EmbeddedFile\getNestingLevel</a></div><div class="ttdeci">getNestingLevel()</div><div class="ttdef"><b>Definition:</b> <a href="_mime_2_embedded_file_8php_source.html#l00046">EmbeddedFile.php:46</a></div></div>
+<div class="ttc" id="class_swift___mime___embedded_file_html"><div class="ttname"><a href="class_swift___mime___embedded_file.html">Swift_Mime_EmbeddedFile</a></div><div class="ttdef"><b>Definition:</b> <a href="_mime_2_embedded_file_8php_source.html#l00022">EmbeddedFile.php:22</a></div></div>
+<div class="ttc" id="class_swift___mime___attachment_html"><div class="ttname"><a href="class_swift___mime___attachment.html">Swift_Mime_Attachment</a></div><div class="ttdef"><b>Definition:</b> <a href="_mime_2_attachment_8php_source.html#l00023">Attachment.php:23</a></div></div>
+<div class="ttc" id="class_swift___mime___simple_mime_entity_html_a4b6b8714fe09566f2ffa35c52b5ac710"><div class="ttname"><a href="class_swift___mime___simple_mime_entity.html#a4b6b8714fe09566f2ffa35c52b5ac710">Swift_Mime_SimpleMimeEntity\getId</a></div><div class="ttdeci">getId()</div><div class="ttdef"><b>Definition:</b> <a href="_simple_mime_entity_8php_source.html#l00175">SimpleMimeEntity.php:175</a></div></div>
+<div class="ttc" id="interface_swift___key_cache_html"><div class="ttname"><a href="interface_swift___key_cache.html">Swift_KeyCache</a></div><div class="ttdef"><b>Definition:</b> <a href="_key_cache_8php_source.html#l00020">KeyCache.php:20</a></div></div>
+<div class="ttc" id="class_swift___mime___simple_mime_entity_html_a9da0db99e4906bcbf4f6a6ea19c25b96"><div class="ttname"><a href="class_swift___mime___simple_mime_entity.html#a9da0db99e4906bcbf4f6a6ea19c25b96">Swift_Mime_SimpleMimeEntity\setId</a></div><div class="ttdeci">setId($id)</div><div class="ttdef"><b>Definition:</b> <a href="_simple_mime_entity_8php_source.html#l00186">SimpleMimeEntity.php:186</a></div></div>
+<div class="ttc" id="class_swift___mime___attachment_html_a29db367768a0e1bdabf9e61e81d481a8"><div class="ttname"><a href="class_swift___mime___attachment.html#a29db367768a0e1bdabf9e61e81d481a8">Swift_Mime_Attachment\setDisposition</a></div><div class="ttdeci">setDisposition($disposition)</div><div class="ttdef"><b>Definition:</b> <a href="_mime_2_attachment_8php_source.html#l00070">Attachment.php:70</a></div></div>
+<div class="ttc" id="interface_swift___mime___content_encoder_html"><div class="ttname"><a href="interface_swift___mime___content_encoder.html">Swift_Mime_ContentEncoder</a></div><div class="ttdef"><b>Definition:</b> <a href="_content_encoder_8php_source.html#l00021">ContentEncoder.php:21</a></div></div>
+<div class="ttc" id="_ng_character_stream_8php_html_ae48318bd771a44a767cb87c6d7dc89f3"><div class="ttname"><a href="_ng_character_stream_8php.html#ae48318bd771a44a767cb87c6d7dc89f3">__construct</a></div><div class="ttdeci">__construct(Swift_CharacterReaderFactory $factory, $charset)</div><div class="ttdef"><b>Definition:</b> <a href="_ng_character_stream_8php_source.html#l00105">NgCharacterStream.php:105</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

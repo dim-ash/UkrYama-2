@@ -1,0 +1,7 @@
+<map id="Swift_Mime_Message" name="Swift_Mime_Message">
+<area shape="rect" id="node5" href="$class_swift___mime___simple_message.html" title="{Swift_Mime_SimpleMessage\n||+ __construct()\l+ getNestingLevel()\l+ setSubject()\l+ getSubject()\l+ setDate()\l+ getDate()\l+ setReturnPath()\l+ getReturnPath()\l+ setSender()\l+ getSender()\lі ще &#160;25...\l# _getIdField()\l}" alt="" coords="122,663,315,883"/>
+<area shape="rect" id="node2" href="$interface_swift___mime___mime_entity.html" title="{Swift_Mime_MimeEntity\n|+ LEVEL_TOP\l+ LEVEL_MIXED\l+ LEVEL_ALTERNATIVE\l+ LEVEL_RELATED\l|+ getNestingLevel()\l+ getContentType()\l+ getId()\l+ getChildren()\l+ setChildren()\l+ getHeaders()\l+ getBody()\l+ setBody()\l+ toString()\l+ toByteStream()\l}" alt="" coords="133,127,304,360"/>
+<area shape="rect" id="node3" href="$interface_swift___mime___charset_observer.html" title="{Swift_Mime_CharsetObserver\n||+ charsetChanged()\l}" alt="" coords="5,5,204,79"/>
+<area shape="rect" id="node4" href="$interface_swift___mime___encoding_observer.html" title="{Swift_Mime_EncodingObserver\n||+ encoderChanged()\l}" alt="" coords="229,5,437,79"/>
+<area shape="rect" id="node6" href="$class_swift___message.html" title="{Swift_Message\n||+ __construct()\l+ addPart()\l+ newInstance()\l}" alt="" coords="160,931,277,1031"/>
+</map>

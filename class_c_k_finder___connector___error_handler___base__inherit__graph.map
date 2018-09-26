@@ -1,0 +1,5 @@
+<map id="CKFinder_Connector_ErrorHandler_Base" name="CKFinder_Connector_ErrorHandler_Base">
+<area shape="rect" id="node2" href="$class_c_k_finder___connector___error_handler___file_upload.html" title="{CKFinder_Connector\l_ErrorHandler_FileUpload\n||+ throwError()\l+ throwError()\l}" alt="" coords="5,220,182,320"/>
+<area shape="rect" id="node3" href="$class_c_k_finder___connector___error_handler___http.html" title="{CKFinder_Connector\l_ErrorHandler_Http\n||+ throwError()\l+ throwError()\l}" alt="" coords="205,220,352,320"/>
+<area shape="rect" id="node4" href="$class_c_k_finder___connector___error_handler___quick_upload.html" title="{CKFinder_Connector\l_ErrorHandler_QuickUpload\n||+ throwError()\l+ throwError()\l}" alt="" coords="376,220,565,320"/>
+</map>

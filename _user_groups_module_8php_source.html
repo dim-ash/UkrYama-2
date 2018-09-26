@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/modules/userGroups/UserGroupsModule.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_b9874050543d9bf801828959d5af7e08.html">modules</a></li><li class="navelem"><a class="el" href="dir_5f2ca876ed623614a551661d5ad436e2.html">userGroups</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">UserGroupsModule.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_user_groups_module_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_user_groups_module.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_user_groups_module.html">UserGroupsModule</a> <span class="keyword">extends</span> CWebModule</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_user_groups_module.html#a0407a672be7242ad5798de5a375ac8c5">   17</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_user_groups_module.html#a0407a672be7242ad5798de5a375ac8c5">$accessCode</a>;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_user_groups_module.html#a16a6db0016660fdcbe6d7428fc3153d4">   22</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_user_groups_module.html#a16a6db0016660fdcbe6d7428fc3153d4">$salt</a>;</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_user_groups_module.html#a962ec2a9bd9ef6c86ea902d758c89e65">   29</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_user_groups_module.html#a962ec2a9bd9ef6c86ea902d758c89e65">$crons</a> = array();</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_user_groups_module.html#aedd1ca5230ebbfd2bfd097ae52ed759d">   36</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_user_groups_module.html#aedd1ca5230ebbfd2bfd097ae52ed759d">$profile</a> = array();</div><div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_user_groups_module.html#afb9d286cc00081bc90fb8d7718d10b76">   41</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_user_groups_module.html#afb9d286cc00081bc90fb8d7718d10b76">$mailMessages</a> = array();</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    </div><div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_user_groups_module.html#aebd7267516d4e16a56a29849d6a6efc3">   43</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_user_groups_module.html#aebd7267516d4e16a56a29849d6a6efc3">init</a>()</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    {</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="comment">// this method is called when the module is being created</span></div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="comment">// you may place code here to customize the module or the application</span></div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        </div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        $this-&gt;defaultController = <span class="stringliteral">&#39;UGDefault&#39;</span>;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="comment">// import the module-level models and components</span></div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        $this-&gt;setImport(array(</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="stringliteral">&#39;userGroups.models.*&#39;</span>,</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="stringliteral">&#39;userGroups.components.*&#39;</span>,</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        ));</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="comment">// register the css and js files</span></div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="comment">// load css and js if the page wasn&#39;t loaded with ajax</span></div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">if</span> (!Yii::app()-&gt;request-&gt;isAjaxRequest) {</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            Yii::app()-&gt;clientScript-&gt;registerCssFile(Yii::app()-&gt;assetManager-&gt;publish(Yii::getPathOfAlias(<span class="stringliteral">&#39;userGroups&#39;</span>) . <span class="stringliteral">&#39;/css&#39;</span>).<span class="stringliteral">&#39;/userGroups.css&#39;</span>);</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            Yii::app()-&gt;clientScript-&gt;registerScriptFile(Yii::app()-&gt;assetManager-&gt;publish(Yii::getPathOfAlias(<span class="stringliteral">&#39;userGroups&#39;</span>) . <span class="stringliteral">&#39;/js/userGroups.js&#39;</span>));</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        }</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div><div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_user_groups_module.html#a6bf30a302d3a15cc7ef6aa97c8492e4f">   64</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_user_groups_module.html#a6bf30a302d3a15cc7ef6aa97c8492e4f">beforeControllerAction</a>($controller, $action)</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    {</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">if</span>(parent::beforeControllerAction($controller, $action))</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        {</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <span class="comment">// check if the module is installed and make the right redirections</span></div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="keywordflow">if</span> (!in_array(Yii::app()-&gt;db-&gt;tablePrefix.<span class="stringliteral">&#39;usergroups_configuration&#39;</span>,  Yii::app()-&gt;db-&gt;getSchema()-&gt;getTableNames()) &amp;&amp; strpos(Yii::app()-&gt;request-&gt;pathInfo, <span class="stringliteral">&#39;userGroups/install&#39;</span>) === <span class="keyword">false</span>)</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                Yii::app()-&gt;request-&gt;redirect(Yii::app()-&gt;baseUrl . <span class="stringliteral">&#39;/userGroups/install&#39;</span>);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <span class="keywordflow">if</span> (in_array(Yii::app()-&gt;db-&gt;tablePrefix.<span class="stringliteral">&#39;usergroups_configuration&#39;</span>,  Yii::app()-&gt;db-&gt;getSchema()-&gt;getTableNames()) &amp;&amp; strpos(Yii::app()-&gt;request-&gt;pathInfo, <span class="stringliteral">&#39;userGroups/install&#39;</span>) !== <span class="keyword">false</span>)</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                Yii::app()-&gt;request-&gt;redirect(Yii::app()-&gt;baseUrl . <span class="stringliteral">&#39;/userGroups/&#39;</span>);</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="comment">// this method is called before any module controller action is performed</span></div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <span class="comment">// you may place customized code here</span></div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">else</span></div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div><div class="ttc" id="class_user_groups_module_html_a6bf30a302d3a15cc7ef6aa97c8492e4f"><div class="ttname"><a href="class_user_groups_module.html#a6bf30a302d3a15cc7ef6aa97c8492e4f">UserGroupsModule\beforeControllerAction</a></div><div class="ttdeci">beforeControllerAction($controller, $action)</div><div class="ttdef"><b>Definition:</b> <a href="_user_groups_module_8php_source.html#l00064">UserGroupsModule.php:64</a></div></div>
+<div class="ttc" id="class_user_groups_module_html_a16a6db0016660fdcbe6d7428fc3153d4"><div class="ttname"><a href="class_user_groups_module.html#a16a6db0016660fdcbe6d7428fc3153d4">UserGroupsModule\$salt</a></div><div class="ttdeci">$salt</div><div class="ttdef"><b>Definition:</b> <a href="_user_groups_module_8php_source.html#l00022">UserGroupsModule.php:22</a></div></div>
+<div class="ttc" id="class_user_groups_module_html_aebd7267516d4e16a56a29849d6a6efc3"><div class="ttname"><a href="class_user_groups_module.html#aebd7267516d4e16a56a29849d6a6efc3">UserGroupsModule\init</a></div><div class="ttdeci">init()</div><div class="ttdef"><b>Definition:</b> <a href="_user_groups_module_8php_source.html#l00043">UserGroupsModule.php:43</a></div></div>
+<div class="ttc" id="class_user_groups_module_html_a0407a672be7242ad5798de5a375ac8c5"><div class="ttname"><a href="class_user_groups_module.html#a0407a672be7242ad5798de5a375ac8c5">UserGroupsModule\$accessCode</a></div><div class="ttdeci">$accessCode</div><div class="ttdef"><b>Definition:</b> <a href="_user_groups_module_8php_source.html#l00017">UserGroupsModule.php:17</a></div></div>
+<div class="ttc" id="class_user_groups_module_html_a962ec2a9bd9ef6c86ea902d758c89e65"><div class="ttname"><a href="class_user_groups_module.html#a962ec2a9bd9ef6c86ea902d758c89e65">UserGroupsModule\$crons</a></div><div class="ttdeci">$crons</div><div class="ttdef"><b>Definition:</b> <a href="_user_groups_module_8php_source.html#l00029">UserGroupsModule.php:29</a></div></div>
+<div class="ttc" id="class_user_groups_module_html_aedd1ca5230ebbfd2bfd097ae52ed759d"><div class="ttname"><a href="class_user_groups_module.html#aedd1ca5230ebbfd2bfd097ae52ed759d">UserGroupsModule\$profile</a></div><div class="ttdeci">$profile</div><div class="ttdef"><b>Definition:</b> <a href="_user_groups_module_8php_source.html#l00036">UserGroupsModule.php:36</a></div></div>
+<div class="ttc" id="class_user_groups_module_html"><div class="ttname"><a href="class_user_groups_module.html">UserGroupsModule</a></div><div class="ttdef"><b>Definition:</b> <a href="_user_groups_module_8php_source.html#l00011">UserGroupsModule.php:11</a></div></div>
+<div class="ttc" id="class_user_groups_module_html_afb9d286cc00081bc90fb8d7718d10b76"><div class="ttname"><a href="class_user_groups_module.html#afb9d286cc00081bc90fb8d7718d10b76">UserGroupsModule\$mailMessages</a></div><div class="ttdeci">$mailMessages</div><div class="ttdef"><b>Definition:</b> <a href="_user_groups_module_8php_source.html#l00041">UserGroupsModule.php:41</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

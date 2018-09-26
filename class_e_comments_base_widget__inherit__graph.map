@@ -1,0 +1,6 @@
+<map id="ECommentsBaseWidget" name="ECommentsBaseWidget">
+<area shape="rect" id="node3" href="$class_comments.html" title="{Comments\n|+ $showPopupForm\l+ $allowSubcommenting\l+ $useGravatar\l+ $adminMode\l|+ init()\l+ run()\l}" alt="" coords="5,341,172,468"/>
+<area shape="rect" id="node4" href="$class_e_comments_form_widget.html" title="{ECommentsFormWidget\n|+ $validatedComment\l|+ run()\l}" alt="" coords="196,368,363,441"/>
+<area shape="rect" id="node5" href="$class_e_comments_last_list_widget.html" title="{ECommentsLastListWidget\n|+ $showCountRecords\l+ $textLength\l|+ init()\l+ run()\l}" alt="" coords="387,355,569,455"/>
+<area shape="rect" id="node6" href="$class_e_comments_list_widget.html" title="{ECommentsListWidget\n|+ $showPopupForm\l+ $allowSubcommenting\l+ $adminMode\l|+ init()\l+ run()\l}" alt="" coords="593,348,760,461"/>
+</map>

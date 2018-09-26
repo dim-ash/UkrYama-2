@@ -1,0 +1,4 @@
+<map id="Google_Auth" name="Google_Auth">
+<area shape="rect" id="node2" href="$class_google___auth_none.html" title="{Google_AuthNone\n|+ $key\l|+ __construct()\l+ setDeveloperKey()\l+ authenticate()\l+ setAccessToken()\l+ getAccessToken()\l+ createAuthUrl()\l+ refreshToken()\l+ revokeToken()\l+ sign()\l}" alt="" coords="5,300,149,480"/>
+<area shape="rect" id="node3" href="$class_google___o_auth2.html" title="{Google_OAuth2\n|+ $clientId\l+ $clientSecret\l+ $developerKey\l+ $token\l+ $redirectUri\l+ $state\l+ $accessType\l+ $approvalPrompt\l+ $requestVisibleActions\l+ $assertionCredentials\lі ще &#160;7...\l|+ __construct()\l+ authenticate()\l+ createAuthUrl()\l+ setAccessToken()\l+ getAccessToken()\l+ setDeveloperKey()\l+ setState()\l+ setAccessType()\l+ setApprovalPrompt()\l+ setAssertionCredentials()\lі ще &#160;7...\l}" alt="" coords="172,220,355,560"/>
+</map>

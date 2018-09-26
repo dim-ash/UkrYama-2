@@ -1,0 +1,3 @@
+<map id="Swift_Plugins_Timer" name="Swift_Plugins_Timer">
+<area shape="rect" id="node2" href="$class_swift___plugins___throttler_plugin.html" title="{Swift_Plugins_ThrottlerPlugin\n|+ BYTES_PER_MINUTE\l+ MESSAGES_PER_MINUTE\l|+ __construct()\l+ beforeSendPerformed()\l+ sendPerformed()\l+ sleep()\l+ getTimestamp()\l}" alt="" coords="5,127,206,267"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Swift_Transport_Esmtp_Authenticator" name="Swift_Transport_Esmtp_Authenticator">
+<area shape="rect" id="node2" href="$class_swift___transport___esmtp___auth___cram_md5_authenticator.html" title="{Swift_Transport_Esmtp\l_Auth_CramMd5Authenticator\n||+ getAuthKeyword()\l+ authenticate()\l}" alt="" coords="5,153,206,253"/>
+<area shape="rect" id="node3" href="$class_swift___transport___esmtp___auth___login_authenticator.html" title="{Swift_Transport_Esmtp\l_Auth_LoginAuthenticator\n||+ getAuthKeyword()\l+ authenticate()\l}" alt="" coords="230,153,405,253"/>
+<area shape="rect" id="node4" href="$class_swift___transport___esmtp___auth___plain_authenticator.html" title="{Swift_Transport_Esmtp\l_Auth_PlainAuthenticator\n||+ getAuthKeyword()\l+ authenticate()\l}" alt="" coords="429,153,601,253"/>
+</map>

@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['valid_5fsize',['valid_size',['../class_image.html#ac1542925064ce7fa75fe0dbb523c28f1',1,'Image']]],
+  ['validate',['validate',['../class_light_open_i_d.html#adb924266341a2bb42a983fdb9e881c39',1,'LightOpenID']]],
+  ['validateaddress',['validateAddress',['../class_p_h_p_mailer.html#a1affd8a1ed34f21c93e808546c37edd4',1,'PHPMailer']]],
+  ['validateattribute',['validateAttribute',['../classpassword_strength.html#a3416424e8db781732af8c4bcf3224f0f',1,'passwordStrength']]],
+  ['validatebytesequence',['validateByteSequence',['../class_swift___character_reader___generic_fixed_width_reader.html#af5782ee91af35ef3b62b7d0fdcae64aa',1,'Swift_CharacterReader_GenericFixedWidthReader\validateByteSequence()'],['../class_swift___character_reader___us_ascii_reader.html#a188110bb9199f9dd16ccc59e0e44a9a3',1,'Swift_CharacterReader_UsAsciiReader\validateByteSequence()'],['../class_swift___character_reader___utf8_reader.html#a38ee38b24139a2be4a94ac68bfb93d57',1,'Swift_CharacterReader_Utf8Reader\validateByteSequence()'],['../interface_swift___character_reader.html#a056f7f98d3b3f60b3339e8856092666f',1,'Swift_CharacterReader\validateByteSequence()']]],
+  ['value',['value',['../holes_2holeform_8php.html#ad5e29ab9e23071712ad4f6432b6a81c7',1,'holeform.php']]],
+  ['vardumper',['VarDumper',['../class_var_dumper.html',1,'']]],
+  ['vardumper_2ephp',['VarDumper.php',['../_var_dumper_8php.html',1,'']]],
+  ['verify',['verify',['../class_s_m_t_p.html#ab7bf68a2c0027e8c7a99476d93590489',1,'SMTP\verify()'],['../class_google___pem_verifier.html#a25a2d6fc8014d618d3494821b0330596',1,'Google_PemVerifier\verify()'],['../class_google___verifier.html#ac95dc68c560d971d7b0428fbfed74778',1,'Google_Verifier\verify()'],['../class_google___associationsessions_service_resource.html#ab339233a8494ef47c5b58e74f06de220',1,'Google_AssociationsessionsServiceResource\verify()']]],
+  ['verify_5frequest',['verify_request',['../class_o_auth_server.html#ad31e95096adeac980a8a99f59c4cadc6',1,'OAuthServer']]],
+  ['verifyidtoken',['verifyIdToken',['../class_google___o_auth2.html#aa0d84fce8c21fac42601075394a56c61',1,'Google_OAuth2\verifyIdToken()'],['../class_google___client.html#ace2686c769dfdbc1b60d29e18251395a',1,'Google_Client\verifyIdToken()']]],
+  ['verifysignedjwtwithcerts',['verifySignedJwtWithCerts',['../class_google___o_auth2.html#aa2e702b3439382d1531174e694222109',1,'Google_OAuth2']]],
+  ['version',['VERSION',['../class_s_m_t_p.html#a41fdd77beca2b15c059b4f214b5cbbc7',1,'SMTP\VERSION()'],['../class_swift.html#a0ae4947dbab88dc6c38b03211cb471e0',1,'Swift\VERSION()'],['../class_user_groups_installation.html#a3aeeadb836059c9975bbb28339ec986e',1,'UserGroupsInstallation\VERSION()']]],
+  ['vertical',['VERTICAL',['../class_image.html#abfe8046933e97fd7c2b6e68b1869f79d',1,'Image']]],
+  ['viber',['viber',['../class_messenger.html#a222ed5ff34136aac6fec588ee91ecf3a',1,'Messenger']]],
+  ['videocontroller',['VideoController',['../class_video_controller.html',1,'']]],
+  ['videocontroller_2ephp',['VideoController.php',['../_video_controller_8php.html',1,'']]],
+  ['view',['VIEW',['../class_user_groups_user.html#ab44caff75d945dfb5513f234f19e66f9',1,'UserGroupsUser']]],
+  ['view_2ephp',['view.php',['../modules_2user_groups_2views_2user_2view_8php.html',1,'(Глобальний простір імен)'],['../views_2holes_2view_8php.html',1,'(Глобальний простір імен)'],['../views_2news_2view_8php.html',1,'(Глобальний простір імен)'],['../views_2payments_2view_8php.html',1,'(Глобальний простір імен)'],['../views_2profile_2view_8php.html',1,'(Глобальний простір імен)'],['../views_2sprav_2view_8php.html',1,'(Глобальний простір імен)']]],
+  ['vkontakteoauthservice',['VKontakteOAuthService',['../class_v_kontakte_o_auth_service.html',1,'']]],
+  ['vkontakteoauthservice_2ephp',['VKontakteOAuthService.php',['../_v_kontakte_o_auth_service_8php.html',1,'']]],
+  ['voterinfoquery',['voterInfoQuery',['../class_google___elections_service_resource.html#a135953c43e213c4debaf2c2e70272737',1,'Google_ElectionsServiceResource']]]
+];

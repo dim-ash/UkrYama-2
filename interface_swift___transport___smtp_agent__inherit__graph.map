@@ -1,0 +1,4 @@
+<map id="Swift_Transport_SmtpAgent" name="Swift_Transport_SmtpAgent">
+<area shape="rect" id="node2" href="$class_swift___transport___esmtp_transport.html" title="{Swift_Transport_EsmtpTransport\n||+ __construct()\l+ setHost()\l+ getHost()\l+ setPort()\l+ getPort()\l+ setTimeout()\l+ getTimeout()\l+ setEncryption()\l+ getEncryption()\l+ setExtensionHandlers()\l+ getExtensionHandlers()\l+ executeCommand()\l+ __call()\l# _getBufferParams()\l# _doHeloCommand()\l# _doMailFromCommand()\l# _doRcptToCommand()\l}" alt="" coords="5,140,221,427"/>
+<area shape="rect" id="node3" href="$class_swift___smtp_transport.html" title="{Swift_SmtpTransport\n||+ __construct()\l+ newInstance()\l}" alt="" coords="41,475,186,561"/>
+</map>

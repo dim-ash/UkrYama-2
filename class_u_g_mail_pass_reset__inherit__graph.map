@@ -1,0 +1,3 @@
+<map id="UGMailPassReset" name="UGMailPassReset">
+<area shape="rect" id="node2" href="$interface_u_g_mail_message.html" title="{UGMailMessage\n||+ mailHeader()\l+ mailSubject()\l+ mailBody()\l+ mailSuccess()\l+ mailError()\l}" alt="" coords="11,5,130,132"/>
+</map>

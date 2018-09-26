@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/modules/userGroups/components/yii-mail/vendors/swiftMailer/classes/Swift/Mime/Message.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_b9874050543d9bf801828959d5af7e08.html">modules</a></li><li class="navelem"><a class="el" href="dir_5f2ca876ed623614a551661d5ad436e2.html">userGroups</a></li><li class="navelem"><a class="el" href="dir_3af8527d3a292461f703522a7735f22d.html">components</a></li><li class="navelem"><a class="el" href="dir_e7389c68147bcb225836d133883587f9.html">yii-mail</a></li><li class="navelem"><a class="el" href="dir_7c00826db0b603d9f1219296bf24edb6.html">vendors</a></li><li class="navelem"><a class="el" href="dir_89bff85714102eab7b303e6d9fdb32ce.html">swiftMailer</a></li><li class="navelem"><a class="el" href="dir_be079ef1232344ba61031a6293168d37.html">classes</a></li><li class="navelem"><a class="el" href="dir_f4d1f2b2221467ba311892f8aaf2aa86.html">Swift</a></li><li class="navelem"><a class="el" href="dir_b6cfa79edc51292b48977ff600123c37.html">Mime</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Message.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_mime_2_message_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This file is part of SwiftMailer.</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * (c) 2004-2009 Chris Corbyn</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * For the full copyright and license information, please view the LICENSE</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> */</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">//@require &#39;Swift/Mime/MimeEntity.php&#39;;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="interface_swift___mime___message.html">   21</a></span>&#160;<span class="keyword">interface </span><a class="code" href="interface_swift___mime___message.html">Swift_Mime_Message</a> <span class="keyword">extends</span> <a class="code" href="interface_swift___mime___mime_entity.html">Swift_Mime_MimeEntity</a></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  </div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#acf4df0821e577aa1043f63f132fea43f">generateId</a>();</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  </div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#a28d7233c95df005ad83131bcfbe642b9">setSubject</a>($subject);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  </div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#a2ac092011ec1ba19dee6685ab44c4b14">getSubject</a>();</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  </div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#af23edd05b2705b93d2020217aad9e4e0">setDate</a>($date);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  </div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#a21deff488762c2867aaea19ff2b785db">getDate</a>();</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  </div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#a1618f6c1a9169193da59a63ce3dd0c2d">setReturnPath</a>($address);</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  </div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#abf60f4081455d5b0d216c53c317b406b">getReturnPath</a>();</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  </div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#a57f1d6d53a5f8cacb6d8b139ef4156d2">setSender</a>($address, <a class="code" href="access_list_8php.html#a58551b63ba97fb35b928f11f36b1fac6">$name</a> = null);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  </div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#a14a6fe20b2056d6e77f23f224d32e35c">getSender</a>();</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  </div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#ada4a2c48e143f34d4825982784c40238">setFrom</a>($addresses, <a class="code" href="access_list_8php.html#a58551b63ba97fb35b928f11f36b1fac6">$name</a> = null);</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  </div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#a103a4d87f4896d3ac3118cf89dce0b8b">getFrom</a>();</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  </div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#a571a7584b38439e168ec6587e4365a13">setReplyTo</a>($addresses, <a class="code" href="access_list_8php.html#a58551b63ba97fb35b928f11f36b1fac6">$name</a> = null);</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  </div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#ac827ca6504ddcee79fc0c7f8c4ac19f1">getReplyTo</a>();</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  </div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#aa9753c48fbcb1b5c517af10a178cb6ea">setTo</a>($addresses, <a class="code" href="access_list_8php.html#a58551b63ba97fb35b928f11f36b1fac6">$name</a> = null);</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  </div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#a86770d41d3c54c6d5c0d2b294a099833">getTo</a>();</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  </div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#aab6b63783a5a77b06689425db9a32500">setCc</a>($addresses, <a class="code" href="access_list_8php.html#a58551b63ba97fb35b928f11f36b1fac6">$name</a> = null);</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  </div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#a7e4810980f5c92e35f7af64c9708de3c">getCc</a>();</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  </div><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#a2a75679e408d1ee90de7eda334230e51">setBcc</a>($addresses, <a class="code" href="access_list_8php.html#a58551b63ba97fb35b928f11f36b1fac6">$name</a> = null);</div><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  </div><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="interface_swift___mime___message.html#aa12c2a31556f1b69103b90f8c72c1517">getBcc</a>();</div><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;  </div><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;}</div><div class="ttc" id="interface_swift___mime___message_html_a7e4810980f5c92e35f7af64c9708de3c"><div class="ttname"><a href="interface_swift___mime___message.html#a7e4810980f5c92e35f7af64c9708de3c">Swift_Mime_Message\getCc</a></div><div class="ttdeci">getCc()</div></div>
+<div class="ttc" id="interface_swift___mime___message_html_a57f1d6d53a5f8cacb6d8b139ef4156d2"><div class="ttname"><a href="interface_swift___mime___message.html#a57f1d6d53a5f8cacb6d8b139ef4156d2">Swift_Mime_Message\setSender</a></div><div class="ttdeci">setSender($address, $name=null)</div></div>
+<div class="ttc" id="interface_swift___mime___message_html_ac827ca6504ddcee79fc0c7f8c4ac19f1"><div class="ttname"><a href="interface_swift___mime___message.html#ac827ca6504ddcee79fc0c7f8c4ac19f1">Swift_Mime_Message\getReplyTo</a></div><div class="ttdeci">getReplyTo()</div></div>
+<div class="ttc" id="interface_swift___mime___message_html_a28d7233c95df005ad83131bcfbe642b9"><div class="ttname"><a href="interface_swift___mime___message.html#a28d7233c95df005ad83131bcfbe642b9">Swift_Mime_Message\setSubject</a></div><div class="ttdeci">setSubject($subject)</div></div>
+<div class="ttc" id="interface_swift___mime___message_html_a1618f6c1a9169193da59a63ce3dd0c2d"><div class="ttname"><a href="interface_swift___mime___message.html#a1618f6c1a9169193da59a63ce3dd0c2d">Swift_Mime_Message\setReturnPath</a></div><div class="ttdeci">setReturnPath($address)</div></div>
+<div class="ttc" id="interface_swift___mime___message_html_a14a6fe20b2056d6e77f23f224d32e35c"><div class="ttname"><a href="interface_swift___mime___message.html#a14a6fe20b2056d6e77f23f224d32e35c">Swift_Mime_Message\getSender</a></div><div class="ttdeci">getSender()</div></div>
+<div class="ttc" id="interface_swift___mime___message_html_a103a4d87f4896d3ac3118cf89dce0b8b"><div class="ttname"><a href="interface_swift___mime___message.html#a103a4d87f4896d3ac3118cf89dce0b8b">Swift_Mime_Message\getFrom</a></div><div class="ttdeci">getFrom()</div></div>
+<div class="ttc" id="interface_swift___mime___message_html_a86770d41d3c54c6d5c0d2b294a099833"><div class="ttname"><a href="interface_swift___mime___message.html#a86770d41d3c54c6d5c0d2b294a099833">Swift_Mime_Message\getTo</a></div><div class="ttdeci">getTo()</div></div>
+<div class="ttc" id="interface_swift___mime___message_html_aab6b63783a5a77b06689425db9a32500"><div class="ttname"><a href="interface_swift___mime___message.html#aab6b63783a5a77b06689425db9a32500">Swift_Mime_Message\setCc</a></div><div class="ttdeci">setCc($addresses, $name=null)</div></div>
+<div class="ttc" id="interface_swift___mime___message_html_a21deff488762c2867aaea19ff2b785db"><div class="ttname"><a href="interface_swift___mime___message.html#a21deff488762c2867aaea19ff2b785db">Swift_Mime_Message\getDate</a></div><div class="ttdeci">getDate()</div></div>
+<div class="ttc" id="interface_swift___mime___message_html_aa12c2a31556f1b69103b90f8c72c1517"><div class="ttname"><a href="interface_swift___mime___message.html#aa12c2a31556f1b69103b90f8c72c1517">Swift_Mime_Message\getBcc</a></div><div class="ttdeci">getBcc()</div></div>
+<div class="ttc" id="interface_swift___mime___mime_entity_html"><div class="ttname"><a href="interface_swift___mime___mime_entity.html">Swift_Mime_MimeEntity</a></div><div class="ttdef"><b>Definition:</b> <a href="_mime_entity_8php_source.html#l00021">MimeEntity.php:21</a></div></div>
+<div class="ttc" id="interface_swift___mime___message_html_acf4df0821e577aa1043f63f132fea43f"><div class="ttname"><a href="interface_swift___mime___message.html#acf4df0821e577aa1043f63f132fea43f">Swift_Mime_Message\generateId</a></div><div class="ttdeci">generateId()</div></div>
+<div class="ttc" id="interface_swift___mime___message_html"><div class="ttname"><a href="interface_swift___mime___message.html">Swift_Mime_Message</a></div><div class="ttdef"><b>Definition:</b> <a href="_mime_2_message_8php_source.html#l00021">Message.php:21</a></div></div>
+<div class="ttc" id="interface_swift___mime___message_html_aa9753c48fbcb1b5c517af10a178cb6ea"><div class="ttname"><a href="interface_swift___mime___message.html#aa9753c48fbcb1b5c517af10a178cb6ea">Swift_Mime_Message\setTo</a></div><div class="ttdeci">setTo($addresses, $name=null)</div></div>
+<div class="ttc" id="access_list_8php_html_a58551b63ba97fb35b928f11f36b1fac6"><div class="ttname"><a href="access_list_8php.html#a58551b63ba97fb35b928f11f36b1fac6">$name</a></div><div class="ttdeci">$name</div><div class="ttdef"><b>Definition:</b> <a href="access_list_8php_source.html#l00001">accessList.php:1</a></div></div>
+<div class="ttc" id="interface_swift___mime___message_html_a571a7584b38439e168ec6587e4365a13"><div class="ttname"><a href="interface_swift___mime___message.html#a571a7584b38439e168ec6587e4365a13">Swift_Mime_Message\setReplyTo</a></div><div class="ttdeci">setReplyTo($addresses, $name=null)</div></div>
+<div class="ttc" id="interface_swift___mime___message_html_a2ac092011ec1ba19dee6685ab44c4b14"><div class="ttname"><a href="interface_swift___mime___message.html#a2ac092011ec1ba19dee6685ab44c4b14">Swift_Mime_Message\getSubject</a></div><div class="ttdeci">getSubject()</div></div>
+<div class="ttc" id="interface_swift___mime___message_html_af23edd05b2705b93d2020217aad9e4e0"><div class="ttname"><a href="interface_swift___mime___message.html#af23edd05b2705b93d2020217aad9e4e0">Swift_Mime_Message\setDate</a></div><div class="ttdeci">setDate($date)</div></div>
+<div class="ttc" id="interface_swift___mime___message_html_abf60f4081455d5b0d216c53c317b406b"><div class="ttname"><a href="interface_swift___mime___message.html#abf60f4081455d5b0d216c53c317b406b">Swift_Mime_Message\getReturnPath</a></div><div class="ttdeci">getReturnPath()</div></div>
+<div class="ttc" id="interface_swift___mime___message_html_a2a75679e408d1ee90de7eda334230e51"><div class="ttname"><a href="interface_swift___mime___message.html#a2a75679e408d1ee90de7eda334230e51">Swift_Mime_Message\setBcc</a></div><div class="ttdeci">setBcc($addresses, $name=null)</div></div>
+<div class="ttc" id="interface_swift___mime___message_html_ada4a2c48e143f34d4825982784c40238"><div class="ttname"><a href="interface_swift___mime___message.html#ada4a2c48e143f34d4825982784c40238">Swift_Mime_Message\setFrom</a></div><div class="ttdeci">setFrom($addresses, $name=null)</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

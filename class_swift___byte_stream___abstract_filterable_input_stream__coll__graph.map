@@ -1,0 +1,4 @@
+<map id="Swift_ByteStream_AbstractFilterableInputStream" name="Swift_ByteStream_AbstractFilterableInputStream">
+<area shape="rect" id="node2" href="$interface_swift___input_byte_stream.html" title="{Swift_InputByteStream\n||+ write()\l+ commit()\l+ bind()\l+ unbind()\l+ flushBuffers()\l}" alt="" coords="5,5,162,132"/>
+<area shape="rect" id="node3" href="$interface_swift___filterable.html" title="{Swift_Filterable\n||+ addFilter()\l+ removeFilter()\l}" alt="" coords="186,25,302,112"/>
+</map>

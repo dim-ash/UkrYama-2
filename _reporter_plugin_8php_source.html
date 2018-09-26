@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/modules/userGroups/components/yii-mail/vendors/swiftMailer/classes/Swift/Plugins/ReporterPlugin.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_b9874050543d9bf801828959d5af7e08.html">modules</a></li><li class="navelem"><a class="el" href="dir_5f2ca876ed623614a551661d5ad436e2.html">userGroups</a></li><li class="navelem"><a class="el" href="dir_3af8527d3a292461f703522a7735f22d.html">components</a></li><li class="navelem"><a class="el" href="dir_e7389c68147bcb225836d133883587f9.html">yii-mail</a></li><li class="navelem"><a class="el" href="dir_7c00826db0b603d9f1219296bf24edb6.html">vendors</a></li><li class="navelem"><a class="el" href="dir_89bff85714102eab7b303e6d9fdb32ce.html">swiftMailer</a></li><li class="navelem"><a class="el" href="dir_be079ef1232344ba61031a6293168d37.html">classes</a></li><li class="navelem"><a class="el" href="dir_f4d1f2b2221467ba311892f8aaf2aa86.html">Swift</a></li><li class="navelem"><a class="el" href="dir_44fdda60ba3e3d8c2b20991f617d9b3d.html">Plugins</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">ReporterPlugin.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_reporter_plugin_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This file is part of SwiftMailer.</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * (c) 2004-2009 Chris Corbyn</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * For the full copyright and license information, please view the LICENSE</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> */</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">//@require &#39;Swift/Events/SendListener.php&#39;;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//@require &#39;Swift/Events/SendEvent.php&#39;;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">//@require &#39;Swift/Plugins/Reporter.php&#39;;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_swift___plugins___reporter_plugin.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_swift___plugins___reporter_plugin.html">Swift_Plugins_ReporterPlugin</a></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keyword">implements</span> <a class="code" href="interface_swift___events___send_listener.html">Swift_Events_SendListener</a></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  </div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="keyword">private</span> $_reporter;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  </div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_swift___plugins___reporter_plugin.html#aac51c4114703fb65f6966d54ea49c436">   36</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___plugins___reporter_plugin.html#aac51c4114703fb65f6966d54ea49c436">__construct</a>(<a class="code" href="interface_swift___plugins___reporter.html">Swift_Plugins_Reporter</a> $reporter)</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  {</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    $this-&gt;_reporter = $reporter;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  }</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  </div><div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="class_swift___plugins___reporter_plugin.html#a943bafbfec0d7e9a46e0fdf69ea28cdb">   44</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___plugins___reporter_plugin.html#a943bafbfec0d7e9a46e0fdf69ea28cdb">beforeSendPerformed</a>(<a class="code" href="class_swift___events___send_event.html">Swift_Events_SendEvent</a> $evt)</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  {</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  }</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  </div><div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="class_swift___plugins___reporter_plugin.html#abe48b1a65b488923d16109cc4597b64b">   52</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___plugins___reporter_plugin.html#abe48b1a65b488923d16109cc4597b64b">sendPerformed</a>(<a class="code" href="class_swift___events___send_event.html">Swift_Events_SendEvent</a> $evt)</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  {</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    $message = $evt-&gt;<a class="code" href="class_swift___events___send_event.html#a2cd185a5a7e8beab1c35d53e0dcd1d41">getMessage</a>();</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    $failures = array_flip($evt-&gt;<a class="code" href="class_swift___events___send_event.html#add42cbd69c98cb878ba4be3ddd65d5d0">getFailedRecipients</a>());</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">foreach</span> ((array) $message-&gt;getTo() as $address =&gt; $null)</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    {</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      $this-&gt;_reporter-&gt;notify(</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        $message, $address, (array_key_exists($address, $failures)</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        ? <a class="code" href="interface_swift___plugins___reporter.html#a6350819544a9bcdf138de7194d324236">Swift_Plugins_Reporter::RESULT_FAIL</a></div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        : <a class="code" href="interface_swift___plugins___reporter.html#abfb1b01547ad4623ba35621bdc7ccfea">Swift_Plugins_Reporter::RESULT_PASS</a>)</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        );</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">foreach</span> ((array) $message-&gt;getCc() as $address =&gt; $null)</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    {</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      $this-&gt;_reporter-&gt;notify(</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        $message, $address, (array_key_exists($address, $failures)</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        ? <a class="code" href="interface_swift___plugins___reporter.html#a6350819544a9bcdf138de7194d324236">Swift_Plugins_Reporter::RESULT_FAIL</a></div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        : <a class="code" href="interface_swift___plugins___reporter.html#abfb1b01547ad4623ba35621bdc7ccfea">Swift_Plugins_Reporter::RESULT_PASS</a>)</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        );</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">foreach</span> ((array) $message-&gt;getBcc() as $address =&gt; $null)</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    {</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;      $this-&gt;_reporter-&gt;notify(</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        $message, $address, (array_key_exists($address, $failures)</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        ? <a class="code" href="interface_swift___plugins___reporter.html#a6350819544a9bcdf138de7194d324236">Swift_Plugins_Reporter::RESULT_FAIL</a></div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        : <a class="code" href="interface_swift___plugins___reporter.html#abfb1b01547ad4623ba35621bdc7ccfea">Swift_Plugins_Reporter::RESULT_PASS</a>)</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        );</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  }</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  </div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}</div><div class="ttc" id="interface_swift___plugins___reporter_html"><div class="ttname"><a href="interface_swift___plugins___reporter.html">Swift_Plugins_Reporter</a></div><div class="ttdef"><b>Definition:</b> <a href="_reporter_8php_source.html#l00019">Reporter.php:19</a></div></div>
+<div class="ttc" id="class_swift___plugins___reporter_plugin_html_aac51c4114703fb65f6966d54ea49c436"><div class="ttname"><a href="class_swift___plugins___reporter_plugin.html#aac51c4114703fb65f6966d54ea49c436">Swift_Plugins_ReporterPlugin\__construct</a></div><div class="ttdeci">__construct(Swift_Plugins_Reporter $reporter)</div><div class="ttdef"><b>Definition:</b> <a href="_reporter_plugin_8php_source.html#l00036">ReporterPlugin.php:36</a></div></div>
+<div class="ttc" id="interface_swift___plugins___reporter_html_a6350819544a9bcdf138de7194d324236"><div class="ttname"><a href="interface_swift___plugins___reporter.html#a6350819544a9bcdf138de7194d324236">Swift_Plugins_Reporter\RESULT_FAIL</a></div><div class="ttdeci">const RESULT_FAIL</div><div class="ttdef"><b>Definition:</b> <a href="_reporter_8php_source.html#l00026">Reporter.php:26</a></div></div>
+<div class="ttc" id="class_swift___events___send_event_html_add42cbd69c98cb878ba4be3ddd65d5d0"><div class="ttname"><a href="class_swift___events___send_event.html#add42cbd69c98cb878ba4be3ddd65d5d0">Swift_Events_SendEvent\getFailedRecipients</a></div><div class="ttdeci">getFailedRecipients()</div><div class="ttdef"><b>Definition:</b> <a href="_send_event_8php_source.html#l00102">SendEvent.php:102</a></div></div>
+<div class="ttc" id="class_swift___plugins___reporter_plugin_html_a943bafbfec0d7e9a46e0fdf69ea28cdb"><div class="ttname"><a href="class_swift___plugins___reporter_plugin.html#a943bafbfec0d7e9a46e0fdf69ea28cdb">Swift_Plugins_ReporterPlugin\beforeSendPerformed</a></div><div class="ttdeci">beforeSendPerformed(Swift_Events_SendEvent $evt)</div><div class="ttdef"><b>Definition:</b> <a href="_reporter_plugin_8php_source.html#l00044">ReporterPlugin.php:44</a></div></div>
+<div class="ttc" id="interface_swift___events___send_listener_html"><div class="ttname"><a href="interface_swift___events___send_listener.html">Swift_Events_SendListener</a></div><div class="ttdef"><b>Definition:</b> <a href="_send_listener_8php_source.html#l00020">SendListener.php:20</a></div></div>
+<div class="ttc" id="interface_swift___plugins___reporter_html_abfb1b01547ad4623ba35621bdc7ccfea"><div class="ttname"><a href="interface_swift___plugins___reporter.html#abfb1b01547ad4623ba35621bdc7ccfea">Swift_Plugins_Reporter\RESULT_PASS</a></div><div class="ttdeci">const RESULT_PASS</div><div class="ttdef"><b>Definition:</b> <a href="_reporter_8php_source.html#l00023">Reporter.php:23</a></div></div>
+<div class="ttc" id="class_swift___plugins___reporter_plugin_html_abe48b1a65b488923d16109cc4597b64b"><div class="ttname"><a href="class_swift___plugins___reporter_plugin.html#abe48b1a65b488923d16109cc4597b64b">Swift_Plugins_ReporterPlugin\sendPerformed</a></div><div class="ttdeci">sendPerformed(Swift_Events_SendEvent $evt)</div><div class="ttdef"><b>Definition:</b> <a href="_reporter_plugin_8php_source.html#l00052">ReporterPlugin.php:52</a></div></div>
+<div class="ttc" id="class_swift___events___send_event_html"><div class="ttname"><a href="class_swift___events___send_event.html">Swift_Events_SendEvent</a></div><div class="ttdef"><b>Definition:</b> <a href="_send_event_8php_source.html#l00019">SendEvent.php:19</a></div></div>
+<div class="ttc" id="class_swift___events___send_event_html_a2cd185a5a7e8beab1c35d53e0dcd1d41"><div class="ttname"><a href="class_swift___events___send_event.html#a2cd185a5a7e8beab1c35d53e0dcd1d41">Swift_Events_SendEvent\getMessage</a></div><div class="ttdeci">getMessage()</div><div class="ttdef"><b>Definition:</b> <a href="_send_event_8php_source.html#l00084">SendEvent.php:84</a></div></div>
+<div class="ttc" id="class_swift___plugins___reporter_plugin_html"><div class="ttname"><a href="class_swift___plugins___reporter_plugin.html">Swift_Plugins_ReporterPlugin</a></div><div class="ttdef"><b>Definition:</b> <a href="_reporter_plugin_8php_source.html#l00021">ReporterPlugin.php:21</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

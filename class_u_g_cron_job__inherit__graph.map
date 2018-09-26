@@ -1,0 +1,4 @@
+<map id="UGCronJob" name="UGCronJob">
+<area shape="rect" id="node2" href="$class_u_g_c_j_garbage_collection.html" title="{UGCJGarbageCollection\n||# getDescription()\l# getCronTable()\l# getName()\l# getLapse()\l# getModel()\l# getAction()\l# getCriteria()\l# getColumns()\l}" alt="" coords="5,260,173,427"/>
+<area shape="rect" id="node3" href="$class_u_g_c_j_unban.html" title="{UGCJUnban\n||# getDescription()\l# getCronTable()\l# getName()\l# getLapse()\l# getModel()\l# getAction()\l# getCriteria()\l# getColumns()\l}" alt="" coords="197,260,323,427"/>
+</map>

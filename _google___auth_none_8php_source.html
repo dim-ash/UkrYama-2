@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/vendors/google-api-php-client/auth/Google_AuthNone.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_8ed2e4ce45ced6815d0005f06aaa453c.html">vendors</a></li><li class="navelem"><a class="el" href="dir_c75101d3af6697ddc94f97bf0855988f.html">google-api-php-client</a></li><li class="navelem"><a class="el" href="dir_55185a7cd903a59133f2a6377a28de5b.html">auth</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Google_AuthNone.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_google___auth_none_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * Copyright 2010 Google Inc.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * you may not use this file except in compliance with the License.</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * You may obtain a copy of the License at</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> *     http://www.apache.org/licenses/LICENSE-2.0</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> *</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * Unless required by applicable law or agreed to in writing, software</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * See the License for the specific language governing permissions and</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * limitations under the License.</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> */</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_google___auth_none.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_google___auth_none.html">Google_AuthNone</a> <span class="keyword">extends</span> <a class="code" href="class_google___auth.html">Google_Auth</a> {</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_google___auth_none.html#ad78fcbde2cd11690a4af21f11a57fcab">   24</a></span>&#160;  <span class="keyword">public</span> <a class="code" href="class_google___auth_none.html#ad78fcbde2cd11690a4af21f11a57fcab">$key</a> = null;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_google___auth_none.html#af3d0f43d16eb35fdca5f7cf8c5f50e42">   26</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_google___auth_none.html#af3d0f43d16eb35fdca5f7cf8c5f50e42">__construct</a>() {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    global <a class="code" href="vendors_2google-api-php-client_2config_8php.html#ac967c56b5207ea2d3210daa695feddc9">$apiConfig</a>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">if</span> (!empty(<a class="code" href="vendors_2google-api-php-client_2config_8php.html#ac967c56b5207ea2d3210daa695feddc9">$apiConfig</a>[<span class="stringliteral">&#39;developer_key&#39;</span>])) {</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;      $this-&gt;<a class="code" href="class_google___auth_none.html#a74bda913ca89797fa9e0b7abeabdfc08">setDeveloperKey</a>($apiConfig[<span class="stringliteral">&#39;developer_key&#39;</span>]);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  }</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_google___auth_none.html#a74bda913ca89797fa9e0b7abeabdfc08">   33</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_google___auth_none.html#a74bda913ca89797fa9e0b7abeabdfc08">setDeveloperKey</a>(<a class="code" href="class_google___auth_none.html#ad78fcbde2cd11690a4af21f11a57fcab">$key</a>) {$this-&gt;key = <a class="code" href="class_google___auth_none.html#ad78fcbde2cd11690a4af21f11a57fcab">$key</a>;}</div><div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_google___auth_none.html#aa91d6cb5d3268d39f5140920ecb4ad82">   34</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_google___auth_none.html#aa91d6cb5d3268d39f5140920ecb4ad82">authenticate</a>($service) {<span class="comment">/*noop*/</span>}</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_google___auth_none.html#ae070e31f0b5a22032bde225ec03b833c">   35</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_google___auth_none.html#ae070e31f0b5a22032bde225ec03b833c">setAccessToken</a>($accessToken) {<span class="comment">/* noop*/</span>}</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_google___auth_none.html#a56e09d716cbb317ba440566039e11072">   36</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_google___auth_none.html#a56e09d716cbb317ba440566039e11072">getAccessToken</a>() {<span class="keywordflow">return</span> null;}</div><div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_google___auth_none.html#aeadd315ce3b8060465bdaad9952dafd8">   37</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_google___auth_none.html#aeadd315ce3b8060465bdaad9952dafd8">createAuthUrl</a>($scope) {<span class="keywordflow">return</span> null;}</div><div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_google___auth_none.html#aa2d3b99276e3277f3d30a5f8949827a8">   38</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_google___auth_none.html#aa2d3b99276e3277f3d30a5f8949827a8">refreshToken</a>($refreshToken) {<span class="comment">/* noop*/</span>}</div><div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_google___auth_none.html#a4da487bffced9d99def880b154051869">   39</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_google___auth_none.html#a4da487bffced9d99def880b154051869">revokeToken</a>() {<span class="comment">/* noop*/</span>}</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_google___auth_none.html#a635507b6d5488332ed71aa8cc2c755a6">   41</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_google___auth_none.html#a635507b6d5488332ed71aa8cc2c755a6">sign</a>(<a class="code" href="class_google___http_request.html">Google_HttpRequest</a> $request) {</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">if</span> ($this-&gt;key) {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      $request-&gt;<a class="code" href="class_google___http_request.html#a4ee18b2326969886caa9207a74b73399">setUrl</a>($request-&gt;<a class="code" href="class_google___http_request.html#ac2a45873514ef08eb9d5855fa7381b07">getUrl</a>() . ((strpos($request-&gt;<a class="code" href="class_google___http_request.html#ac2a45873514ef08eb9d5855fa7381b07">getUrl</a>(), <span class="charliteral">&#39;?&#39;</span>) === <span class="keyword">false</span>) ? <span class="charliteral">&#39;?&#39;</span> : <span class="charliteral">&#39;&amp;&#39;</span>)</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;          . <span class="stringliteral">&#39;key=&#39;</span>.urlencode($this-&gt;key));</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">return</span> $request;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  }</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div><div class="ttc" id="class_google___auth_none_html_aeadd315ce3b8060465bdaad9952dafd8"><div class="ttname"><a href="class_google___auth_none.html#aeadd315ce3b8060465bdaad9952dafd8">Google_AuthNone\createAuthUrl</a></div><div class="ttdeci">createAuthUrl($scope)</div><div class="ttdef"><b>Definition:</b> <a href="_google___auth_none_8php_source.html#l00037">Google_AuthNone.php:37</a></div></div>
+<div class="ttc" id="class_google___auth_none_html"><div class="ttname"><a href="class_google___auth_none.html">Google_AuthNone</a></div><div class="ttdef"><b>Definition:</b> <a href="_google___auth_none_8php_source.html#l00023">Google_AuthNone.php:23</a></div></div>
+<div class="ttc" id="class_google___auth_none_html_aa91d6cb5d3268d39f5140920ecb4ad82"><div class="ttname"><a href="class_google___auth_none.html#aa91d6cb5d3268d39f5140920ecb4ad82">Google_AuthNone\authenticate</a></div><div class="ttdeci">authenticate($service)</div><div class="ttdef"><b>Definition:</b> <a href="_google___auth_none_8php_source.html#l00034">Google_AuthNone.php:34</a></div></div>
+<div class="ttc" id="class_google___auth_html"><div class="ttname"><a href="class_google___auth.html">Google_Auth</a></div><div class="ttdef"><b>Definition:</b> <a href="_google___auth_8php_source.html#l00026">Google_Auth.php:26</a></div></div>
+<div class="ttc" id="class_google___http_request_html_ac2a45873514ef08eb9d5855fa7381b07"><div class="ttname"><a href="class_google___http_request.html#ac2a45873514ef08eb9d5855fa7381b07">Google_HttpRequest\getUrl</a></div><div class="ttdeci">getUrl()</div><div class="ttdef"><b>Definition:</b> <a href="_google___http_request_8php_source.html#l00152">Google_HttpRequest.php:152</a></div></div>
+<div class="ttc" id="class_google___http_request_html_a4ee18b2326969886caa9207a74b73399"><div class="ttname"><a href="class_google___http_request.html#a4ee18b2326969886caa9207a74b73399">Google_HttpRequest\setUrl</a></div><div class="ttdeci">setUrl($url)</div><div class="ttdef"><b>Definition:</b> <a href="_google___http_request_8php_source.html#l00191">Google_HttpRequest.php:191</a></div></div>
+<div class="ttc" id="class_google___auth_none_html_aa2d3b99276e3277f3d30a5f8949827a8"><div class="ttname"><a href="class_google___auth_none.html#aa2d3b99276e3277f3d30a5f8949827a8">Google_AuthNone\refreshToken</a></div><div class="ttdeci">refreshToken($refreshToken)</div><div class="ttdef"><b>Definition:</b> <a href="_google___auth_none_8php_source.html#l00038">Google_AuthNone.php:38</a></div></div>
+<div class="ttc" id="class_google___auth_none_html_ad78fcbde2cd11690a4af21f11a57fcab"><div class="ttname"><a href="class_google___auth_none.html#ad78fcbde2cd11690a4af21f11a57fcab">Google_AuthNone\$key</a></div><div class="ttdeci">$key</div><div class="ttdef"><b>Definition:</b> <a href="_google___auth_none_8php_source.html#l00024">Google_AuthNone.php:24</a></div></div>
+<div class="ttc" id="class_google___auth_none_html_a4da487bffced9d99def880b154051869"><div class="ttname"><a href="class_google___auth_none.html#a4da487bffced9d99def880b154051869">Google_AuthNone\revokeToken</a></div><div class="ttdeci">revokeToken()</div><div class="ttdef"><b>Definition:</b> <a href="_google___auth_none_8php_source.html#l00039">Google_AuthNone.php:39</a></div></div>
+<div class="ttc" id="vendors_2google-api-php-client_2config_8php_html_ac967c56b5207ea2d3210daa695feddc9"><div class="ttname"><a href="vendors_2google-api-php-client_2config_8php.html#ac967c56b5207ea2d3210daa695feddc9">$apiConfig</a></div><div class="ttdeci">global $apiConfig</div><div class="ttdef"><b>Definition:</b> <a href="vendors_2google-api-php-client_2config_8php_source.html#l00018">config.php:18</a></div></div>
+<div class="ttc" id="class_google___auth_none_html_af3d0f43d16eb35fdca5f7cf8c5f50e42"><div class="ttname"><a href="class_google___auth_none.html#af3d0f43d16eb35fdca5f7cf8c5f50e42">Google_AuthNone\__construct</a></div><div class="ttdeci">__construct()</div><div class="ttdef"><b>Definition:</b> <a href="_google___auth_none_8php_source.html#l00026">Google_AuthNone.php:26</a></div></div>
+<div class="ttc" id="class_google___auth_none_html_a635507b6d5488332ed71aa8cc2c755a6"><div class="ttname"><a href="class_google___auth_none.html#a635507b6d5488332ed71aa8cc2c755a6">Google_AuthNone\sign</a></div><div class="ttdeci">sign(Google_HttpRequest $request)</div><div class="ttdef"><b>Definition:</b> <a href="_google___auth_none_8php_source.html#l00041">Google_AuthNone.php:41</a></div></div>
+<div class="ttc" id="class_google___auth_none_html_a74bda913ca89797fa9e0b7abeabdfc08"><div class="ttname"><a href="class_google___auth_none.html#a74bda913ca89797fa9e0b7abeabdfc08">Google_AuthNone\setDeveloperKey</a></div><div class="ttdeci">setDeveloperKey($key)</div><div class="ttdef"><b>Definition:</b> <a href="_google___auth_none_8php_source.html#l00033">Google_AuthNone.php:33</a></div></div>
+<div class="ttc" id="class_google___auth_none_html_a56e09d716cbb317ba440566039e11072"><div class="ttname"><a href="class_google___auth_none.html#a56e09d716cbb317ba440566039e11072">Google_AuthNone\getAccessToken</a></div><div class="ttdeci">getAccessToken()</div><div class="ttdef"><b>Definition:</b> <a href="_google___auth_none_8php_source.html#l00036">Google_AuthNone.php:36</a></div></div>
+<div class="ttc" id="class_google___auth_none_html_ae070e31f0b5a22032bde225ec03b833c"><div class="ttname"><a href="class_google___auth_none.html#ae070e31f0b5a22032bde225ec03b833c">Google_AuthNone\setAccessToken</a></div><div class="ttdeci">setAccessToken($accessToken)</div><div class="ttdef"><b>Definition:</b> <a href="_google___auth_none_8php_source.html#l00035">Google_AuthNone.php:35</a></div></div>
+<div class="ttc" id="class_google___http_request_html"><div class="ttname"><a href="class_google___http_request.html">Google_HttpRequest</a></div><div class="ttdef"><b>Definition:</b> <a href="_google___http_request_8php_source.html#l00026">Google_HttpRequest.php:26</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

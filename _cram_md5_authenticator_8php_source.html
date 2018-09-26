@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/modules/userGroups/components/yii-mail/vendors/swiftMailer/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_b9874050543d9bf801828959d5af7e08.html">modules</a></li><li class="navelem"><a class="el" href="dir_5f2ca876ed623614a551661d5ad436e2.html">userGroups</a></li><li class="navelem"><a class="el" href="dir_3af8527d3a292461f703522a7735f22d.html">components</a></li><li class="navelem"><a class="el" href="dir_e7389c68147bcb225836d133883587f9.html">yii-mail</a></li><li class="navelem"><a class="el" href="dir_7c00826db0b603d9f1219296bf24edb6.html">vendors</a></li><li class="navelem"><a class="el" href="dir_89bff85714102eab7b303e6d9fdb32ce.html">swiftMailer</a></li><li class="navelem"><a class="el" href="dir_be079ef1232344ba61031a6293168d37.html">classes</a></li><li class="navelem"><a class="el" href="dir_f4d1f2b2221467ba311892f8aaf2aa86.html">Swift</a></li><li class="navelem"><a class="el" href="dir_bc7cb5ce9583400b35afb8a899a7d7d4.html">Transport</a></li><li class="navelem"><a class="el" href="dir_e4b0e97d5be154b86d300a887454a3dc.html">Esmtp</a></li><li class="navelem"><a class="el" href="dir_047a507f161e3efd73b2b01a1c0f83e6.html">Auth</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">CramMd5Authenticator.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_cram_md5_authenticator_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This file is part of SwiftMailer.</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * (c) 2004-2009 Chris Corbyn</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * For the full copyright and license information, please view the LICENSE</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> */</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">//@require &#39;Swift/Transport/Esmtp/Authenticator.php&#39;;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//@require &#39;Swift/Transport/SmtpAgent.php&#39;;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">//@require &#39;Swift/TransportException.php&#39;;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_swift___transport___esmtp___auth___cram_md5_authenticator.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_swift___transport___esmtp___auth___cram_md5_authenticator.html">Swift_Transport_Esmtp_Auth_CramMd5Authenticator</a></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keyword">implements</span> <a class="code" href="interface_swift___transport___esmtp___authenticator.html">Swift_Transport_Esmtp_Authenticator</a></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  </div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_swift___transport___esmtp___auth___cram_md5_authenticator.html#a065330bd5c68b1a9df95c0cee8f49588">   29</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___transport___esmtp___auth___cram_md5_authenticator.html#a065330bd5c68b1a9df95c0cee8f49588">getAuthKeyword</a>()</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&#39;CRAM-MD5&#39;</span>;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  }</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  </div><div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_swift___transport___esmtp___auth___cram_md5_authenticator.html#a61024d932e52e24199cbd4578c696410">   41</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___transport___esmtp___auth___cram_md5_authenticator.html#a61024d932e52e24199cbd4578c696410">authenticate</a>(<a class="code" href="interface_swift___transport___smtp_agent.html">Swift_Transport_SmtpAgent</a> $agent,</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    $username, $password)</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">try</span></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    {</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;      $challenge = $agent-&gt;<a class="code" href="interface_swift___transport___smtp_agent.html#a8435a8a6de87472c2407514683c3a840">executeCommand</a>(<span class="stringliteral">&quot;AUTH CRAM-MD5\r\n&quot;</span>, array(334));</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;      $challenge = base64_decode(substr($challenge, 4));</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;      $message = base64_encode(</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        $username . <span class="charliteral">&#39; &#39;</span> . $this-&gt;_getResponse($password, $challenge)</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        );</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;      $agent-&gt;<a class="code" href="interface_swift___transport___smtp_agent.html#a8435a8a6de87472c2407514683c3a840">executeCommand</a>(sprintf(<span class="stringliteral">&quot;%s\r\n&quot;</span>, $message), array(235));</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">catch</span> (<a class="code" href="class_swift___transport_exception.html">Swift_TransportException</a> $e)</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      $agent-&gt;<a class="code" href="interface_swift___transport___smtp_agent.html#a8435a8a6de87472c2407514683c3a840">executeCommand</a>(<span class="stringliteral">&quot;RSET\r\n&quot;</span>, array(250));</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  }</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  </div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <span class="keyword">private</span> <span class="keyword">function</span> _getResponse($secret, $challenge)</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  {</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">if</span> (strlen($secret) &gt; 64)</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    {</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      $secret = pack(<span class="stringliteral">&#39;H32&#39;</span>, md5($secret));</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    </div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">if</span> (strlen($secret) &lt; 64)</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    {</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;      $secret = str_pad($secret, 64, chr(0));</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    </div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    $k_ipad = substr($secret, 0, 64) ^ str_repeat(chr(0x36), 64);</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    $k_opad = substr($secret, 0, 64) ^ str_repeat(chr(0x5C), 64);</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    $inner  = pack(<span class="stringliteral">&#39;H32&#39;</span>, md5($k_ipad . $challenge));</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    $digest = md5($k_opad . $inner);</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">return</span> $digest;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  }</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  </div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div><div class="ttc" id="class_swift___transport___esmtp___auth___cram_md5_authenticator_html_a61024d932e52e24199cbd4578c696410"><div class="ttname"><a href="class_swift___transport___esmtp___auth___cram_md5_authenticator.html#a61024d932e52e24199cbd4578c696410">Swift_Transport_Esmtp_Auth_CramMd5Authenticator\authenticate</a></div><div class="ttdeci">authenticate(Swift_Transport_SmtpAgent $agent, $username, $password)</div><div class="ttdef"><b>Definition:</b> <a href="_cram_md5_authenticator_8php_source.html#l00041">CramMd5Authenticator.php:41</a></div></div>
+<div class="ttc" id="class_swift___transport_exception_html"><div class="ttname"><a href="class_swift___transport_exception.html">Swift_TransportException</a></div><div class="ttdef"><b>Definition:</b> <a href="_transport_exception_8php_source.html#l00019">TransportException.php:19</a></div></div>
+<div class="ttc" id="class_swift___transport___esmtp___auth___cram_md5_authenticator_html_a065330bd5c68b1a9df95c0cee8f49588"><div class="ttname"><a href="class_swift___transport___esmtp___auth___cram_md5_authenticator.html#a065330bd5c68b1a9df95c0cee8f49588">Swift_Transport_Esmtp_Auth_CramMd5Authenticator\getAuthKeyword</a></div><div class="ttdeci">getAuthKeyword()</div><div class="ttdef"><b>Definition:</b> <a href="_cram_md5_authenticator_8php_source.html#l00029">CramMd5Authenticator.php:29</a></div></div>
+<div class="ttc" id="class_swift___transport___esmtp___auth___cram_md5_authenticator_html"><div class="ttname"><a href="class_swift___transport___esmtp___auth___cram_md5_authenticator.html">Swift_Transport_Esmtp_Auth_CramMd5Authenticator</a></div><div class="ttdef"><b>Definition:</b> <a href="_cram_md5_authenticator_8php_source.html#l00021">CramMd5Authenticator.php:21</a></div></div>
+<div class="ttc" id="interface_swift___transport___smtp_agent_html_a8435a8a6de87472c2407514683c3a840"><div class="ttname"><a href="interface_swift___transport___smtp_agent.html#a8435a8a6de87472c2407514683c3a840">Swift_Transport_SmtpAgent\executeCommand</a></div><div class="ttdeci">executeCommand($command, $codes=array(), &amp;$failures=null)</div></div>
+<div class="ttc" id="interface_swift___transport___smtp_agent_html"><div class="ttname"><a href="interface_swift___transport___smtp_agent.html">Swift_Transport_SmtpAgent</a></div><div class="ttdef"><b>Definition:</b> <a href="_smtp_agent_8php_source.html#l00017">SmtpAgent.php:17</a></div></div>
+<div class="ttc" id="interface_swift___transport___esmtp___authenticator_html"><div class="ttname"><a href="interface_swift___transport___esmtp___authenticator.html">Swift_Transport_Esmtp_Authenticator</a></div><div class="ttdef"><b>Definition:</b> <a href="_authenticator_8php_source.html#l00019">Authenticator.php:19</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

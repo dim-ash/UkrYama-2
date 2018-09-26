@@ -1,0 +1,6 @@
+<map id="Google_Exception" name="Google_Exception">
+<area shape="rect" id="node3" href="$class_google___auth_exception.html" title="{Google_AuthException\n||}" alt="" coords="5,255,163,328"/>
+<area shape="rect" id="node4" href="$class_google___cache_exception.html" title="{Google_CacheException\n||}" alt="" coords="186,255,355,328"/>
+<area shape="rect" id="node5" href="$class_google___i_o_exception.html" title="{Google_IOException\n||}" alt="" coords="379,255,523,328"/>
+<area shape="rect" id="node6" href="$class_google___service_exception.html" title="{Google_ServiceException\n|# $errors\l|+ __construct()\l+ getErrors()\l}" alt="" coords="547,248,722,335"/>
+</map>

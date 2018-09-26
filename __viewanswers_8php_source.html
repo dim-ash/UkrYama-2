@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/views/holes/_viewanswers.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_771cb8db934956a03dedce5d7ea4c9d4.html">views</a></li><li class="navelem"><a class="el" href="dir_72b16e0f7280fc0393c39d2f7bdccf25.html">holes</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">_viewanswers.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="__viewanswers_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php </div><div class="line"><a name="l00002"></a><span class="lineno"><a class="line" href="__viewanswers_8php.html#a4d34bd46745a4a3057db9340083b4047">    2</a></span>&#160;<span class="keywordflow">if</span>(Yii::app()-&gt;getLanguage()==<span class="stringliteral">&quot;ru&quot;</span>){<a class="code" href="reply_8php.html#afd50104561a8c937736934ec06951609">$param</a>=<span class="stringliteral">&quot;auth_ru&quot;</span>;}<span class="keywordflow">else</span>{<a class="code" href="reply_8php.html#afd50104561a8c937736934ec06951609">$param</a>=<span class="stringliteral">&quot;auth_ua&quot;</span>;}</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keywordflow">foreach</span>($hole-&gt;requests as $request){</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    <span class="keywordflow">if</span>($request-&gt;answers){</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        <span class="keywordflow">foreach</span>($request-&gt;answers as <a class="code" href="reply_8php.html#a0e19bfec58056b2dda978621c4acf3c1">$answer</a>){</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;                echo CHtml::openTag(<span class="stringliteral">&#39;div&#39;</span>, array(<span class="stringliteral">&#39;class&#39;</span>=&gt;<span class="stringliteral">&#39;after&#39;</span>));</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;                echo <span class="stringliteral">&#39;&lt;h2&gt;&#39;</span>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;                echo Yii::t(<span class="stringliteral">&#39;holes_view&#39;</span>, <span class="stringliteral">&#39;HOLE_AUTHREPLY_USER_DATE&#39;</span>, array(<span class="stringliteral">&#39;{0}&#39;</span>=&gt;$request-&gt;$param-&gt;name,<span class="stringliteral">&#39;{1}&#39;</span>=&gt;$request-&gt;user-&gt;fullname, <span class="stringliteral">&#39;{2}&#39;</span>=&gt;date(<span class="stringliteral">&#39;d.m.Y&#39;</span>,<a class="code" href="reply_8php.html#a0e19bfec58056b2dda978621c4acf3c1">$answer</a>-&gt;date)));</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;                echo <span class="stringliteral">&#39;&lt;/h2&gt;&#39;</span>;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="reply_8php.html#a0e19bfec58056b2dda978621c4acf3c1">$answer</a>-&gt;files_other){</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                <span class="keywordflow">foreach</span>(<a class="code" href="reply_8php.html#a0e19bfec58056b2dda978621c4acf3c1">$answer</a>-&gt;files_other as $file){</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                    echo <span class="stringliteral">&quot;&lt;p class=&#39;holes_pict_p&#39;&gt;&quot;</span>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                    <span class="keywordflow">if</span> ($request-&gt;user_id==Yii::app()-&gt;user-&gt;id)</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                        echo <a class="code" href="views_2_e_comments_form_widget_8php.html#a3de80f9e427073d40808269e3a8c0ab3">CHtml::link</a>(Yii::t(<span class="stringliteral">&#39;template&#39;</span>, <span class="stringliteral">&#39;DELETE_FILE&#39;</span>), Array(<span class="stringliteral">&#39;delanswerfile&#39;</span>,<span class="stringliteral">&#39;id&#39;</span>=&gt;$file-&gt;id), Array(<span class="stringliteral">&#39;class&#39;</span>=&gt;<span class="stringliteral">&#39;declarationBtn&#39;</span>));</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                    echo <span class="stringliteral">&quot;&lt;br&gt;&quot;</span>.CHtml::link($file-&gt;file_name, <a class="code" href="reply_8php.html#a0e19bfec58056b2dda978621c4acf3c1">$answer</a>-&gt;filesFolder.<span class="charliteral">&#39;/&#39;</span>.$file-&gt;file_name, Array(<span class="stringliteral">&#39;class&#39;</span>=&gt;<span class="stringliteral">&#39;declarationBtn&#39;</span>)); </div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                    echo <span class="stringliteral">&quot;&lt;/p&gt;&quot;</span>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                }</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keywordflow">foreach</span>(<a class="code" href="reply_8php.html#a0e19bfec58056b2dda978621c4acf3c1">$answer</a>-&gt;files_img as <a class="code" href="example52__new__m_p_d_f__4-2__features_8php.html#a56a9a0da0c26b3d3029cea47a6b9292f">$img</a>){</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                echo <span class="stringliteral">&quot;&lt;p class=&#39;holes_pict_p&#39;&gt;&quot;</span>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">if</span> ($request-&gt;user_id==Yii::app()-&gt;user-&gt;id)</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                    echo <a class="code" href="views_2_e_comments_form_widget_8php.html#a3de80f9e427073d40808269e3a8c0ab3">CHtml::link</a>(Yii::t(<span class="stringliteral">&#39;template&#39;</span>, <span class="stringliteral">&#39;DELETE_IMAGE&#39;</span>), Array(<span class="stringliteral">&#39;delanswerfile&#39;</span>,<span class="stringliteral">&#39;id&#39;</span>=&gt;<a class="code" href="example52__new__m_p_d_f__4-2__features_8php.html#a56a9a0da0c26b3d3029cea47a6b9292f">$img</a>-&gt;id), Array(<span class="stringliteral">&#39;class&#39;</span>=&gt;<span class="stringliteral">&#39;declarationBtn&#39;</span>)).<span class="stringliteral">&#39;&lt;br /&gt;&#39;</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                echo <a class="code" href="views_2_e_comments_form_widget_8php.html#a3de80f9e427073d40808269e3a8c0ab3">CHtml::link</a>(CHtml::image(<a class="code" href="reply_8php.html#a0e19bfec58056b2dda978621c4acf3c1">$answer</a>-&gt;filesFolder.<span class="stringliteral">&#39;/thumbs/&#39;</span>.<a class="code" href="example52__new__m_p_d_f__4-2__features_8php.html#a56a9a0da0c26b3d3029cea47a6b9292f">$img</a>-&gt;file_name), </div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                    <a class="code" href="reply_8php.html#a0e19bfec58056b2dda978621c4acf3c1">$answer</a>-&gt;filesFolder.<span class="charliteral">&#39;/&#39;</span>.<a class="code" href="example52__new__m_p_d_f__4-2__features_8php.html#a56a9a0da0c26b3d3029cea47a6b9292f">$img</a>-&gt;file_name, </div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                    array(<span class="stringliteral">&#39;class&#39;</span>=&gt;<span class="stringliteral">&#39;holes_pict&#39;</span>,</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                    <span class="stringliteral">&#39;rel&#39;</span>=&gt;<span class="stringliteral">&#39;answer_&#39;</span>.<a class="code" href="reply_8php.html#a0e19bfec58056b2dda978621c4acf3c1">$answer</a>-&gt;id, </div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                    <span class="stringliteral">&#39;title&#39;</span>=&gt; Yii::t(<span class="stringliteral">&#39;template&#39;</span>, <span class="stringliteral">&#39;UPLOAD_AT_DATE&#39;</span>, array(<span class="stringliteral">&#39;{0}&#39;</span>=&gt;<a class="code" href="class_y.html#a0549a00119e06485075f0fc60f011306">Y::dateTimeFromTime</a>(<a class="code" href="reply_8php.html#a0e19bfec58056b2dda978621c4acf3c1">$answer</a>-&gt;createdate))), </div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                ));</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                echo <span class="stringliteral">&quot;&lt;/p&gt;&quot;</span>;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            }</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">//следует добавить ссылку для редактирования ответов</span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            echo CHtml::closeTag(<span class="stringliteral">&#39;div&#39;</span>);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="reply_8php.html#a0e19bfec58056b2dda978621c4acf3c1">$answer</a>-&gt;comment) echo Yii::t(<span class="stringliteral">&#39;template&#39;</span>, <span class="stringliteral">&#39;COMMENT&#39;</span>).$answer-&gt;comment.<span class="stringliteral">&quot;&lt;/p&gt;&quot;</span>;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;?&gt;</div><div class="ttc" id="reply_8php_html_afd50104561a8c937736934ec06951609"><div class="ttname"><a href="reply_8php.html#afd50104561a8c937736934ec06951609">$param</a></div><div class="ttdeci">if(count($requests)&gt;0) $param</div><div class="ttdef"><b>Definition:</b> <a href="reply_8php_source.html#l00006">reply.php:6</a></div></div>
+<div class="ttc" id="views_2_e_comments_form_widget_8php_html_a3de80f9e427073d40808269e3a8c0ab3"><div class="ttname"><a href="views_2_e_comments_form_widget_8php.html#a3de80f9e427073d40808269e3a8c0ab3">link</a></div><div class="ttdeci">$newComment link</div><div class="ttdef"><b>Definition:</b> <a href="views_2_e_comments_form_widget_8php_source.html#l00022">ECommentsFormWidget.php:22</a></div></div>
+<div class="ttc" id="example52__new__m_p_d_f__4-2__features_8php_html_a56a9a0da0c26b3d3029cea47a6b9292f"><div class="ttname"><a href="example52__new__m_p_d_f__4-2__features_8php.html#a56a9a0da0c26b3d3029cea47a6b9292f">$img</a></div><div class="ttdeci">$img</div><div class="ttdef"><b>Definition:</b> <a href="example52__new__m_p_d_f__4-2__features_8php_source.html#l00466">example52_new_mPDF_4-2_features.php:466</a></div></div>
+<div class="ttc" id="reply_8php_html_a0e19bfec58056b2dda978621c4acf3c1"><div class="ttname"><a href="reply_8php.html#a0e19bfec58056b2dda978621c4acf3c1">$answer</a></div><div class="ttdeci">$answer</div><div class="ttdef"><b>Definition:</b> <a href="reply_8php_source.html#l00011">reply.php:11</a></div></div>
+<div class="ttc" id="class_y_html_a0549a00119e06485075f0fc60f011306"><div class="ttname"><a href="class_y.html#a0549a00119e06485075f0fc60f011306">Y\dateTimeFromTime</a></div><div class="ttdeci">static dateTimeFromTime($time)</div><div class="ttdef"><b>Definition:</b> <a href="_y_8php_source.html#l00036">Y.php:36</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

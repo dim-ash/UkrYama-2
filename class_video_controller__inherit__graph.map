@@ -1,0 +1,3 @@
+<map id="VideoController" name="VideoController">
+<area shape="rect" id="node2" href="$class_controller.html" title="{Controller\n|+ $layout\l+ $title\l+ $menu\l+ $breadcrumbs\l+ $_permissionControl\l|+ getUser()\l+ filterUserGroupsAccessControl()\l+ getMapkey()\l+ filterUserGroupsAccessControl()\l# beforeAction()\l}" alt="" coords="5,127,230,307"/>
+</map>

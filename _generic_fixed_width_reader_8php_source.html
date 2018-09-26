@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/modules/userGroups/components/yii-mail/vendors/swiftMailer/classes/Swift/CharacterReader/GenericFixedWidthReader.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_b9874050543d9bf801828959d5af7e08.html">modules</a></li><li class="navelem"><a class="el" href="dir_5f2ca876ed623614a551661d5ad436e2.html">userGroups</a></li><li class="navelem"><a class="el" href="dir_3af8527d3a292461f703522a7735f22d.html">components</a></li><li class="navelem"><a class="el" href="dir_e7389c68147bcb225836d133883587f9.html">yii-mail</a></li><li class="navelem"><a class="el" href="dir_7c00826db0b603d9f1219296bf24edb6.html">vendors</a></li><li class="navelem"><a class="el" href="dir_89bff85714102eab7b303e6d9fdb32ce.html">swiftMailer</a></li><li class="navelem"><a class="el" href="dir_be079ef1232344ba61031a6293168d37.html">classes</a></li><li class="navelem"><a class="el" href="dir_f4d1f2b2221467ba311892f8aaf2aa86.html">Swift</a></li><li class="navelem"><a class="el" href="dir_180267f52d609392d04ab528fcba1b5c.html">CharacterReader</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">GenericFixedWidthReader.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_generic_fixed_width_reader_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This file is part of SwiftMailer.</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * (c) 2004-2009 Chris Corbyn</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * For the full copyright and license information, please view the LICENSE</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> */</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">//@require &#39;Swift/CharacterReader.php&#39;;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_swift___character_reader___generic_fixed_width_reader.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_swift___character_reader___generic_fixed_width_reader.html">Swift_CharacterReader_GenericFixedWidthReader</a></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keyword">implements</span> <a class="code" href="interface_swift___character_reader.html">Swift_CharacterReader</a></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;   </div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keyword">private</span> $_width;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    </div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_swift___character_reader___generic_fixed_width_reader.html#a872d55c630dd41435cce1d39e5c8b8e4">   35</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___character_reader___generic_fixed_width_reader.html#a872d55c630dd41435cce1d39e5c8b8e4">__construct</a>($width)</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  {</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    $this-&gt;_width = $width;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  }</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="class_swift___character_reader___generic_fixed_width_reader.html#ab57f1cd67c7b93e7b42baf365aa5ff5e">   49</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___character_reader___generic_fixed_width_reader.html#ab57f1cd67c7b93e7b42baf365aa5ff5e">getCharPositions</a>($string, $startOffset, &amp;$currentMap, &amp;$ignoredChars)</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  {</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    $strlen = strlen($string);</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">// % and / are CPU intensive, so, maybe find a better way</span></div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    $ignored = $strlen%$this-&gt;_width;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    $ignoredChars = substr($string, - $ignored);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    $currentMap = $this-&gt;_width;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> ($strlen - $ignored)/$this-&gt;_width;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    </div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  }</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  </div><div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_swift___character_reader___generic_fixed_width_reader.html#ae1a7539ccb7c053f57be5e65bbdb92f1">   64</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___character_reader___generic_fixed_width_reader.html#ae1a7539ccb7c053f57be5e65bbdb92f1">getMapType</a>()</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  {</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">return</span> self::MAP_TYPE_FIXED_LEN;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  }</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div><div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="class_swift___character_reader___generic_fixed_width_reader.html#af5782ee91af35ef3b62b7d0fdcae64aa">   78</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___character_reader___generic_fixed_width_reader.html#af5782ee91af35ef3b62b7d0fdcae64aa">validateByteSequence</a>($bytes, $size)</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  {</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    $needed = $this-&gt;_width - $size;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">return</span> ($needed &gt; -1)</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      ? $needed</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      : -1</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;      ;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  }</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="class_swift___character_reader___generic_fixed_width_reader.html#a0bb7d8b19306eba25a0fcce4bb63ab71">   91</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___character_reader___generic_fixed_width_reader.html#a0bb7d8b19306eba25a0fcce4bb63ab71">getInitialByteSize</a>()</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  {</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordflow">return</span> $this-&gt;_width;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  }</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;}</div><div class="ttc" id="class_swift___character_reader___generic_fixed_width_reader_html_a872d55c630dd41435cce1d39e5c8b8e4"><div class="ttname"><a href="class_swift___character_reader___generic_fixed_width_reader.html#a872d55c630dd41435cce1d39e5c8b8e4">Swift_CharacterReader_GenericFixedWidthReader\__construct</a></div><div class="ttdeci">__construct($width)</div><div class="ttdef"><b>Definition:</b> <a href="_generic_fixed_width_reader_8php_source.html#l00035">GenericFixedWidthReader.php:35</a></div></div>
+<div class="ttc" id="interface_swift___character_reader_html"><div class="ttname"><a href="interface_swift___character_reader.html">Swift_CharacterReader</a></div><div class="ttdef"><b>Definition:</b> <a href="_character_reader_8php_source.html#l00018">CharacterReader.php:18</a></div></div>
+<div class="ttc" id="class_swift___character_reader___generic_fixed_width_reader_html_ab57f1cd67c7b93e7b42baf365aa5ff5e"><div class="ttname"><a href="class_swift___character_reader___generic_fixed_width_reader.html#ab57f1cd67c7b93e7b42baf365aa5ff5e">Swift_CharacterReader_GenericFixedWidthReader\getCharPositions</a></div><div class="ttdeci">getCharPositions($string, $startOffset, &amp;$currentMap, &amp;$ignoredChars)</div><div class="ttdef"><b>Definition:</b> <a href="_generic_fixed_width_reader_8php_source.html#l00049">GenericFixedWidthReader.php:49</a></div></div>
+<div class="ttc" id="class_swift___character_reader___generic_fixed_width_reader_html_af5782ee91af35ef3b62b7d0fdcae64aa"><div class="ttname"><a href="class_swift___character_reader___generic_fixed_width_reader.html#af5782ee91af35ef3b62b7d0fdcae64aa">Swift_CharacterReader_GenericFixedWidthReader\validateByteSequence</a></div><div class="ttdeci">validateByteSequence($bytes, $size)</div><div class="ttdef"><b>Definition:</b> <a href="_generic_fixed_width_reader_8php_source.html#l00078">GenericFixedWidthReader.php:78</a></div></div>
+<div class="ttc" id="class_swift___character_reader___generic_fixed_width_reader_html_a0bb7d8b19306eba25a0fcce4bb63ab71"><div class="ttname"><a href="class_swift___character_reader___generic_fixed_width_reader.html#a0bb7d8b19306eba25a0fcce4bb63ab71">Swift_CharacterReader_GenericFixedWidthReader\getInitialByteSize</a></div><div class="ttdeci">getInitialByteSize()</div><div class="ttdef"><b>Definition:</b> <a href="_generic_fixed_width_reader_8php_source.html#l00091">GenericFixedWidthReader.php:91</a></div></div>
+<div class="ttc" id="class_swift___character_reader___generic_fixed_width_reader_html_ae1a7539ccb7c053f57be5e65bbdb92f1"><div class="ttname"><a href="class_swift___character_reader___generic_fixed_width_reader.html#ae1a7539ccb7c053f57be5e65bbdb92f1">Swift_CharacterReader_GenericFixedWidthReader\getMapType</a></div><div class="ttdeci">getMapType()</div><div class="ttdef"><b>Definition:</b> <a href="_generic_fixed_width_reader_8php_source.html#l00064">GenericFixedWidthReader.php:64</a></div></div>
+<div class="ttc" id="class_swift___character_reader___generic_fixed_width_reader_html"><div class="ttname"><a href="class_swift___character_reader___generic_fixed_width_reader.html">Swift_CharacterReader_GenericFixedWidthReader</a></div><div class="ttdef"><b>Definition:</b> <a href="_generic_fixed_width_reader_8php_source.html#l00020">GenericFixedWidthReader.php:20</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

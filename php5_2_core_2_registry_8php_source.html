@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/extensions/ckeditor/assets/ckfinder/core/connector/php/php5/Core/Registry.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_d421cd4c3ee495eb6f52b31f8138d6f3.html">extensions</a></li><li class="navelem"><a class="el" href="dir_cd8af441c5ed652253b7c9965163a9c6.html">ckeditor</a></li><li class="navelem"><a class="el" href="dir_e90cf5d58dbfd42402fc3fedd7c3a9fb.html">assets</a></li><li class="navelem"><a class="el" href="dir_052a841e3bed1a17c0877a321f9ec47d.html">ckfinder</a></li><li class="navelem"><a class="el" href="dir_835a5170b59201dadea7936e4544c922.html">core</a></li><li class="navelem"><a class="el" href="dir_8ded6da65261f82ecdb77ae7e7b4f1a2.html">connector</a></li><li class="navelem"><a class="el" href="dir_0bdd4b58c3a205a7f27c37046e275b7d.html">php</a></li><li class="navelem"><a class="el" href="dir_3234058905b6540456bd1f3a4080a286.html">php5</a></li><li class="navelem"><a class="el" href="dir_e5d4b501e6fc26d4250517d3b1cd26c0.html">Core</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Registry.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="php5_2_core_2_registry_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * CKFinder</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * ========</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * http://ckfinder.com</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright (C) 2007-2010, CKSource - Frederico Knabben. All rights reserved.</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * The software, this file and its contents are subject to the CKFinder</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * License. Please read the license.txt file before using, installing, copying,</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * modifying or distribute this file or part of its contents. The contents of</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * this file is part of the Source Code of CKFinder.</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> */</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keywordflow">if</span> (!<a class="code" href="index_8php.html#aec0e90bd149e61dc80acb4313f718a97">defined</a>(<span class="stringliteral">&#39;IN_CKFINDER&#39;</span>)) <a class="code" href="compress_8php.html#a6733eb5f605d09eaede9845835d71c4e">exit</a>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">class </span><a class="code" href="class_c_k_finder___connector___core___registry.html">CKFinder_Connector_Core_Registry</a></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">private</span> <a class="code" href="class_c_k_finder___connector___core___registry.html#a86284b130004bbab5dfdc41bce469b0a">$_store</a> = array();</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keyword">private</span> <span class="keyword">function</span> <a class="code" href="class_c_k_finder___connector___core___registry.html#a217add876a941bb875ebd857a16b066a">isValid</a>($key)</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> array_key_exists($key, $this-&gt;_store);</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="class_c_k_finder___connector___core___registry.html#abf4cd2c0159cbf92d7d6f24538c5de28">   57</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <span class="keyword">set</span>($key, $obj)</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    {</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        $this-&gt;_store[$key] = $obj;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="class_c_k_finder___connector___core___registry.html#a3bc3dd7fd5feb45a2faa3534fcc2b750">   69</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <span class="keyword">get</span>($key)</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    {</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">if</span> ($this-&gt;<a class="code" href="class_c_k_finder___connector___core___registry.html#a217add876a941bb875ebd857a16b066a">isValid</a>($key)) {</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <span class="keywordflow">return</span> $this-&gt;_store[$key];</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        }</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div><div class="ttc" id="compress_8php_html_a6733eb5f605d09eaede9845835d71c4e"><div class="ttname"><a href="compress_8php.html#a6733eb5f605d09eaede9845835d71c4e">exit</a></div><div class="ttdeci">exit</div><div class="ttdef"><b>Definition:</b> <a href="compress_8php_source.html#l00168">compress.php:168</a></div></div>
+<div class="ttc" id="class_c_k_finder___connector___core___registry_html_a217add876a941bb875ebd857a16b066a"><div class="ttname"><a href="class_c_k_finder___connector___core___registry.html#a217add876a941bb875ebd857a16b066a">CKFinder_Connector_Core_Registry\isValid</a></div><div class="ttdeci">isValid($key)</div><div class="ttdef"><b>Definition:</b> <a href="php4_2_core_2_registry_8php_source.html#l00045">Registry.php:45</a></div></div>
+<div class="ttc" id="index_8php_html_aec0e90bd149e61dc80acb4313f718a97"><div class="ttname"><a href="index_8php.html#aec0e90bd149e61dc80acb4313f718a97">defined</a></div><div class="ttdeci">defined( 'YII_TRACE_LEVEL') or define( 'YII_TRACE_LEVEL'</div><div class="ttdef"><b>Definition:</b> <a href="index_8php_source.html#l00010">index.php:10</a></div></div>
+<div class="ttc" id="class_c_k_finder___connector___core___registry_html"><div class="ttname"><a href="class_c_k_finder___connector___core___registry.html">CKFinder_Connector_Core_Registry</a></div><div class="ttdef"><b>Definition:</b> <a href="php4_2_core_2_registry_8php_source.html#l00028">Registry.php:28</a></div></div>
+<div class="ttc" id="class_c_k_finder___connector___core___registry_html_a86284b130004bbab5dfdc41bce469b0a"><div class="ttname"><a href="class_c_k_finder___connector___core___registry.html#a86284b130004bbab5dfdc41bce469b0a">CKFinder_Connector_Core_Registry\$_store</a></div><div class="ttdeci">$_store</div><div class="ttdef"><b>Definition:</b> <a href="php4_2_core_2_registry_8php_source.html#l00036">Registry.php:36</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

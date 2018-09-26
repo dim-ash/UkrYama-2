@@ -1,0 +1,4 @@
+<map id="Swift_Plugins_Sleeper" name="Swift_Plugins_Sleeper">
+<area shape="rect" id="node2" href="$class_swift___plugins___anti_flood_plugin.html" title="{Swift_Plugins_AntiFloodPlugin\n||+ __construct()\l+ setThreshold()\l+ getThreshold()\l+ setSleepTime()\l+ getSleepTime()\l+ beforeSendPerformed()\l+ sendPerformed()\l+ sleep()\l}" alt="" coords="5,127,208,293"/>
+<area shape="rect" id="node3" href="$class_swift___plugins___throttler_plugin.html" title="{Swift_Plugins_ThrottlerPlugin\n|+ BYTES_PER_MINUTE\l+ MESSAGES_PER_MINUTE\l|+ __construct()\l+ beforeSendPerformed()\l+ sendPerformed()\l+ sleep()\l+ getTimestamp()\l}" alt="" coords="231,140,432,280"/>
+</map>

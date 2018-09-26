@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/modules/userGroups/templates/template_Controller.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_b9874050543d9bf801828959d5af7e08.html">modules</a></li><li class="navelem"><a class="el" href="dir_5f2ca876ed623614a551661d5ad436e2.html">userGroups</a></li><li class="navelem"><a class="el" href="dir_2ffcd490321ba59f427b000846526d32.html">templates</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">template_Controller.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="template___controller_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">class </span><a class="code" href="class_controller.html">Controller</a> <span class="keyword">extends</span> CController</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <a class="code" href="class_controller.html#a8edee5d46282c5a0d561909671e090ad">$_permissionControl</a> = array(<span class="stringliteral">&#39;read&#39;</span> =&gt; <span class="keyword">false</span>, <span class="stringliteral">&#39;write&#39;</span> =&gt; <span class="keyword">false</span>, <span class="stringliteral">&#39;admin&#39;</span> =&gt; <span class="keyword">false</span>);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">public</span> <a class="code" href="class_controller.html#aea20fa396e0fa1b8a500e7b8276e4d9a">$layout</a>=<span class="stringliteral">&#39;//layouts/column1&#39;</span>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">public</span> <a class="code" href="class_controller.html#a196de55e6811cd9ffab6f13ff2be0b9e">$menu</a>=array();</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">public</span> <a class="code" href="class_controller.html#a35d4e3689f0f6ac9e7d7565150ddecbc">$breadcrumbs</a>=array();</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_controller.html#ac43221303368b3fcbc32a9ef15482691">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_controller.html#ac43221303368b3fcbc32a9ef15482691">filterUserGroupsAccessControl</a>($filterChain)</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    {</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        Yii::import(<span class="stringliteral">&#39;userGroups.models.UserGroupsUser&#39;</span>);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        Yii::import(<span class="stringliteral">&#39;userGroups.models.UserGroupsConfiguration&#39;</span>);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        Yii::import(<span class="stringliteral">&#39;userGroups.components.UserGroupsAccessControl&#39;</span>);</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        $filter=<span class="keyword">new</span> <a class="code" href="class_user_groups_access_control.html">UserGroupsAccessControl</a>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        $filter-&gt;<a class="code" href="class_user_groups_access_control.html#a27c828e4fd7d1558252f6eb3e5ddcbd4">setRules</a>($this-&gt;accessRules());</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        $filter-&gt;filter($filterChain);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    </div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div><div class="ttc" id="class_user_groups_access_control_html"><div class="ttname"><a href="class_user_groups_access_control.html">UserGroupsAccessControl</a></div><div class="ttdef"><b>Definition:</b> <a href="_user_groups_access_control_8php_source.html#l00049">UserGroupsAccessControl.php:49</a></div></div>
+<div class="ttc" id="class_controller_html_a196de55e6811cd9ffab6f13ff2be0b9e"><div class="ttname"><a href="class_controller.html#a196de55e6811cd9ffab6f13ff2be0b9e">Controller\$menu</a></div><div class="ttdeci">$menu</div><div class="ttdef"><b>Definition:</b> <a href="_controller_8php_source.html#l00034">Controller.php:34</a></div></div>
+<div class="ttc" id="class_controller_html_a8edee5d46282c5a0d561909671e090ad"><div class="ttname"><a href="class_controller.html#a8edee5d46282c5a0d561909671e090ad">Controller\$_permissionControl</a></div><div class="ttdeci">static $_permissionControl</div><div class="ttdef"><b>Definition:</b> <a href="_controller_8php_source.html#l00014">Controller.php:14</a></div></div>
+<div class="ttc" id="class_controller_html_a35d4e3689f0f6ac9e7d7565150ddecbc"><div class="ttname"><a href="class_controller.html#a35d4e3689f0f6ac9e7d7565150ddecbc">Controller\$breadcrumbs</a></div><div class="ttdeci">$breadcrumbs</div><div class="ttdef"><b>Definition:</b> <a href="_controller_8php_source.html#l00040">Controller.php:40</a></div></div>
+<div class="ttc" id="class_controller_html_ac43221303368b3fcbc32a9ef15482691"><div class="ttname"><a href="class_controller.html#ac43221303368b3fcbc32a9ef15482691">Controller\filterUserGroupsAccessControl</a></div><div class="ttdeci">filterUserGroupsAccessControl($filterChain)</div><div class="ttdef"><b>Definition:</b> <a href="template___controller_8php_source.html#l00036">template_Controller.php:36</a></div></div>
+<div class="ttc" id="class_controller_html_aea20fa396e0fa1b8a500e7b8276e4d9a"><div class="ttname"><a href="class_controller.html#aea20fa396e0fa1b8a500e7b8276e4d9a">Controller\$layout</a></div><div class="ttdeci">$layout</div><div class="ttdef"><b>Definition:</b> <a href="_controller_8php_source.html#l00019">Controller.php:19</a></div></div>
+<div class="ttc" id="class_controller_html"><div class="ttname"><a href="class_controller.html">Controller</a></div><div class="ttdef"><b>Definition:</b> <a href="_controller_8php_source.html#l00006">Controller.php:6</a></div></div>
+<div class="ttc" id="class_user_groups_access_control_html_a27c828e4fd7d1558252f6eb3e5ddcbd4"><div class="ttname"><a href="class_user_groups_access_control.html#a27c828e4fd7d1558252f6eb3e5ddcbd4">UserGroupsAccessControl\setRules</a></div><div class="ttdeci">setRules($rules)</div><div class="ttdef"><b>Definition:</b> <a href="_user_groups_access_control_8php_source.html#l00065">UserGroupsAccessControl.php:65</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

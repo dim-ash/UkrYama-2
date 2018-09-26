@@ -1,0 +1,4 @@
+<map id="Swift_KeyCache_KeyCacheInputStream" name="Swift_KeyCache_KeyCacheInputStream">
+<area shape="rect" id="node3" href="$class_swift___key_cache___simple_key_cache_input_stream.html" title="{Swift_KeyCache_SimpleKey\lCacheInputStream\n||+ setKeyCache()\l+ setWriteThroughStream()\l+ write()\l+ commit()\l+ bind()\l+ unbind()\l+ flushBuffers()\l+ setNsKey()\l+ setItemKey()\l+ __clone()\l}" alt="" coords="19,368,209,575"/>
+<area shape="rect" id="node2" href="$interface_swift___input_byte_stream.html" title="{Swift_InputByteStream\n||+ write()\l+ commit()\l+ bind()\l+ unbind()\l+ flushBuffers()\l}" alt="" coords="36,5,193,132"/>
+</map>

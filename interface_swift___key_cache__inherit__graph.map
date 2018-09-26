@@ -1,0 +1,5 @@
+<map id="Swift_KeyCache" name="Swift_KeyCache">
+<area shape="rect" id="node2" href="$class_swift___key_cache___array_key_cache.html" title="{Swift_KeyCache_ArrayKeyCache\n||+ __construct()\l+ setString()\l+ importFromByteStream()\l+ getInputByteStream()\l+ getString()\l+ exportToByteStream()\l+ hasKey()\l+ clearKey()\l+ clearAll()\l}" alt="" coords="5,247,225,427"/>
+<area shape="rect" id="node3" href="$class_swift___key_cache___disk_key_cache.html" title="{Swift_KeyCache_DiskKeyCache\n|+ POSITION_START\l+ POSITION_END\l|+ __construct()\l+ setString()\l+ importFromByteStream()\l+ getInputByteStream()\l+ getString()\l+ exportToByteStream()\l+ hasKey()\l+ clearKey()\l+ clearAll()\l+ __destruct()\l}" alt="" coords="250,233,464,440"/>
+<area shape="rect" id="node4" href="$class_swift___key_cache___null_key_cache.html" title="{Swift_KeyCache_NullKeyCache\n||+ setString()\l+ importFromByteStream()\l+ getInputByteStream()\l+ getString()\l+ exportToByteStream()\l+ hasKey()\l+ clearKey()\l+ clearAll()\l}" alt="" coords="487,253,698,420"/>
+</map>

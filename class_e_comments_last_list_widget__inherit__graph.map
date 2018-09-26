@@ -1,0 +1,3 @@
+<map id="ECommentsLastListWidget" name="ECommentsLastListWidget">
+<area shape="rect" id="node2" href="$class_e_comments_base_widget.html" title="{ECommentsBaseWidget\n|+ $model\l+ $registeredOnly\l+ $useCaptcha\l+ $postCommentAction\l# $_config\l|+ init()\l# registerScripts()\l# createNewComment()\l# getOwnerPK()\l}" alt="" coords="13,127,180,293"/>
+</map>

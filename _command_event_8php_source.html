@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/modules/userGroups/components/yii-mail/vendors/swiftMailer/classes/Swift/Events/CommandEvent.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_b9874050543d9bf801828959d5af7e08.html">modules</a></li><li class="navelem"><a class="el" href="dir_5f2ca876ed623614a551661d5ad436e2.html">userGroups</a></li><li class="navelem"><a class="el" href="dir_3af8527d3a292461f703522a7735f22d.html">components</a></li><li class="navelem"><a class="el" href="dir_e7389c68147bcb225836d133883587f9.html">yii-mail</a></li><li class="navelem"><a class="el" href="dir_7c00826db0b603d9f1219296bf24edb6.html">vendors</a></li><li class="navelem"><a class="el" href="dir_89bff85714102eab7b303e6d9fdb32ce.html">swiftMailer</a></li><li class="navelem"><a class="el" href="dir_be079ef1232344ba61031a6293168d37.html">classes</a></li><li class="navelem"><a class="el" href="dir_f4d1f2b2221467ba311892f8aaf2aa86.html">Swift</a></li><li class="navelem"><a class="el" href="dir_3dd2acdd9d9ad7d6a81e235d58697672.html">Events</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">CommandEvent.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_command_event_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This file is part of SwiftMailer.</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * (c) 2004-2009 Chris Corbyn</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * For the full copyright and license information, please view the LICENSE</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> */</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">//@require &#39;Swift/Events/EventObject.php&#39;;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//@require &#39;Swift/Transport.php&#39;;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_swift___events___command_event.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_swift___events___command_event.html">Swift_Events_CommandEvent</a> <span class="keyword">extends</span> <a class="code" href="class_swift___events___event_object.html">Swift_Events_EventObject</a></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  </div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keyword">private</span> $_command;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  </div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keyword">private</span> $_successCodes = array();</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  </div><div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_swift___events___command_event.html#ad096f3b24bd1c199bf81768fed27857b">   41</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___events___command_event.html#ad096f3b24bd1c199bf81768fed27857b">__construct</a>(<a class="code" href="interface_swift___transport.html">Swift_Transport</a> $source,</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    $command, $successCodes = array())</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="_ng_character_stream_8php.html#ae48318bd771a44a767cb87c6d7dc89f3">parent::__construct</a>($source);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    $this-&gt;_command = $command;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    $this-&gt;_successCodes = $successCodes;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  }</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  </div><div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="class_swift___events___command_event.html#a0b9a0f30bfd5589f0d90da71a27e9bd5">   53</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___events___command_event.html#a0b9a0f30bfd5589f0d90da71a27e9bd5">getCommand</a>()</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  {</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">return</span> $this-&gt;_command;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  }</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  </div><div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="class_swift___events___command_event.html#aa1c5ae54f9244c4f43756a42d033ad2f">   62</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___events___command_event.html#aa1c5ae54f9244c4f43756a42d033ad2f">getSuccessCodes</a>()</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  {</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">return</span> $this-&gt;_successCodes;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  }</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  </div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div><div class="ttc" id="class_swift___events___command_event_html"><div class="ttname"><a href="class_swift___events___command_event.html">Swift_Events_CommandEvent</a></div><div class="ttdef"><b>Definition:</b> <a href="_command_event_8php_source.html#l00020">CommandEvent.php:20</a></div></div>
+<div class="ttc" id="class_swift___events___command_event_html_ad096f3b24bd1c199bf81768fed27857b"><div class="ttname"><a href="class_swift___events___command_event.html#ad096f3b24bd1c199bf81768fed27857b">Swift_Events_CommandEvent\__construct</a></div><div class="ttdeci">__construct(Swift_Transport $source, $command, $successCodes=array())</div><div class="ttdef"><b>Definition:</b> <a href="_command_event_8php_source.html#l00041">CommandEvent.php:41</a></div></div>
+<div class="ttc" id="class_swift___events___event_object_html"><div class="ttname"><a href="class_swift___events___event_object.html">Swift_Events_EventObject</a></div><div class="ttdef"><b>Definition:</b> <a href="_event_object_8php_source.html#l00020">EventObject.php:20</a></div></div>
+<div class="ttc" id="class_swift___events___command_event_html_aa1c5ae54f9244c4f43756a42d033ad2f"><div class="ttname"><a href="class_swift___events___command_event.html#aa1c5ae54f9244c4f43756a42d033ad2f">Swift_Events_CommandEvent\getSuccessCodes</a></div><div class="ttdeci">getSuccessCodes()</div><div class="ttdef"><b>Definition:</b> <a href="_command_event_8php_source.html#l00062">CommandEvent.php:62</a></div></div>
+<div class="ttc" id="interface_swift___transport_html"><div class="ttname"><a href="interface_swift___transport.html">Swift_Transport</a></div><div class="ttdef"><b>Definition:</b> <a href="_transport_8php_source.html#l00021">Transport.php:21</a></div></div>
+<div class="ttc" id="class_swift___events___command_event_html_a0b9a0f30bfd5589f0d90da71a27e9bd5"><div class="ttname"><a href="class_swift___events___command_event.html#a0b9a0f30bfd5589f0d90da71a27e9bd5">Swift_Events_CommandEvent\getCommand</a></div><div class="ttdeci">getCommand()</div><div class="ttdef"><b>Definition:</b> <a href="_command_event_8php_source.html#l00053">CommandEvent.php:53</a></div></div>
+<div class="ttc" id="_ng_character_stream_8php_html_ae48318bd771a44a767cb87c6d7dc89f3"><div class="ttname"><a href="_ng_character_stream_8php.html#ae48318bd771a44a767cb87c6d7dc89f3">__construct</a></div><div class="ttdeci">__construct(Swift_CharacterReaderFactory $factory, $charset)</div><div class="ttdef"><b>Definition:</b> <a href="_ng_character_stream_8php_source.html#l00105">NgCharacterStream.php:105</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

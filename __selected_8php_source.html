@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/views/holes/_selected.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_771cb8db934956a03dedce5d7ea4c9d4.html">views</a></li><li class="navelem"><a class="el" href="dir_72b16e0f7280fc0393c39d2f7bdccf25.html">holes</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">_selected.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="__selected_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;div <span class="keyword">class</span>=<span class="stringliteral">&quot;holes_select_list_box&quot;</span>&gt;</div><div class="line"><a name="l00002"></a><span class="lineno"><a class="line" href="__selected_8php.html#a067665b5ed5b876f02c01051e82f8455">    2</a></span>&#160;&lt;?php <span class="keywordflow">if</span> ($gibdds) : ?&gt;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;&lt;h2&gt;Выбраны:&lt;/h2&gt;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;&lt;?php <span class="keywordflow">foreach</span> ($gibdds as $gibdd) : ?&gt;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;&lt;?php echo $gibdd-&gt;gibdd_name; ?&gt;&lt;br/&gt;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;&lt;?php <span class="comment">//echo CHtml::link(&#39;Напечатать заявление на &#39;.Y::declOfNum(count($gibdd-&gt;holes),Array(&#39;яму&#39;,&#39;ямы&#39;,&#39;ям&#39;)), Array(&#39;requestForm&#39;,&#39;id&#39;=&gt;$gibdd-&gt;id,&#39;type&#39;=&gt;&#39;gibdd&#39;,&#39;holes&#39;=&gt;implode(&#39;,&#39;,CHtml::listData($gibdd-&gt;holes,&#39;ID&#39;,&#39;ID&#39;))), Array(&#39;class&#39;=&gt;&#39;show_form&#39;)); ?&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;&lt;?php echo <a class="code" href="views_2_e_comments_form_widget_8php.html#a3de80f9e427073d40808269e3a8c0ab3">CHtml::link</a>(<span class="stringliteral">&#39;Сохранить список &#39;</span>.<a class="code" href="class_y.html#a90191df1453a0736775a0f1375025f2c">Y::declOfNum</a>(count($gibdd-&gt;holes),Array(<span class="stringliteral">&#39;яму&#39;</span>,<span class="stringliteral">&#39;ямы&#39;</span>,<span class="stringliteral">&#39;ям&#39;</span>)), Array(<span class="stringliteral">&#39;/profile/saveHoles2Selected&#39;</span>,<span class="stringliteral">&#39;id&#39;</span>=&gt;$gibdd-&gt;id,<span class="stringliteral">&#39;holes&#39;</span>=&gt;implode(<span class="charliteral">&#39;,&#39;</span>,CHtml::listData($gibdd-&gt;holes,<span class="stringliteral">&#39;ID&#39;</span>,<span class="stringliteral">&#39;ID&#39;</span>))), Array(<span class="stringliteral">&#39;class&#39;</span>=&gt;<span class="stringliteral">&#39;save_selected&#39;</span>)); ?&gt;&lt;br/&gt;&lt;br/&gt;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="__selected_8php.html#a672d9707ef91db026c210f98cc601123">    8</a></span>&#160;&lt;?php <a class="code" href="__selected_8php.html#a672d9707ef91db026c210f98cc601123">endforeach</a>; ?&gt;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="__selected_8php.html#a82cd33ca97ff99f2fcc5e9c81d65251b">    9</a></span>&#160;&lt;br/&gt;&lt;?php echo <a class="code" href="views_2_e_comments_form_widget_8php.html#a3de80f9e427073d40808269e3a8c0ab3">CHtml::link</a>(<span class="stringliteral">&#39;Очистить список&#39;</span>,<span class="charliteral">&#39;#&#39;</span>,Array(<span class="stringliteral">&#39;class&#39;</span>=&gt;<span class="stringliteral">&#39;clear_selected&#39;</span>)); ?&gt;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;&lt;br/&gt;&lt;br/&gt;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;&lt;?php <a class="code" href="__selected_8php.html#a82cd33ca97ff99f2fcc5e9c81d65251b">endif</a>; ?&gt;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;&lt;?php </div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keywordflow">if</span> ($user-&gt;selected_holes_lists) : ?&gt;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;&lt;h2&gt;Сохраненные:&lt;/h2&gt;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;&lt;?php <span class="keywordflow">foreach</span> ($user-&gt;selected_holes_lists as $list) : ?&gt;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    &lt;?php echo <a class="code" href="class_y.html#abb12cf06d84a57c8356501f414cd63e0">Y::dateFromTimeShort</a>($list-&gt;date_created); ?&gt; &lt;?php echo <a class="code" href="views_2_e_comments_form_widget_8php.html#a3de80f9e427073d40808269e3a8c0ab3">CHtml::link</a>(<span class="stringliteral">&#39;удалить&#39;</span>, Array(<span class="stringliteral">&#39;/profile/delHolesSelectList&#39;</span>,<span class="stringliteral">&#39;id&#39;</span>=&gt;$list-&gt;id), Array(<span class="stringliteral">&#39;class&#39;</span>=&gt;<span class="stringliteral">&#39;save_selected&#39;</span>)); ?&gt;&lt;br/&gt;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    &lt;?php echo <a class="code" href="views_2_e_comments_form_widget_8php.html#a3de80f9e427073d40808269e3a8c0ab3">CHtml::link</a>(<span class="stringliteral">&#39;Заявление&#39;</span>, Array(<span class="stringliteral">&#39;requestForm&#39;</span>,<span class="stringliteral">&#39;id&#39;</span>=&gt;$list-&gt;gibdd_id,<span class="stringliteral">&#39;type&#39;</span>=&gt;<span class="stringliteral">&#39;gibdd&#39;</span>,<span class="stringliteral">&#39;holes&#39;</span>=&gt;implode(<span class="charliteral">&#39;,&#39;</span>,CHtml::listData($list-&gt;holes,<span class="stringliteral">&#39;ID&#39;</span>,<span class="stringliteral">&#39;ID&#39;</span>))), Array(<span class="stringliteral">&#39;class&#39;</span>=&gt;<span class="stringliteral">&#39;show_form&#39;</span>)); ?&gt;&lt;br/&gt;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    &lt;?php <span class="keywordflow">if</span> ($list-&gt;notSentHoles) : ?&gt;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    &lt;?php echo <a class="code" href="views_2_e_comments_form_widget_8php.html#a3de80f9e427073d40808269e3a8c0ab3">CHtml::link</a>(<span class="stringliteral">&#39;Пометить как отправленное &#39;</span>.<a class="code" href="class_y.html#a90191df1453a0736775a0f1375025f2c">Y::declOfNum</a>(count($list-&gt;notSentHoles),Array(<span class="stringliteral">&#39;яму&#39;</span>,<span class="stringliteral">&#39;ямы&#39;</span>,<span class="stringliteral">&#39;ям&#39;</span>)), Array(<span class="stringliteral">&#39;sentMany&#39;</span>,<span class="stringliteral">&#39;holes&#39;</span>=&gt;implode(<span class="charliteral">&#39;,&#39;</span>,CHtml::listData($list-&gt;notSentHoles,<span class="stringliteral">&#39;ID&#39;</span>,<span class="stringliteral">&#39;ID&#39;</span>))), Array(<span class="stringliteral">&#39;class&#39;</span>=&gt;<span class="stringliteral">&#39;&#39;</span>)); ?&gt;&lt;br/&gt;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    &lt;?php <a class="code" href="__selected_8php.html#a82cd33ca97ff99f2fcc5e9c81d65251b">endif</a>; ?&gt;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    &lt;?php <span class="keywordflow">if</span> ($list-&gt;sentedHoles) : ?&gt;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    &lt;?php echo <a class="code" href="views_2_e_comments_form_widget_8php.html#a3de80f9e427073d40808269e3a8c0ab3">CHtml::link</a>(<span class="stringliteral">&#39;Загрузить ответ на &#39;</span>.<a class="code" href="class_y.html#a90191df1453a0736775a0f1375025f2c">Y::declOfNum</a>(count($list-&gt;sentedHoles),Array(<span class="stringliteral">&#39;яму&#39;</span>,<span class="stringliteral">&#39;ямы&#39;</span>,<span class="stringliteral">&#39;ям&#39;</span>)), Array(<span class="stringliteral">&#39;gibddreply&#39;</span>,<span class="stringliteral">&#39;holes&#39;</span>=&gt;implode(<span class="charliteral">&#39;,&#39;</span>,CHtml::listData($list-&gt;sentedHoles,<span class="stringliteral">&#39;ID&#39;</span>,<span class="stringliteral">&#39;ID&#39;</span>))), Array(<span class="stringliteral">&#39;class&#39;</span>=&gt;<span class="stringliteral">&#39;&#39;</span>)); ?&gt;&lt;br/&gt;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    &lt;?php <a class="code" href="__selected_8php.html#a82cd33ca97ff99f2fcc5e9c81d65251b">endif</a>; ?&gt;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    &lt;br/&gt;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;&lt;?php <a class="code" href="__selected_8php.html#a672d9707ef91db026c210f98cc601123">endforeach</a>; ?&gt;  </div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;&lt;?php <a class="code" href="__selected_8php.html#a82cd33ca97ff99f2fcc5e9c81d65251b">endif</a>; ?&gt;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;&lt;/div&gt;</div><div class="ttc" id="__selected_8php_html_a672d9707ef91db026c210f98cc601123"><div class="ttname"><a href="__selected_8php.html#a672d9707ef91db026c210f98cc601123">endforeach</a></div><div class="ttdeci">endforeach</div><div class="ttdef"><b>Definition:</b> <a href="__selected_8php_source.html#l00008">_selected.php:8</a></div></div>
+<div class="ttc" id="views_2_e_comments_form_widget_8php_html_a3de80f9e427073d40808269e3a8c0ab3"><div class="ttname"><a href="views_2_e_comments_form_widget_8php.html#a3de80f9e427073d40808269e3a8c0ab3">link</a></div><div class="ttdeci">$newComment link</div><div class="ttdef"><b>Definition:</b> <a href="views_2_e_comments_form_widget_8php_source.html#l00022">ECommentsFormWidget.php:22</a></div></div>
+<div class="ttc" id="class_y_html_abb12cf06d84a57c8356501f414cd63e0"><div class="ttname"><a href="class_y.html#abb12cf06d84a57c8356501f414cd63e0">Y\dateFromTimeShort</a></div><div class="ttdeci">static dateFromTimeShort($time)</div><div class="ttdef"><b>Definition:</b> <a href="_y_8php_source.html#l00041">Y.php:41</a></div></div>
+<div class="ttc" id="__selected_8php_html_a82cd33ca97ff99f2fcc5e9c81d65251b"><div class="ttname"><a href="__selected_8php.html#a82cd33ca97ff99f2fcc5e9c81d65251b">endif</a></div><div class="ttdeci">endif</div><div class="ttdef"><b>Definition:</b> <a href="__selected_8php_source.html#l00009">_selected.php:9</a></div></div>
+<div class="ttc" id="class_y_html_a90191df1453a0736775a0f1375025f2c"><div class="ttname"><a href="class_y.html#a90191df1453a0736775a0f1375025f2c">Y\declOfNum</a></div><div class="ttdeci">static declOfNum($number, $titles, $translate=false)</div><div class="ttdef"><b>Definition:</b> <a href="_y_8php_source.html#l00005">Y.php:5</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

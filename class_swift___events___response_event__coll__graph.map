@@ -1,0 +1,4 @@
+<map id="Swift_Events_ResponseEvent" name="Swift_Events_ResponseEvent">
+<area shape="rect" id="node2" href="$class_swift___events___event_object.html" title="{Swift_Events_EventObject\n||+ __construct()\l+ getSource()\l+ cancelBubble()\l+ bubbleCancelled()\l}" alt="" coords="16,153,195,267"/>
+<area shape="rect" id="node3" href="$interface_swift___events___event.html" title="{Swift_Events_Event\n||+ getSource()\l+ cancelBubble()\l+ bubbleCancelled()\l}" alt="" coords="35,5,176,105"/>
+</map>

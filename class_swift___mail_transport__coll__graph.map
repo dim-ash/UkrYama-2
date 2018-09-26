@@ -1,0 +1,4 @@
+<map id="Swift_MailTransport" name="Swift_MailTransport">
+<area shape="rect" id="node2" href="$class_swift___transport___mail_transport.html" title="{Swift_Transport_MailTransport\n||+ __construct()\l+ isStarted()\l+ start()\l+ stop()\l+ setExtraParams()\l+ getExtraParams()\l+ send()\l+ registerPlugin()\l}" alt="" coords="5,180,208,347"/>
+<area shape="rect" id="node3" href="$interface_swift___transport.html" title="{Swift_Transport\n||+ isStarted()\l+ start()\l+ stop()\l+ send()\l+ registerPlugin()\l}" alt="" coords="45,5,168,132"/>
+</map>

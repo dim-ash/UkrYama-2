@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['uhc_5fwidths',['UHC_widths',['../_c_j_kdata_8php.html#a0b3f1d29bb823b53b62597b956c4ff54',1,'CJKdata.php']]],
+  ['update',['UPDATE',['../class_u_g_cron_job.html#a4c669da175897ab4ad9d1fefd3b06380',1,'UGCronJob']]],
+  ['upload_5fmedia_5ftype',['UPLOAD_MEDIA_TYPE',['../class_google___media_file_upload.html#a048062794127ac35f35887c302a7e92b',1,'Google_MediaFileUpload']]],
+  ['upload_5fmultipart_5ftype',['UPLOAD_MULTIPART_TYPE',['../class_google___media_file_upload.html#a1f0721644d518d936891e6d94edc6e3e',1,'Google_MediaFileUpload']]],
+  ['upload_5fresumable_5ftype',['UPLOAD_RESUMABLE_TYPE',['../class_google___media_file_upload.html#a73ea4f7f9700971cfa9f6cb407b052f4',1,'Google_MediaFileUpload']]],
+  ['uppercase',['upperCase',['../upper_case_8php.html#a6719fde85f39a265f53d24f431f8829c',1,'upperCase.php']]],
+  ['use_5fkwt',['use_kwt',['../vendors_2mpdf_2config_8php.html#a80ec406008a5b3b8d361a17a936b4ace',1,'config.php']]],
+  ['useactiveforms',['useActiveForms',['../vendors_2mpdf_2config_8php.html#af55402cb8c041a80acb44b819e344401',1,'useActiveForms():&#160;config.php'],['../example57__new__m_p_d_f__v5-3__active__forms_8php.html#a2c5665c8f7825e03006a895e335de17c',1,'useActiveForms():&#160;example57_new_mPDF_v5-3_active_forms.php'],['../example57__new__m_p_d_f__v5-3__active__forms__b_8php.html#a2c5665c8f7825e03006a895e335de17c',1,'useActiveForms():&#160;example57_new_mPDF_v5-3_active_forms_b.php'],['../example58__new__m_p_d_f__v5-4__features_8php.html#a2c5665c8f7825e03006a895e335de17c',1,'useActiveForms():&#160;example58_new_mPDF_v5-4_features.php']]],
+  ['useadobecjk',['useAdobeCJK',['../vendors_2mpdf_2config_8php.html#ad0b49b3b058f257114a2cd364408978a',1,'useAdobeCJK():&#160;config.php'],['../example29__multilingual__autofont_8php.html#a9986e85eaef973df9d3fea85016c75a7',1,'useAdobeCJK():&#160;example29_multilingual_autofont.php']]],
+  ['usegraphs',['useGraphs',['../vendors_2mpdf_2config_8php.html#a881f1e9a5472904db96657e5c78b570e',1,'useGraphs():&#160;config.php'],['../example47__progress__bars__simple__custom_8php.html#a789abe3531b709632605a9c52e9ba0d9',1,'useGraphs():&#160;example47_progress_bars_simple_custom.php'],['../example48__progress__bars__advanced_8php.html#a789abe3531b709632605a9c52e9ba0d9',1,'useGraphs():&#160;example48_progress_bars_advanced.php']]],
+  ['usekerning',['useKerning',['../vendors_2mpdf_2config_8php.html#a6de601bb5dd0f7aa61d8e97149276fee',1,'useKerning():&#160;config.php'],['../example55__new__m_p_d_f__v5-1__color__and__other__features_8php.html#aee7b0f8606c1b4849e0166a4a335069d',1,'useKerning():&#160;example55_new_mPDF_v5-1_color_and_other_features.php'],['../example58__new__m_p_d_f__v5-4__features_8php.html#aee7b0f8606c1b4849e0166a4a335069d',1,'useKerning():&#160;example58_new_mPDF_v5-4_features.php']]],
+  ['uselang',['useLang',['../vendors_2mpdf_2config_8php.html#aac01eebb872feca7e3ecd9e9c043d73e',1,'config.php']]],
+  ['useonlycorefonts',['useOnlyCoreFonts',['../example43___m_p_d_f_i__booklet_8php.html#af2f1fce5e41ebb499bcff9cc6f865a19',1,'example43_MPDFI_booklet.php']]],
+  ['user',['USER',['../class_user_groups_access.html#acfbf5d0b8423fd4773272f26a46c2d8c',1,'UserGroupsAccess']]],
+  ['user_5fagent_5fsuffix',['USER_AGENT_SUFFIX',['../class_google___http_request.html#aa41a7f596ef8d0ccf369092641c664da',1,'Google_HttpRequest']]],
+  ['user_5fattr',['USER_ATTR',['../class_google___login_ticket.html#a26697264ac01f958ace23590ad24d8f2',1,'Google_LoginTicket']]],
+  ['usesubstitutions',['useSubstitutions',['../vendors_2mpdf_2config_8php.html#ab6d71e6e0c904739db868eada5928c81',1,'useSubstitutions():&#160;config.php'],['../example52__new__m_p_d_f__4-2__features_8php.html#aa2ce4c2c0ab99d3365e4d7366a9be33a',1,'useSubstitutions():&#160;example52_new_mPDF_4-2_features.php'],['../font__coverage_8php.html#aa2ce4c2c0ab99d3365e4d7366a9be33a',1,'useSubstitutions():&#160;font_coverage.php'],['../font__dump_8php.html#aa2ce4c2c0ab99d3365e4d7366a9be33a',1,'useSubstitutions():&#160;font_dump.php'],['../font__names_8php.html#aa2ce4c2c0ab99d3365e4d7366a9be33a',1,'useSubstitutions():&#160;font_names.php']]]
+];

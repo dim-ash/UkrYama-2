@@ -1,0 +1,8 @@
+<map id="Swift_Events_Event" name="Swift_Events_Event">
+<area shape="rect" id="node2" href="$class_swift___events___event_object.html" title="{Swift_Events_EventObject\n||+ __construct()\l+ getSource()\l+ cancelBubble()\l+ bubbleCancelled()\l}" alt="" coords="451,153,630,267"/>
+<area shape="rect" id="node3" href="$class_swift___events___command_event.html" title="{Swift_Events_CommandEvent\n||+ __construct()\l+ getCommand()\l+ getSuccessCodes()\l}" alt="" coords="5,361,207,461"/>
+<area shape="rect" id="node4" href="$class_swift___events___response_event.html" title="{Swift_Events_ResponseEvent\n||+ __construct()\l+ getResponse()\l+ isValid()\l}" alt="" coords="231,361,431,461"/>
+<area shape="rect" id="node5" href="$class_swift___events___send_event.html" title="{Swift_Events_SendEvent\n|+ RESULT_PENDING\l+ RESULT_SUCCESS\l+ RESULT_TENTATIVE\l+ RESULT_FAILED\l|+ __construct()\l+ getTransport()\l+ getMessage()\l+ setFailedRecipients()\l+ getFailedRecipients()\l+ setResult()\l+ getResult()\l}" alt="" coords="455,315,626,508"/>
+<area shape="rect" id="node6" href="$class_swift___events___transport_change_event.html" title="{Swift_Events_TransportChange\lEvent\n||+ getTransport()\l}" alt="" coords="651,368,860,455"/>
+<area shape="rect" id="node7" href="$class_swift___events___transport_exception_event.html" title="{Swift_Events_TransportException\lEvent\n||+ __construct()\l+ getException()\l}" alt="" coords="884,361,1105,461"/>
+</map>

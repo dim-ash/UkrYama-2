@@ -1,0 +1,3 @@
+<map id="Swift_Plugins_Pop_Pop3Connection" name="Swift_Plugins_Pop_Pop3Connection">
+<area shape="rect" id="node2" href="$class_swift___plugins___pop_before_smtp_plugin.html" title="{Swift_Plugins_PopBeforeSmtp\lPlugin\n||+ __construct()\l+ setConnection()\l+ bindSmtp()\l+ setTimeout()\l+ setUsername()\l+ setPassword()\l+ connect()\l+ disconnect()\l+ beforeTransportStarted()\l+ transportStarted()\l+ beforeTransportStopped()\l+ transportStopped()\l+ newInstance()\l}" alt="" coords="23,140,226,387"/>
+</map>

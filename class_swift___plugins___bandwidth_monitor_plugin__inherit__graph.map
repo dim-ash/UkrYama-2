@@ -1,0 +1,8 @@
+<map id="Swift_Plugins_BandwidthMonitorPlugin" name="Swift_Plugins_BandwidthMonitorPlugin">
+<area shape="rect" id="node7" href="$class_swift___plugins___throttler_plugin.html" title="{Swift_Plugins_ThrottlerPlugin\n|+ BYTES_PER_MINUTE\l+ MESSAGES_PER_MINUTE\l|+ __construct()\l+ beforeSendPerformed()\l+ sendPerformed()\l+ sleep()\l+ getTimestamp()\l}" alt="" coords="340,583,541,723"/>
+<area shape="rect" id="node2" href="$interface_swift___events___send_listener.html" title="{Swift_Events_SendListener\n||+ beforeSendPerformed()\l+ sendPerformed()\l}" alt="" coords="5,147,190,233"/>
+<area shape="rect" id="node3" href="$interface_swift___events___event_listener.html" title="{Swift_Events_EventListener\n||}" alt="" coords="228,5,415,79"/>
+<area shape="rect" id="node4" href="$interface_swift___events___command_listener.html" title="{Swift_Events_CommandListener\n||+ commandSent()\l}" alt="" coords="214,153,429,227"/>
+<area shape="rect" id="node5" href="$interface_swift___events___response_listener.html" title="{Swift_Events_ResponseListener\n||+ responseReceived()\l}" alt="" coords="454,153,667,227"/>
+<area shape="rect" id="node6" href="$interface_swift___input_byte_stream.html" title="{Swift_InputByteStream\n||+ write()\l+ commit()\l+ bind()\l+ unbind()\l+ flushBuffers()\l}" alt="" coords="691,127,848,253"/>
+</map>

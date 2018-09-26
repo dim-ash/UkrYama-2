@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: yii-comments</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">yii-comments </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p>yii-comments is a module for <a class="el" href="namespace_yii.html">Yii</a> Framework which allows you to make any instance of CActiveRecord commentable. <br />
+This is a modification of the comments module available from <a href="http://www.yiiframework.com/extension/comments-module/">http://www.yiiframework.com/extension/comments-module/</a> <br />
+It is supposed that you have user module installed.</p>
+<h1>Changes</h1>
+<p>Added Gravatar Support <br />
+Better <a class="el" href="class_comment.html">Comment</a> Management <br />
+Admin interface for editing comments <br />
+Admin interface for comments settings <br />
+Anchor for each comments (e.g. <a href="http://example.com/page/1#comment-12">http://example.com/page/1#comment-12</a>) <br />
+Better User Interaction <br />
+and others.</p>
+<h1>Installation</h1>
+<h3>Via Git:</h3>
+<p>From inside the modules directory in your application: </p><pre class="fragment">git clone https://github.com/xtranophilist/yii-comments.git
+mv yii-comments comments
+</pre><p>OR <br />
+Download : <a href="https://github.com/xtranophilist/yii-comments/zipball/master">https://github.com/xtranophilist/yii-comments/zipball/master</a> <br />
+Extract the contents and move to <code>comments</code> folder inside modules.</p>
+<p>Execute the following SQL queries to create table and insert default comment settings. </p><pre class="fragment">    CREATE TABLE IF NOT EXISTS `comment` (
+    `id` int(12) NOT NULL AUTO_INCREMENT,
+    `owner_id` int(11) NOT NULL,
+    `owner_name` varchar(50) NOT NULL,
+    `count` int(11) NOT NULL,
+    `parent_id` int(12) DEFAULT NULL,
+    `creator_id` int(12) DEFAULT NULL,
+    `user_name` varchar(128) DEFAULT NULL,
+    `user_email` varchar(128) DEFAULT NULL,
+    `comment_text` text,
+    `create_time` int(11) DEFAULT NULL,
+    `update_time` int(11) DEFAULT NULL,
+    `status` int(1) NOT NULL DEFAULT '0',
+    `link` text,
+    PRIMARY KEY (`id`)
+    );
+
+    CREATE TABLE IF NOT EXISTS `comment_setting` (
+    `id` int(11) NOT NULL AUTO_INCREMENT,
+    `model` varchar(50) NOT NULL,
+    `registeredOnly` tinyint(1) NOT NULL DEFAULT '0',
+    `useCaptcha` tinyint(1) NOT NULL DEFAULT '0',
+    `allowSubcommenting` tinyint(1) NOT NULL DEFAULT '1',
+    `premoderate` tinyint(1) NOT NULL DEFAULT '0',
+    `isSuperuser` text,
+    `orderComments` enum('ASC','DESC') NOT NULL DEFAULT 'ASC',
+    `useGravatar` tinyint(1) NOT NULL DEFAULT '1',
+    PRIMARY KEY (`id`)
+    );
+
+    INSERT INTO `comment_setting` (`id`, `model`, `registeredOnly`, `useCaptcha`, `allowSubcommenting`, `premoderate`, `isSuperuser`, `orderComments`, `useGravatar`) VALUES
+    (1, 'default', 0, 0, 1, 1, 'Yii::app()-&gt;getModule("user")-&gt;isAdmin()', 'ASC', 1);
+</pre><p>Edit config/main.php: </p><pre class="fragment">    'import' =&gt; array(
+            'application.modules.comments.widgets.*',
+            'application.modules.comments.components.*',
+            'application.modules.comments.models.*',
+            ...
+        ),
+    'modules' =&gt; array(
+            ...
+            'comments' =&gt; array(
+                'userConfig' =&gt; array(
+                    'class' =&gt; 'User',
+                    'nameProperty' =&gt; 'username',
+                    'emailProperty' =&gt; 'email',
+                ),
+            ),
+    ),
+</pre><h1>Usage:</h1>
+<p>Add &lsquo;$this-&gt;widget('<a class="el" href="class_comments.html">Comments</a>&rsquo;, array('model' =&gt; $model));` to the view of any model to make it commentable.</p>
+<p>Go to /comments to manage comments and to play with the settings. </p>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

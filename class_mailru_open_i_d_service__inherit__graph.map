@@ -1,0 +1,5 @@
+<map id="MailruOpenIDService" name="MailruOpenIDService">
+<area shape="rect" id="node2" href="$class_e_open_i_d_service.html" title="{EOpenIDService\n|# $url\l# $requiredAttributes\l|+ init()\l+ authenticate()\l}" alt="" coords="71,715,216,815"/>
+<area shape="rect" id="node3" href="$class_e_auth_service_base.html" title="{EAuthServiceBase\n|# $name\l# $title\l# $type\l# $jsArguments\l# $attributes\l# $authenticated\l|+ __get()\l+ __isset()\l+ init()\l+ getServiceName()\l+ getServiceTitle()\l+ getServiceType()\l+ getJsArguments()\l+ setComponent()\l+ getComponent()\l+ setRedirectUrl()\lі ще &#160;13...\l# makeRequest()\l# initRequest()\l# parseJson()\l# fetchJsonError()\l# getStateKeyPrefix()\l# setState()\l# hasState()\l# getState()\l# fetchAttributes()\l# _fetchAttributes()\l}" alt="" coords="13,260,161,667"/>
+<area shape="rect" id="node5" href="$interface_i_auth_service.html" title="{IAuthService\n||+ init()\l+ getServiceName()\l+ getServiceTitle()\l+ getServiceType()\l+ getJsArguments()\l+ setComponent()\l+ getComponent()\l+ setRedirectUrl()\l+ getRedirectUrl()\l+ setCancelUrl()\lі ще &#160;10...\l}" alt="" coords="129,5,269,212"/>
+</map>

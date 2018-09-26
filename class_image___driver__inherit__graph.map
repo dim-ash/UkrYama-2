@@ -1,0 +1,4 @@
+<map id="Image_Driver" name="Image_Driver">
+<area shape="rect" id="node2" href="$class_image___g_d___driver.html" title="{Image_GD_Driver\n|# $blank_png\l# $blank_png_width\l# $blank_png_height\l|+ __construct()\l+ process()\l+ flip()\l+ crop()\l+ resize()\l+ rotate()\l+ sharpen()\l# properties()\l# imagecreatetransparent()\l}" alt="" coords="5,260,187,467"/>
+<area shape="rect" id="node3" href="$class_image___image_magick___driver.html" title="{Image_ImageMagick_Driver\n|# $dir\l# $ext\l# $tmp_image\l|+ __construct()\l+ process()\l+ crop()\l+ flip()\l+ resize()\l+ rotate()\l+ sharpen()\l# properties()\l}" alt="" coords="212,267,400,460"/>
+</map>

@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: EFineUploader - Данное расширение для Yii Framework позволяет загружать файлы без использования Flash</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title"><a class="el" href="class_e_fine_uploader.html">EFineUploader</a> - Данное расширение для <a class="el" href="namespace_yii.html">Yii</a> Framework позволяет загружать файлы без использования Flash </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><h2>Установка</h2>
+<ul>
+<li>Скачать (<a href="https://github.com/kosenka/EFineUploader/zipball/master">zip</a>, <a href="https://github.com/kosenka/EFineUploader/tarball/master">tar.gz</a>).</li>
+<li>Распаковать архив в папку <code>application.extensions.EFineUploader</code> . Должно получиться следующее:</li>
+</ul>
+<div class="fragment"><div class="line">protected/</div><div class="line">├── components/</div><div class="line">├── controllers/</div><div class="line">├── ... application directories</div><div class="line">└── extensions/</div><div class="line">    ├── EFineUploader/</div><div class="line">    │   ├── assets/</div><div class="line">    │   └── ... другие файлы расширения EFineUploader</div><div class="line">    └── ... другие расширения</div></div><!-- fragment --><h2>ССылки</h2>
+<ul>
+<li><a href="http://kosenka.ru/#tab1">Demo</a></li>
+<li><a href="https://github.com/kosenka/EFineUploader">Extension project page</a></li>
+<li><a href="http://yiiframework.ru/forum/viewtopic.php?f=9&amp;t=2470">Russian community discussion thread</a></li>
+</ul>
+<h2>Использование</h2>
+<p>В представлении/шаблоне прописать так:</p>
+<div class="fragment"><div class="line">&lt;? $this-&gt;widget(<span class="stringliteral">&#39;ext.EFineUploader.EFineUploader&#39;</span>,</div><div class="line">                 array(</div><div class="line">                       <span class="stringliteral">&#39;id&#39;</span>=&gt;<span class="stringliteral">&#39;FineUploader&#39;</span>,</div><div class="line">                       <span class="stringliteral">&#39;config&#39;</span>=&gt;array(</div><div class="line">                                       <span class="stringliteral">&#39;autoUpload&#39;</span>=&gt;<span class="keyword">true</span>,</div><div class="line">                                       <span class="stringliteral">&#39;request&#39;</span>=&gt;array(</div><div class="line">                                                        <span class="stringliteral">&#39;endpoint&#39;</span>=&gt;<span class="stringliteral">&#39;/controller/upload&#39;</span>,<span class="comment">// OR $this-&gt;createUrl(&#39;controller/upload&#39;),</span></div><div class="line">                                                        <span class="stringliteral">&#39;params&#39;</span>=&gt;array(<span class="stringliteral">&#39;YII_CSRF_TOKEN&#39;</span>=&gt;Yii::app()-&gt;request-&gt;csrfToken),</div><div class="line">                                                       ),</div><div class="line">                                       <span class="stringliteral">&#39;retry&#39;</span>=&gt;array(<span class="stringliteral">&#39;enableAuto&#39;</span>=&gt;<span class="keyword">true</span>,<span class="stringliteral">&#39;preventRetryResponseProperty&#39;</span>=&gt;<span class="keyword">true</span>),</div><div class="line">                                       <span class="stringliteral">&#39;chunking&#39;</span>=&gt;array(<span class="stringliteral">&#39;enable&#39;</span>=&gt;<span class="keyword">true</span>,<span class="stringliteral">&#39;partSize&#39;</span>=&gt;100),<span class="comment">//bytes</span></div><div class="line">                                       <span class="stringliteral">&#39;callbacks&#39;</span>=&gt;array(</div><div class="line">                                                          <span class="stringliteral">&#39;onComplete&#39;</span>=&gt;<span class="stringliteral">&quot;js:function(id, name, response){ $(&#39;li.qq-upload-success&#39;).remove(); }&quot;</span>,</div><div class="line">                                                          <span class="comment">//&#39;onError&#39;=&gt;&quot;js:function(id, name, errorReason){ }&quot;,</span></div><div class="line">                                                         ),</div><div class="line">                                       <span class="stringliteral">&#39;validation&#39;</span>=&gt;array(</div><div class="line">                                                           <span class="stringliteral">&#39;allowedExtensions&#39;</span>=&gt;array(<span class="stringliteral">&#39;jpg&#39;</span>,<span class="stringliteral">&#39;jpeg&#39;</span>),</div><div class="line">                                                           <span class="stringliteral">&#39;sizeLimit&#39;</span>=&gt;2 * 1024 * 1024,<span class="comment">//maximum file size in bytes</span></div><div class="line">                                                           <span class="comment">//&#39;minSizeLimit&#39;=&gt;2*1024*1024,// minimum file size in bytes</span></div><div class="line">                                                          ),</div><div class="line">                                       <span class="comment">/*&#39;messages&#39;=&gt;array(</span></div><div class="line"><span class="comment">                                                         &#39;tooManyItemsError&#39;=&gt;&#39;Too many items error&#39;,</span></div><div class="line"><span class="comment">                                                         &#39;typeError&#39;=&gt;&quot;Файл {file} имеет неверное расширение. Разрешены файлы только с расширениями: {extensions}.&quot;,</span></div><div class="line"><span class="comment">                                                         &#39;sizeError&#39;=&gt;&quot;Размер файла {file} велик, максимальный размер {sizeLimit}.&quot;,</span></div><div class="line"><span class="comment">                                                         &#39;minSizeError&#39;=&gt;&quot;Размер файла {file} мал, минимальный размер {minSizeLimit}.&quot;,</span></div><div class="line"><span class="comment">                                                         &#39;emptyError&#39;=&gt;&quot;{file} is empty, please select files again without it.&quot;,</span></div><div class="line"><span class="comment">                                                         &#39;onLeave&#39;=&gt;&quot;The files are being uploaded, if you leave now the upload will be cancelled.&quot;</span></div><div class="line"><span class="comment">                                                        ),*/</span></div><div class="line">                                      )</div><div class="line">                      ));</div><div class="line">                ?&gt;</div></div><!-- fragment --><p>В контроллере: </p><div class="fragment"><div class="line">&lt;?</div><div class="line">        <span class="keyword">public</span> <span class="keyword">function</span> actionUpload()</div><div class="line">        {</div><div class="line">                $tempFolder=Yii::getPathOfAlias(<span class="stringliteral">&#39;webroot&#39;</span>).<span class="stringliteral">&#39;/upload/efineuploader/&#39;</span>;</div><div class="line"></div><div class="line">                @mkdir($tempFolder, 0777, TRUE);</div><div class="line">                @mkdir($tempFolder.<span class="stringliteral">&#39;chunks&#39;</span>, 0777, TRUE);</div><div class="line"></div><div class="line">                Yii::import(<span class="stringliteral">&quot;ext.EFineUploader.qqFileUploader&quot;</span>);</div><div class="line"></div><div class="line">                $uploader = <span class="keyword">new</span> <a class="code" href="classqq_file_uploader.html">qqFileUploader</a>();</div><div class="line">                $uploader-&gt;allowedExtensions = array(<span class="stringliteral">&#39;jpg&#39;</span>,<span class="stringliteral">&#39;jpeg&#39;</span>);</div><div class="line">                $uploader-&gt;sizeLimit = 2 * 1024 * 1024;<span class="comment">//maximum file size in bytes</span></div><div class="line">                $uploader-&gt;chunksFolder = $tempFolder.<span class="stringliteral">&#39;chunks&#39;</span>;</div><div class="line"></div><div class="line">                $result = $uploader-&gt;handleUpload($tempFolder);</div><div class="line">                $result[<span class="stringliteral">&#39;filename&#39;</span>] = $uploader-&gt;getUploadName();</div><div class="line">                $result[<span class="stringliteral">&#39;folder&#39;</span>] = $webFolder;</div><div class="line"></div><div class="line">                $uploadedFile=$tempFolder.$result[<span class="stringliteral">&#39;filename&#39;</span>];</div><div class="line"></div><div class="line">                header(<span class="stringliteral">&quot;Content-Type: text/plain&quot;</span>);</div><div class="line">                $result=htmlspecialchars(json_encode($result), ENT_NOQUOTES);</div><div class="line">                echo $result;</div><div class="line">                Yii::app()-&gt;end();</div><div class="line">        }</div><div class="line">?&gt;</div></div><!-- fragment --> </div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

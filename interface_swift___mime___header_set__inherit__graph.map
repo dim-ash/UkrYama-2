@@ -1,0 +1,4 @@
+<map id="Swift_Mime_HeaderSet" name="Swift_Mime_HeaderSet">
+<area shape="rect" id="node3" href="$class_swift___mime___simple_header_set.html" title="{Swift_Mime_SimpleHeaderSet\n||+ __construct()\l+ setCharset()\l+ addMailboxHeader()\l+ addDateHeader()\l+ addTextHeader()\l+ addParameterizedHeader()\l+ addIdHeader()\l+ addPathHeader()\l+ has()\l+ set()\lі ще &#160;10...\l}" alt="" coords="5,381,207,588"/>
+<area shape="rect" id="node2" href="$interface_swift___mime___charset_observer.html" title="{Swift_Mime_CharsetObserver\n||+ charsetChanged()\l}" alt="" coords="7,5,206,79"/>
+</map>

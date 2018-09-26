@@ -1,0 +1,7 @@
+<map id="Swift_SwiftException" name="Swift_SwiftException">
+<area shape="rect" id="node3" href="$class_swift___dependency_exception.html" title="{Swift_DependencyException\n||+ __construct()\l}" alt="" coords="5,248,196,321"/>
+<area shape="rect" id="node4" href="$class_swift___io_exception.html" title="{Swift_IoException\n||+ __construct()\l}" alt="" coords="220,248,347,321"/>
+<area shape="rect" id="node7" href="$class_swift___rfc_compliance_exception.html" title="{Swift_RfcComplianceException\n||+ __construct()\l}" alt="" coords="371,248,578,321"/>
+<area shape="rect" id="node5" href="$class_swift___plugins___pop___pop3_exception.html" title="{Swift_Plugins_Pop_Pop3Exception\n||+ __construct()\l}" alt="" coords="57,369,286,443"/>
+<area shape="rect" id="node6" href="$class_swift___transport_exception.html" title="{Swift_TransportException\n||+ __construct()\l}" alt="" coords="310,369,483,443"/>
+</map>

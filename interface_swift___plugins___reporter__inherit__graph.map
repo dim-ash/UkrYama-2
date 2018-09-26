@@ -1,0 +1,4 @@
+<map id="Swift_Plugins_Reporter" name="Swift_Plugins_Reporter">
+<area shape="rect" id="node2" href="$class_swift___plugins___reporters___hit_reporter.html" title="{Swift_Plugins_Reporters\l_HitReporter\n||+ notify()\l+ getFailedRecipients()\l+ clear()\l}" alt="" coords="5,140,173,253"/>
+<area shape="rect" id="node3" href="$class_swift___plugins___reporters___html_reporter.html" title="{Swift_Plugins_Reporters\l_HtmlReporter\n||+ notify()\l}" alt="" coords="196,153,363,240"/>
+</map>

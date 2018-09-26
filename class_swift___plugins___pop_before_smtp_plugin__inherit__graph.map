@@ -1,0 +1,5 @@
+<map id="Swift_Plugins_PopBeforeSmtpPlugin" name="Swift_Plugins_PopBeforeSmtpPlugin">
+<area shape="rect" id="node2" href="$interface_swift___events___transport_change_listener.html" title="{Swift_Events_TransportChange\lListener\n||+ beforeTransportStarted()\l+ transportStarted()\l+ beforeTransportStopped()\l+ transportStopped()\l}" alt="" coords="5,127,214,253"/>
+<area shape="rect" id="node3" href="$interface_swift___events___event_listener.html" title="{Swift_Events_EventListener\n||}" alt="" coords="16,5,204,79"/>
+<area shape="rect" id="node4" href="$interface_swift___plugins___pop___pop3_connection.html" title="{Swift_Plugins_Pop_Pop3Connection\n||+ connect()\l+ disconnect()\l}" alt="" coords="239,147,477,233"/>
+</map>

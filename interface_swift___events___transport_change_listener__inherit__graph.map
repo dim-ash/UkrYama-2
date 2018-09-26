@@ -1,0 +1,5 @@
+<map id="Swift_Events_TransportChangeListener" name="Swift_Events_TransportChangeListener">
+<area shape="rect" id="node3" href="$class_swift___plugins___logger_plugin.html" title="{Swift_Plugins_LoggerPlugin\n||+ __construct()\l+ add()\l+ clear()\l+ dump()\l+ commandSent()\l+ responseReceived()\l+ beforeTransportStarted()\l+ transportStarted()\l+ beforeTransportStopped()\l+ transportStopped()\l+ exceptionThrown()\l}" alt="" coords="5,321,193,528"/>
+<area shape="rect" id="node4" href="$class_swift___plugins___pop_before_smtp_plugin.html" title="{Swift_Plugins_PopBeforeSmtp\lPlugin\n||+ __construct()\l+ setConnection()\l+ bindSmtp()\l+ setTimeout()\l+ setUsername()\l+ setPassword()\l+ connect()\l+ disconnect()\l+ beforeTransportStarted()\l+ transportStarted()\l+ beforeTransportStopped()\l+ transportStopped()\l+ newInstance()\l}" alt="" coords="216,301,419,548"/>
+<area shape="rect" id="node2" href="$interface_swift___events___event_listener.html" title="{Swift_Events_EventListener\n||}" alt="" coords="115,5,302,79"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Графічна ієрархія класів" name="Графічна ієрархія класів">
+<area shape="rect" id="node1" href="$interface_swift___key_cache.html" title="Swift_KeyCache" alt="" coords="5,55,124,80"/>
+<area shape="rect" id="node2" href="$class_swift___key_cache___array_key_cache.html" title="Swift_KeyCache_ArrayKeyCache" alt="" coords="172,5,392,31"/>
+<area shape="rect" id="node3" href="$class_swift___key_cache___disk_key_cache.html" title="Swift_KeyCache_DiskKeyCache" alt="" coords="175,55,389,80"/>
+<area shape="rect" id="node4" href="$class_swift___key_cache___null_key_cache.html" title="Swift_KeyCache_NullKeyCache" alt="" coords="177,104,388,129"/>
+</map>

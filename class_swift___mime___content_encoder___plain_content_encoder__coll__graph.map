@@ -1,0 +1,5 @@
+<map id="Swift_Mime_ContentEncoder_PlainContentEncoder" name="Swift_Mime_ContentEncoder_PlainContentEncoder">
+<area shape="rect" id="node2" href="$interface_swift___mime___content_encoder.html" title="{Swift_Mime_ContentEncoder\n||+ encodeByteStream()\l+ getName()\l}" alt="" coords="8,248,202,335"/>
+<area shape="rect" id="node3" href="$interface_swift___encoder.html" title="{Swift_Encoder\n||+ encodeString()\l}" alt="" coords="45,127,165,200"/>
+<area shape="rect" id="node4" href="$interface_swift___mime___charset_observer.html" title="{Swift_Mime_CharsetObserver\n||+ charsetChanged()\l}" alt="" coords="5,5,204,79"/>
+</map>

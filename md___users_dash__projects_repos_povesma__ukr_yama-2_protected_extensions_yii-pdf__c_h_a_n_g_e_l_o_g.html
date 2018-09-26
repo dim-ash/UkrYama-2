@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Yii-PDF Change Log</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Yii-PDF Change Log </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><h3>Version 0.3 (2012-07-07)</h3>
+<ul>
+<li>Fixed default constructor params [thanks to zitter]</li>
+</ul>
+<h3>Version 0.2a (2012-02-05)</h3>
+<ul>
+<li>Fixed method name (mpdf) for some case-sensitive *nix OS filesystems (it may cause for some errors) [thanks to Hylke]</li>
+</ul>
+<h3>Version 0.2 (2012-01-18)</h3>
+<ul>
+<li>Parameter &lsquo;'defaultParams&rsquo;<code>is not required anymore (will be used constructor's default params of selected library)</code></li>
+<li><code>Added a few helper constants for</code>Output()` method (detailed info located in extension's class)</li>
+</ul>
+<div class="fragment"><div class="line">&lt;?php</div><div class="line">    <span class="keyword">class </span><a class="code" href="class_e_yii_pdf.html">EYiiPdf</a> <span class="keyword">extends</span> CApplicationComponent</div><div class="line">    {</div><div class="line">        ...</div><div class="line">        <span class="keyword">const</span> <a class="code" href="class_e_yii_pdf.html#a24ffd250706db0415ac3fcbba87f6533">OUTPUT_TO_BROWSER</a> = <span class="stringliteral">&quot;I&quot;</span>;</div><div class="line">        <span class="keyword">const</span> <a class="code" href="class_e_yii_pdf.html#aa4bd2fb70a99d2cad17169e0b2a7f6cb">OUTPUT_TO_DOWNLOAD</a> = <span class="stringliteral">&quot;D&quot;</span>;</div><div class="line">        <span class="keyword">const</span> <a class="code" href="class_e_yii_pdf.html#a96d7c28427f8b806fbe91196a24a84a2">OUTPUT_TO_FILE</a> = <span class="stringliteral">&quot;F&quot;</span>;</div><div class="line">        <span class="keyword">const</span> <a class="code" href="class_e_yii_pdf.html#a6c0de5a13a8cb177874e3a22459fc76e">OUTPUT_TO_STRING</a> = <span class="stringliteral">&quot;S&quot;</span>;</div><div class="line">        ...</div><div class="line">    }</div><div class="line"></div><div class="line"><span class="preprocessor">    #Example (make sure that target directory is writable)</span></div><div class="line">    $html2pdf-&gt;Output(<span class="stringliteral">&#39;/path/to/file.pdf&#39;</span>, <a class="code" href="class_e_yii_pdf.html#a96d7c28427f8b806fbe91196a24a84a2">EYiiPdf::OUTPUT_TO_FILE</a>);</div><div class="line">?&gt;</div></div><!-- fragment --><ul>
+<li>Some small fixes</li>
+</ul>
+<h3>Version 0.1 (2012-01-16)</h3>
+<ul>
+<li>Initial release </li>
+</ul>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

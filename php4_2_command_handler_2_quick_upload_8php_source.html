@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/extensions/ckeditor/assets/ckfinder/core/connector/php/php4/CommandHandler/QuickUpload.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_d421cd4c3ee495eb6f52b31f8138d6f3.html">extensions</a></li><li class="navelem"><a class="el" href="dir_cd8af441c5ed652253b7c9965163a9c6.html">ckeditor</a></li><li class="navelem"><a class="el" href="dir_e90cf5d58dbfd42402fc3fedd7c3a9fb.html">assets</a></li><li class="navelem"><a class="el" href="dir_052a841e3bed1a17c0877a321f9ec47d.html">ckfinder</a></li><li class="navelem"><a class="el" href="dir_835a5170b59201dadea7936e4544c922.html">core</a></li><li class="navelem"><a class="el" href="dir_8ded6da65261f82ecdb77ae7e7b4f1a2.html">connector</a></li><li class="navelem"><a class="el" href="dir_0bdd4b58c3a205a7f27c37046e275b7d.html">php</a></li><li class="navelem"><a class="el" href="dir_9fa6dbf94417ce46291505441aba06e3.html">php4</a></li><li class="navelem"><a class="el" href="dir_f45180908e018056068b43264f8dfbaf.html">CommandHandler</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">QuickUpload.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="php4_2_command_handler_2_quick_upload_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * CKFinder</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * ========</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * http://ckfinder.com</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright (C) 2007-2010, CKSource - Frederico Knabben. All rights reserved.</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * The software, this file and its contents are subject to the CKFinder</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * License. Please read the license.txt file before using, installing, copying,</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * modifying or distribute this file or part of its contents. The contents of</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * this file is part of the Source Code of CKFinder.</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> */</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keywordflow">if</span> (!<a class="code" href="index_8php.html#aec0e90bd149e61dc80acb4313f718a97">defined</a>(<span class="stringliteral">&#39;IN_CKFINDER&#39;</span>)) <a class="code" href="compress_8php.html#a6733eb5f605d09eaede9845835d71c4e">exit</a>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;require_once CKFINDER_CONNECTOR_LIB_DIR . <span class="stringliteral">&quot;/CommandHandler/FileUpload.php&quot;</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_c_k_finder___connector___command_handler___quick_upload.html">   33</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_c_k_finder___connector___command_handler___quick_upload.html">CKFinder_Connector_CommandHandler_QuickUpload</a> <span class="keyword">extends</span> <a class="code" href="class_c_k_finder___connector___command_handler___file_upload.html">CKFinder_Connector_CommandHandler_FileUpload</a></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div><div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_c_k_finder___connector___command_handler___quick_upload.html#a40125182b0df26fa9eb63114cfda44eb">   41</a></span>&#160;    var <a class="code" href="class_c_k_finder___connector___command_handler___quick_upload.html#a40125182b0df26fa9eb63114cfda44eb">$command</a> = <span class="stringliteral">&quot;QuickUpload&quot;</span>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_c_k_finder___connector___command_handler___quick_upload.html#abcc3313dae9b859d2c57286d7ae46bcd">   43</a></span>&#160;    <span class="keyword">function</span> <a class="code" href="class_c_k_finder___connector___command_handler___quick_upload.html#abcc3313dae9b859d2c57286d7ae46bcd">sendResponse</a>()</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    {</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        $oRegistry =&amp; <a class="code" href="class_c_k_finder___connector___core___factory.html#a3e9e4947697f4d1b3c509a6c8ca65d08">CKFinder_Connector_Core_Factory::getInstance</a>(<span class="stringliteral">&quot;Core_Registry&quot;</span>);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        $oRegistry-&gt;set(<span class="stringliteral">&quot;FileUpload_url&quot;</span>, $this-&gt;_currentFolder-&gt;getUrl());</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">return</span> parent::sendResponse();</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div><div class="ttc" id="compress_8php_html_a6733eb5f605d09eaede9845835d71c4e"><div class="ttname"><a href="compress_8php.html#a6733eb5f605d09eaede9845835d71c4e">exit</a></div><div class="ttdeci">exit</div><div class="ttdef"><b>Definition:</b> <a href="compress_8php_source.html#l00168">compress.php:168</a></div></div>
+<div class="ttc" id="class_c_k_finder___connector___command_handler___file_upload_html"><div class="ttname"><a href="class_c_k_finder___connector___command_handler___file_upload.html">CKFinder_Connector_CommandHandler_FileUpload</a></div><div class="ttdef"><b>Definition:</b> <a href="php4_2_command_handler_2_file_upload_8php_source.html#l00028">FileUpload.php:28</a></div></div>
+<div class="ttc" id="index_8php_html_aec0e90bd149e61dc80acb4313f718a97"><div class="ttname"><a href="index_8php.html#aec0e90bd149e61dc80acb4313f718a97">defined</a></div><div class="ttdeci">defined( 'YII_TRACE_LEVEL') or define( 'YII_TRACE_LEVEL'</div><div class="ttdef"><b>Definition:</b> <a href="index_8php_source.html#l00010">index.php:10</a></div></div>
+<div class="ttc" id="class_c_k_finder___connector___core___factory_html_a3e9e4947697f4d1b3c509a6c8ca65d08"><div class="ttname"><a href="class_c_k_finder___connector___core___factory.html#a3e9e4947697f4d1b3c509a6c8ca65d08">CKFinder_Connector_Core_Factory\getInstance</a></div><div class="ttdeci">&amp; getInstance($className)</div><div class="ttdef"><b>Definition:</b> <a href="php4_2_core_2_factory_8php_source.html#l00052">Factory.php:52</a></div></div>
+<div class="ttc" id="class_c_k_finder___connector___command_handler___quick_upload_html"><div class="ttname"><a href="class_c_k_finder___connector___command_handler___quick_upload.html">CKFinder_Connector_CommandHandler_QuickUpload</a></div><div class="ttdef"><b>Definition:</b> <a href="php4_2_command_handler_2_quick_upload_8php_source.html#l00033">QuickUpload.php:33</a></div></div>
+<div class="ttc" id="class_c_k_finder___connector___command_handler___quick_upload_html_a40125182b0df26fa9eb63114cfda44eb"><div class="ttname"><a href="class_c_k_finder___connector___command_handler___quick_upload.html#a40125182b0df26fa9eb63114cfda44eb">CKFinder_Connector_CommandHandler_QuickUpload\$command</a></div><div class="ttdeci">$command</div><div class="ttdef"><b>Definition:</b> <a href="php4_2_command_handler_2_quick_upload_8php_source.html#l00041">QuickUpload.php:41</a></div></div>
+<div class="ttc" id="class_c_k_finder___connector___command_handler___quick_upload_html_abcc3313dae9b859d2c57286d7ae46bcd"><div class="ttname"><a href="class_c_k_finder___connector___command_handler___quick_upload.html#abcc3313dae9b859d2c57286d7ae46bcd">CKFinder_Connector_CommandHandler_QuickUpload\sendResponse</a></div><div class="ttdeci">sendResponse()</div><div class="ttdef"><b>Definition:</b> <a href="php4_2_command_handler_2_quick_upload_8php_source.html#l00043">QuickUpload.php:43</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

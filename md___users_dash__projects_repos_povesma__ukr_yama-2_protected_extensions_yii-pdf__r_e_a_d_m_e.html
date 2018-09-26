@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Yii-PDF Extension</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Yii-PDF Extension </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p>Small <a class="el" href="namespace_yii.html">Yii</a> extension, that wraps a few PHP libraries (<a class="el" href="classm_p_d_f.html">mPDF</a> and HTML2PDF so far) to convert HTML to PDF</p>
+<h3>Resources</h3>
+<ul>
+<li><a href="http://yiiframework.com/">Yii Framework</a></li>
+<li><a href="http://www.mpdf1.com/">mPDF</a> - is a PHP class to generate PDF files from HTML with Unicode/UTF-8 and CJK support</li>
+<li><a href="http://html2pdf.fr/en/default">HTML2PDF</a> - is a PHP class using FPDF for the PHP4 release, and TCPDF for the PHP5 release. It can convert valid HTML and xHTML to PDF</li>
+</ul>
+<h3>Requirements</h3>
+<ul>
+<li><a class="el" href="namespace_yii.html">Yii</a> 1.1.9 or above</li>
+<li><a href="http://www.mpdf1.com/mpdf/download">mPDF</a> version 5.3 (has been released 2011-07-21) or above</li>
+<li><a href="http://sourceforge.net/projects/phphtml2pdf/">HTML2PDF</a> version 4.03 (has been released 2011-05-27) or above</li>
+</ul>
+<h3>Official documentation and examples</h3>
+<ul>
+<li><a class="el" href="classm_p_d_f.html">mPDF</a> - <a href="http://mpdf1.com/manual/">manual</a> and <a href="http://www.mpdf1.com/mpdf/examples">examples</a></li>
+<li>HTML2PDF - <a href="http://wiki.spipu.net/doku.php?id=html2pdf:en:Accueil">Wiki</a> and <a href="http://html2pdf.fr/en/example">examples</a></li>
+</ul>
+<h3>Installation</h3>
+<ul>
+<li>Download and extract extension to the directory <code>protected/extensions/yii-pdf</code></li>
+<li>Download and extract library (<a href="http://www.mpdf1.com/mpdf/download">mPDF</a> and/or <a href="http://sourceforge.net/projects/phphtml2pdf/">HTML2PDF</a>) to own directory in catalog <code>protected/vendors</code> or set new value for &lsquo;'librarySourcePath&rsquo;<code>parameter in</code>'params'<code>array</code></li>
+<li><code>Array</code>'defaultParams'` - this is an array of constructor's default params of selected library. If you want to change default params - you can set them in config file (like shown below). If you do so - <b>you must keep the order of array items!</b></li>
+<li>In your <code>protected/config/main.php</code>, add the following:</li>
+</ul>
+<div class="fragment"><div class="line">&lt;?php</div><div class="line"><span class="comment">//...</span></div><div class="line">    <span class="stringliteral">&#39;components&#39;</span>=&gt;array(</div><div class="line">        <span class="comment">//...</span></div><div class="line">        <span class="stringliteral">&#39;ePdf&#39;</span> =&gt; array(</div><div class="line">            <span class="stringliteral">&#39;class&#39;</span>         =&gt; <span class="stringliteral">&#39;ext.yii-pdf.EYiiPdf&#39;</span>,</div><div class="line">            <span class="stringliteral">&#39;params&#39;</span>        =&gt; array(</div><div class="line">                <span class="stringliteral">&#39;mpdf&#39;</span>     =&gt; array(</div><div class="line">                    <span class="stringliteral">&#39;librarySourcePath&#39;</span> =&gt; <span class="stringliteral">&#39;application.vendors.mpdf.*&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;constants&#39;</span>         =&gt; array(</div><div class="line">                        <span class="stringliteral">&#39;_MPDF_TEMP_PATH&#39;</span> =&gt; Yii::getPathOfAlias(<span class="stringliteral">&#39;application.runtime&#39;</span>),</div><div class="line">                    ),</div><div class="line">                    <span class="stringliteral">&#39;class&#39;</span>=&gt;<span class="stringliteral">&#39;mpdf&#39;</span>, <span class="comment">// the literal class filename to be loaded from the vendors folder.</span></div><div class="line">                    <span class="comment">/*&#39;defaultParams&#39;     =&gt; array( // More info: http://mpdf1.com/manual/index.php?tid=184</span></div><div class="line"><span class="comment">                        &#39;mode&#39;              =&gt; &#39;&#39;, //  This parameter specifies the mode of the new document.</span></div><div class="line"><span class="comment">                        &#39;format&#39;            =&gt; &#39;A4&#39;, // format A4, A5, ...</span></div><div class="line"><span class="comment">                        &#39;default_font_size&#39; =&gt; 0, // Sets the default document font size in points (pt)</span></div><div class="line"><span class="comment">                        &#39;default_font&#39;      =&gt; &#39;&#39;, // Sets the default font-family for the new document.</span></div><div class="line"><span class="comment">                        &#39;mgl&#39;               =&gt; 15, // margin_left. Sets the page margins for the new document.</span></div><div class="line"><span class="comment">                        &#39;mgr&#39;               =&gt; 15, // margin_right</span></div><div class="line"><span class="comment">                        &#39;mgt&#39;               =&gt; 16, // margin_top</span></div><div class="line"><span class="comment">                        &#39;mgb&#39;               =&gt; 16, // margin_bottom</span></div><div class="line"><span class="comment">                        &#39;mgh&#39;               =&gt; 9, // margin_header</span></div><div class="line"><span class="comment">                        &#39;mgf&#39;               =&gt; 9, // margin_footer</span></div><div class="line"><span class="comment">                        &#39;orientation&#39;       =&gt; &#39;P&#39;, // landscape or portrait orientation</span></div><div class="line"><span class="comment">                    )*/</span></div><div class="line">                ),</div><div class="line">                <span class="stringliteral">&#39;HTML2PDF&#39;</span> =&gt; array(</div><div class="line">                    <span class="stringliteral">&#39;librarySourcePath&#39;</span> =&gt; <span class="stringliteral">&#39;application.vendors.html2pdf.*&#39;</span>,</div><div class="line">                    <span class="stringliteral">&#39;classFile&#39;</span>         =&gt; <span class="stringliteral">&#39;html2pdf.class.php&#39;</span>, <span class="comment">// For adding to Yii::$classMap</span></div><div class="line">                    <span class="comment">/*&#39;defaultParams&#39;     =&gt; array( // More info: http://wiki.spipu.net/doku.php?id=html2pdf:en:v4:accueil</span></div><div class="line"><span class="comment">                        &#39;orientation&#39; =&gt; &#39;P&#39;, // landscape or portrait orientation</span></div><div class="line"><span class="comment">                        &#39;format&#39;      =&gt; &#39;A4&#39;, // format A4, A5, ...</span></div><div class="line"><span class="comment">                        &#39;language&#39;    =&gt; &#39;en&#39;, // language: fr, en, it ...</span></div><div class="line"><span class="comment">                        &#39;unicode&#39;     =&gt; true, // TRUE means clustering the input text IS unicode (default = true)</span></div><div class="line"><span class="comment">                        &#39;encoding&#39;    =&gt; &#39;UTF-8&#39;, // charset encoding; Default is UTF-8</span></div><div class="line"><span class="comment">                        &#39;marges&#39;      =&gt; array(5, 5, 5, 8), // margins by default, in order (left, top, right, bottom)</span></div><div class="line"><span class="comment">                    )*/</span></div><div class="line">                )</div><div class="line">            ),</div><div class="line">        ),</div><div class="line">        <span class="comment">//...</span></div><div class="line">    )</div><div class="line"><span class="comment">//...</span></div></div><!-- fragment --><h3>Usage</h3>
+<div class="fragment"><div class="line">&lt;?php</div><div class="line">...</div><div class="line">    <span class="keyword">public</span> <span class="keyword">function</span> actionIndex()</div><div class="line">    {</div><div class="line"><span class="preprocessor">        # mPDF</span></div><div class="line">        $mPDF1 = Yii::app()-&gt;ePdf-&gt;mpdf();</div><div class="line"></div><div class="line"><span class="preprocessor">        # You can easily override default constructor&#39;s params</span></div><div class="line">        $mPDF1 = Yii::app()-&gt;ePdf-&gt;mpdf(<span class="stringliteral">&#39;&#39;</span>, <span class="stringliteral">&#39;A5&#39;</span>);</div><div class="line"></div><div class="line"><span class="preprocessor">        # render (full page)</span></div><div class="line">        $mPDF1-&gt;WriteHTML($this-&gt;render(<span class="stringliteral">&#39;index&#39;</span>, array(), <span class="keyword">true</span>));</div><div class="line"></div><div class="line"><span class="preprocessor">        # Load a stylesheet</span></div><div class="line">        <a class="code" href="example02___c_s_s__styles_8php.html#a19e5cf73e817c55a49205e6ec78c88a8">$stylesheet</a> = file_get_contents(Yii::getPathOfAlias(<span class="stringliteral">&#39;webroot.css&#39;</span>) . <span class="stringliteral">&#39;/main.css&#39;</span>);</div><div class="line">        $mPDF1-&gt;WriteHTML(<a class="code" href="example02___c_s_s__styles_8php.html#a19e5cf73e817c55a49205e6ec78c88a8">$stylesheet</a>, 1);</div><div class="line"></div><div class="line"><span class="preprocessor">        # renderPartial (only &#39;view&#39; of current controller)</span></div><div class="line">        $mPDF1-&gt;WriteHTML($this-&gt;<a class="code" href="views_2holes_2view_8php.html#ae224fa1a2b0cfafb0289e8522330126b">renderPartial</a>(<span class="stringliteral">&#39;index&#39;</span>, array(), <span class="keyword">true</span>));</div><div class="line"></div><div class="line"><span class="preprocessor">        # Renders image</span></div><div class="line">        $mPDF1-&gt;WriteHTML(CHtml::image(Yii::getPathOfAlias(<span class="stringliteral">&#39;webroot.css&#39;</span>) . <span class="stringliteral">&#39;/bg.gif&#39;</span> ));</div><div class="line"></div><div class="line"><span class="preprocessor">        # Outputs ready PDF</span></div><div class="line">        $mPDF1-&gt;Output();</div><div class="line"></div><div class="line"></div><div class="line"><span class="preprocessor">        # HTML2PDF has very similar syntax</span></div><div class="line">        $html2pdf = Yii::app()-&gt;ePdf-&gt;HTML2PDF();</div><div class="line">        $html2pdf-&gt;WriteHTML($this-&gt;<a class="code" href="views_2holes_2view_8php.html#ae224fa1a2b0cfafb0289e8522330126b">renderPartial</a>(<span class="stringliteral">&#39;index&#39;</span>, array(), <span class="keyword">true</span>));</div><div class="line">        $html2pdf-&gt;Output();</div><div class="line"></div><div class="line"></div><div class="line"><span class="preprocessor">        # Example from HTML2PDF wiki: Send PDF by email</span></div><div class="line">        $content_PDF = $html2pdf-&gt;Output(<span class="stringliteral">&#39;&#39;</span>, <a class="code" href="class_e_yii_pdf.html#a6c0de5a13a8cb177874e3a22459fc76e">EYiiPdf::OUTPUT_TO_STRING</a>);</div><div class="line">        require_once(dirname(__FILE__).<span class="stringliteral">&#39;/pjmail/pjmail.class.php&#39;</span>);</div><div class="line">        $mail = <span class="keyword">new</span> PJmail();</div><div class="line">        $mail-&gt;setAllFrom(<span class="stringliteral">&#39;webmaster@my_site.net&#39;</span>, <span class="stringliteral">&quot;My personal site&quot;</span>);</div><div class="line">        $mail-&gt;addrecipient(<span class="stringliteral">&#39;mail_user@my_site.net&#39;</span>);</div><div class="line">        $mail-&gt;addsubject(<span class="stringliteral">&quot;Example sending PDF&quot;</span>);</div><div class="line">        $mail-&gt;text = <span class="stringliteral">&quot;This is an example of sending a PDF file&quot;</span>;</div><div class="line">        $mail-&gt;addbinattachement(<span class="stringliteral">&quot;my_document.pdf&quot;</span>, $content_PDF);</div><div class="line">        $res = $mail-&gt;sendmail();</div><div class="line">    }</div><div class="line">...</div></div><!-- fragment --><h3>License</h3>
+<ul>
+<li><b><a class="el" href="classm_p_d_f.html">mPDF</a></b> has GNU General Public License version 2</li>
+<li><b>HTML2PDF</b> has GNU Library or Lesser General Public License (LGPL)</li>
+<li><a href="https://github.com/Borales/yii-pdf">This extension</a> was released under the <a href="http://www.opensource.org/licenses/bsd-license.php">New BSD License</a> </li>
+</ul>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

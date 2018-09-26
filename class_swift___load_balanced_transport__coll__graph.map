@@ -1,0 +1,4 @@
+<map id="Swift_LoadBalancedTransport" name="Swift_LoadBalancedTransport">
+<area shape="rect" id="node2" href="$class_swift___transport___load_balanced_transport.html" title="{Swift_Transport_LoadBalanced\lTransport\n|# $_transports\l|+ __construct()\l+ setTransports()\l+ getTransports()\l+ isStarted()\l+ start()\l+ stop()\l+ send()\l+ registerPlugin()\l# _getNextTransport()\l# _killCurrentTransport()\l}" alt="" coords="5,180,212,387"/>
+<area shape="rect" id="node3" href="$interface_swift___transport.html" title="{Swift_Transport\n||+ isStarted()\l+ start()\l+ stop()\l+ send()\l+ registerPlugin()\l}" alt="" coords="47,5,170,132"/>
+</map>

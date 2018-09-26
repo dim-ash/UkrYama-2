@@ -1,0 +1,5 @@
+<map id="Swift_Filterable" name="Swift_Filterable">
+<area shape="rect" id="node2" href="$class_swift___byte_stream___abstract_filterable_input_stream.html" title="{Swift_ByteStream_Abstract\lFilterableInputStream\n||+ addFilter()\l+ removeFilter()\l+ write()\l+ commit()\l+ bind()\l+ unbind()\l+ flushBuffers()\l# _commit()\l# _flush()\l}" alt="" coords="113,140,297,333"/>
+<area shape="rect" id="node3" href="$class_swift___byte_stream___file_byte_stream.html" title="{Swift_ByteStream_FileByte\lStream\n||+ __construct()\l+ getPath()\l+ read()\l+ setReadPointer()\l# _commit()\l# _flush()\l}" alt="" coords="5,401,188,555"/>
+<area shape="rect" id="node4" href="$class_swift___transport___stream_buffer.html" title="{Swift_Transport_StreamBuffer\n||+ __construct()\l+ initialize()\l+ setParam()\l+ terminate()\l+ setWriteTranslations()\l+ readLine()\l+ read()\l+ setReadPointer()\l# _flush()\l# _commit()\l}" alt="" coords="213,381,413,575"/>
+</map>

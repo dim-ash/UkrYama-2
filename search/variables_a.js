@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['h2bookmarks',['h2bookmarks',['../vendors_2mpdf_2config_8php.html#a0d318a973a665abc308c719941b316a4',1,'h2bookmarks():&#160;config.php'],['../example14__page__numbers___to_c___index___bookmarks_8php.html#afb14621f469d666ef1cfb8cac3de8764',1,'h2bookmarks():&#160;example14_page_numbers_ToC_Index_Bookmarks.php'],['../example60__new__m_p_d_f__v5-7__features_8php.html#afb14621f469d666ef1cfb8cac3de8764',1,'h2bookmarks():&#160;example60_new_mPDF_v5-7_features.php']]],
+  ['h2toc',['h2toc',['../vendors_2mpdf_2config_8php.html#a7fdd837f73ced736bdaa63537f326fec',1,'h2toc():&#160;config.php'],['../example14__page__numbers___to_c___index___bookmarks_8php.html#aac5f519d93d5cc4e570c04f67028b10e',1,'h2toc():&#160;example14_page_numbers_ToC_Index_Bookmarks.php'],['../example60__new__m_p_d_f__v5-7__features_8php.html#aac5f519d93d5cc4e570c04f67028b10e',1,'h2toc():&#160;example60_new_mPDF_v5-7_features.php']]],
+  ['header_5fline_5fspacing',['header_line_spacing',['../vendors_2mpdf_2config_8php.html#a95e89f0ed77e9327ba63d8af50837d89',1,'config.php']]],
+  ['height',['HEIGHT',['../class_image.html#a7d94798c6aa4b659dc3f53c9f7cc29e0',1,'Image\HEIGHT()'],['../left_8php.html#a509290c21d570ff479c1b9d9b1fe8810',1,'height():&#160;left.php']]],
+  ['horizontal',['HORIZONTAL',['../class_image.html#ac65a7ec9fcf32562cd0414e57beb9a04',1,'Image']]],
+  ['hyphenate',['hyphenate',['../example21__hyphenation_8php.html#a988e0360138a1001f27d70c65256d100',1,'hyphenate():&#160;example21_hyphenation.php'],['../example46__progress__bars__simple_8php.html#a988e0360138a1001f27d70c65256d100',1,'hyphenate():&#160;example46_progress_bars_simple.php'],['../example47__progress__bars__simple__custom_8php.html#a988e0360138a1001f27d70c65256d100',1,'hyphenate():&#160;example47_progress_bars_simple_custom.php'],['../example48__progress__bars__advanced_8php.html#a988e0360138a1001f27d70c65256d100',1,'hyphenate():&#160;example48_progress_bars_advanced.php']]]
+];

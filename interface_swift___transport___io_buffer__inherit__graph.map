@@ -1,0 +1,5 @@
+<map id="Swift_Transport_IoBuffer" name="Swift_Transport_IoBuffer">
+<area shape="rect" id="node4" href="$class_swift___transport___stream_buffer.html" title="{Swift_Transport_StreamBuffer\n||+ __construct()\l+ initialize()\l+ setParam()\l+ terminate()\l+ setWriteTranslations()\l+ readLine()\l+ read()\l+ setReadPointer()\l# _flush()\l# _commit()\l}" alt="" coords="77,368,277,561"/>
+<area shape="rect" id="node2" href="$interface_swift___input_byte_stream.html" title="{Swift_InputByteStream\n||+ write()\l+ commit()\l+ bind()\l+ unbind()\l+ flushBuffers()\l}" alt="" coords="5,5,162,132"/>
+<area shape="rect" id="node3" href="$interface_swift___output_byte_stream.html" title="{Swift_OutputByteStream\n||+ read()\l+ setReadPointer()\l}" alt="" coords="187,25,354,112"/>
+</map>

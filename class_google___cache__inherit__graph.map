@@ -1,0 +1,5 @@
+<map id="Google_Cache" name="Google_Cache">
+<area shape="rect" id="node2" href="$class_google___file_cache.html" title="{Google_FileCache\n||+ __construct()\l+ get()\l+ set()\l+ delete()\l}" alt="" coords="5,153,137,267"/>
+<area shape="rect" id="node3" href="$class_google___memcache_cache.html" title="{Google_MemcacheCache\n||+ __construct()\l+ get()\l+ set()\l+ delete()\l}" alt="" coords="161,153,336,267"/>
+<area shape="rect" id="node4" href="$classgoogle_apc_cache.html" title="{googleApcCache\n||+ __construct()\l+ get()\l+ set()\l+ delete()\l}" alt="" coords="360,153,483,267"/>
+</map>

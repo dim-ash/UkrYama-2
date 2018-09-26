@@ -1,0 +1,5 @@
+<map id="Swift_Plugins_Logger" name="Swift_Plugins_Logger">
+<area shape="rect" id="node2" href="$class_swift___plugins___logger_plugin.html" title="{Swift_Plugins_LoggerPlugin\n||+ __construct()\l+ add()\l+ clear()\l+ dump()\l+ commandSent()\l+ responseReceived()\l+ beforeTransportStarted()\l+ transportStarted()\l+ beforeTransportStopped()\l+ transportStopped()\l+ exceptionThrown()\l}" alt="" coords="5,153,193,360"/>
+<area shape="rect" id="node3" href="$class_swift___plugins___loggers___array_logger.html" title="{Swift_Plugins_Loggers\l_ArrayLogger\n||+ __construct()\l+ add()\l+ clear()\l+ dump()\l}" alt="" coords="217,193,374,320"/>
+<area shape="rect" id="node4" href="$class_swift___plugins___loggers___echo_logger.html" title="{Swift_Plugins_Loggers\l_EchoLogger\n||+ __construct()\l+ add()\l+ clear()\l+ dump()\l}" alt="" coords="398,193,555,320"/>
+</map>

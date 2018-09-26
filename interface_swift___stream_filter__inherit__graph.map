@@ -1,0 +1,4 @@
+<map id="Swift_StreamFilter" name="Swift_StreamFilter">
+<area shape="rect" id="node2" href="$class_swift___stream_filters___byte_array_replacement_filter.html" title="{Swift_StreamFilters\l_ByteArrayReplacementFilter\n||+ __construct()\l+ shouldBuffer()\l+ filter()\l}" alt="" coords="5,140,201,253"/>
+<area shape="rect" id="node3" href="$class_swift___stream_filters___string_replacement_filter.html" title="{Swift_StreamFilters\l_StringReplacementFilter\n||+ __construct()\l+ shouldBuffer()\l+ filter()\l}" alt="" coords="225,140,397,253"/>
+</map>

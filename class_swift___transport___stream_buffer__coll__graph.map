@@ -1,0 +1,7 @@
+<map id="Swift_Transport_StreamBuffer" name="Swift_Transport_StreamBuffer">
+<area shape="rect" id="node2" href="$class_swift___byte_stream___abstract_filterable_input_stream.html" title="{Swift_ByteStream_Abstract\lFilterableInputStream\n||+ addFilter()\l+ removeFilter()\l+ write()\l+ commit()\l+ bind()\l+ unbind()\l+ flushBuffers()\l# _commit()\l# _flush()\l}" alt="" coords="45,180,228,373"/>
+<area shape="rect" id="node3" href="$interface_swift___input_byte_stream.html" title="{Swift_InputByteStream\n||+ write()\l+ commit()\l+ bind()\l+ unbind()\l+ flushBuffers()\l}" alt="" coords="145,5,302,132"/>
+<area shape="rect" id="node5" href="$interface_swift___transport___io_buffer.html" title="{Swift_Transport_IoBuffer\n|+ TYPE_SOCKET\l+ TYPE_PROCESS\l|+ initialize()\l+ setParam()\l+ terminate()\l+ setWriteTranslations()\l+ readLine()\l}" alt="" coords="253,207,421,347"/>
+<area shape="rect" id="node4" href="$interface_swift___filterable.html" title="{Swift_Filterable\n||+ addFilter()\l+ removeFilter()\l}" alt="" coords="5,25,121,112"/>
+<area shape="rect" id="node6" href="$interface_swift___output_byte_stream.html" title="{Swift_OutputByteStream\n||+ read()\l+ setReadPointer()\l}" alt="" coords="326,25,494,112"/>
+</map>

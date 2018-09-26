@@ -1,0 +1,9 @@
+<map id="Графічна ієрархія класів" name="Графічна ієрархія класів">
+<area shape="rect" id="node1" href="$interface_swift___events___event.html" title="Swift_Events_Event" alt="" coords="5,104,145,129"/>
+<area shape="rect" id="node2" href="$class_swift___events___event_object.html" title="Swift_Events_EventObject" alt="" coords="193,104,372,129"/>
+<area shape="rect" id="node3" href="$class_swift___events___command_event.html" title="Swift_Events_CommandEvent" alt="" coords="429,5,631,31"/>
+<area shape="rect" id="node4" href="$class_swift___events___response_event.html" title="Swift_Events_ResponseEvent" alt="" coords="430,55,630,80"/>
+<area shape="rect" id="node5" href="$class_swift___events___send_event.html" title="Swift_Events_SendEvent" alt="" coords="445,104,616,129"/>
+<area shape="rect" id="node6" href="$class_swift___events___transport_change_event.html" title="Swift_Events_TransportChange\lEvent" alt="" coords="426,153,635,192"/>
+<area shape="rect" id="node7" href="$class_swift___events___transport_exception_event.html" title="Swift_Events_TransportException\lEvent" alt="" coords="420,216,641,255"/>
+</map>

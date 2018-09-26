@@ -1,0 +1,6 @@
+<map id="Графічна ієрархія класів" name="Графічна ієрархія класів">
+<area shape="rect" id="node1" href="$interface_swift___character_reader.html" title="Swift_CharacterReader" alt="" coords="5,75,165,100"/>
+<area shape="rect" id="node2" href="$class_swift___character_reader___generic_fixed_width_reader.html" title="Swift_CharacterReader\l_GenericFixedWidthReader" alt="" coords="213,5,399,44"/>
+<area shape="rect" id="node3" href="$class_swift___character_reader___us_ascii_reader.html" title="Swift_CharacterReader\l_UsAsciiReader" alt="" coords="226,68,386,107"/>
+<area shape="rect" id="node4" href="$class_swift___character_reader___utf8_reader.html" title="Swift_CharacterReader\l_Utf8Reader" alt="" coords="226,131,386,169"/>
+</map>

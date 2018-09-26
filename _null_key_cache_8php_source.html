@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UkrYama Reference: Текст програми /Users/dash/Projects/repos/povesma/UkrYama-2/protected/modules/userGroups/components/yii-mail/vendors/swiftMailer/classes/Swift/KeyCache/NullKeyCache.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UkrYama Reference
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Пошук');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Пошук');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5c1f77b6d547333da17420fc98c4f94a.html">repos</a></li><li class="navelem"><a class="el" href="dir_04f689ab71b773ebff14da906076064e.html">povesma</a></li><li class="navelem"><a class="el" href="dir_d900273630594caa3fd207eb94f7d0c5.html">UkrYama-2</a></li><li class="navelem"><a class="el" href="dir_62d1aad58dc073ffe599c0cc39774e9a.html">protected</a></li><li class="navelem"><a class="el" href="dir_b9874050543d9bf801828959d5af7e08.html">modules</a></li><li class="navelem"><a class="el" href="dir_5f2ca876ed623614a551661d5ad436e2.html">userGroups</a></li><li class="navelem"><a class="el" href="dir_3af8527d3a292461f703522a7735f22d.html">components</a></li><li class="navelem"><a class="el" href="dir_e7389c68147bcb225836d133883587f9.html">yii-mail</a></li><li class="navelem"><a class="el" href="dir_7c00826db0b603d9f1219296bf24edb6.html">vendors</a></li><li class="navelem"><a class="el" href="dir_89bff85714102eab7b303e6d9fdb32ce.html">swiftMailer</a></li><li class="navelem"><a class="el" href="dir_be079ef1232344ba61031a6293168d37.html">classes</a></li><li class="navelem"><a class="el" href="dir_f4d1f2b2221467ba311892f8aaf2aa86.html">Swift</a></li><li class="navelem"><a class="el" href="dir_1462a598a1a6e48a16df7e7483f45aaa.html">KeyCache</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">NullKeyCache.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_null_key_cache_8php.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This file is part of SwiftMailer.</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * (c) 2004-2009 Chris Corbyn</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * For the full copyright and license information, please view the LICENSE</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * file that was distributed with this source code.</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> */</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">//@require &#39;Swift/KeyCache.php&#39;;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//@require &#39;Swift/KeyCacheInputStream.php&#39;;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">//@require &#39;Swift/InputByteStream.php&#39;;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">//@require &#39;Swift/OutputByteStrean.php&#39;;</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_swift___key_cache___null_key_cache.html">   22</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_swift___key_cache___null_key_cache.html">Swift_KeyCache_NullKeyCache</a> <span class="keyword">implements</span> <a class="code" href="interface_swift___key_cache.html">Swift_KeyCache</a></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  </div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_swift___key_cache___null_key_cache.html#a38a90ff7c90ade1b8d6aa82333274f39">   33</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___key_cache___null_key_cache.html#a38a90ff7c90ade1b8d6aa82333274f39">setString</a>($nsKey, $itemKey, $string, <a class="code" href="modules_2user_groups_2views_2user_2view_8php.html#a564783307b025aaab648d406a0606930">$mode</a>)</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  }</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  </div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_swift___key_cache___null_key_cache.html#abbc4f07c32aaa86df0b72b5d96f8303c">   45</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___key_cache___null_key_cache.html#abbc4f07c32aaa86df0b72b5d96f8303c">importFromByteStream</a>($nsKey, $itemKey, <a class="code" href="interface_swift___output_byte_stream.html">Swift_OutputByteStream</a> $os,</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="modules_2user_groups_2views_2user_2view_8php.html#a564783307b025aaab648d406a0606930">$mode</a>)</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  {</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  }</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  </div><div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="class_swift___key_cache___null_key_cache.html#a70077618fc40bbc64e7ff310c3251767">   57</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___key_cache___null_key_cache.html#a70077618fc40bbc64e7ff310c3251767">getInputByteStream</a>($nsKey, $itemKey,</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="interface_swift___input_byte_stream.html">Swift_InputByteStream</a> $writeThrough = null)</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  {</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  }</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  </div><div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="class_swift___key_cache___null_key_cache.html#ac5378a03697786da83093b2d34c6370a">   68</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___key_cache___null_key_cache.html#ac5378a03697786da83093b2d34c6370a">getString</a>($nsKey, $itemKey)</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  {</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  }</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  </div><div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="class_swift___key_cache___null_key_cache.html#abf00327885e80337140c080ee46c13d4">   78</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___key_cache___null_key_cache.html#abf00327885e80337140c080ee46c13d4">exportToByteStream</a>($nsKey, $itemKey, <a class="code" href="interface_swift___input_byte_stream.html">Swift_InputByteStream</a> $is)</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  {</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  }</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  </div><div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="class_swift___key_cache___null_key_cache.html#ac1f3ed135fee2b807a754f0849434c20">   88</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___key_cache___null_key_cache.html#ac1f3ed135fee2b807a754f0849434c20">hasKey</a>($nsKey, $itemKey)</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  {</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  }</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  </div><div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="class_swift___key_cache___null_key_cache.html#acf6962ecc0a23ba6c55567847c87a98b">   98</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___key_cache___null_key_cache.html#acf6962ecc0a23ba6c55567847c87a98b">clearKey</a>($nsKey, $itemKey)</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  {</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  }</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  </div><div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="class_swift___key_cache___null_key_cache.html#af53676e367a412f16ab93df15279f109">  106</a></span>&#160;  <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_swift___key_cache___null_key_cache.html#af53676e367a412f16ab93df15279f109">clearAll</a>($nsKey)</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  {</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  }</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  </div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;}</div><div class="ttc" id="class_swift___key_cache___null_key_cache_html_a70077618fc40bbc64e7ff310c3251767"><div class="ttname"><a href="class_swift___key_cache___null_key_cache.html#a70077618fc40bbc64e7ff310c3251767">Swift_KeyCache_NullKeyCache\getInputByteStream</a></div><div class="ttdeci">getInputByteStream($nsKey, $itemKey, Swift_InputByteStream $writeThrough=null)</div><div class="ttdef"><b>Definition:</b> <a href="_null_key_cache_8php_source.html#l00057">NullKeyCache.php:57</a></div></div>
+<div class="ttc" id="class_swift___key_cache___null_key_cache_html_abf00327885e80337140c080ee46c13d4"><div class="ttname"><a href="class_swift___key_cache___null_key_cache.html#abf00327885e80337140c080ee46c13d4">Swift_KeyCache_NullKeyCache\exportToByteStream</a></div><div class="ttdeci">exportToByteStream($nsKey, $itemKey, Swift_InputByteStream $is)</div><div class="ttdef"><b>Definition:</b> <a href="_null_key_cache_8php_source.html#l00078">NullKeyCache.php:78</a></div></div>
+<div class="ttc" id="class_swift___key_cache___null_key_cache_html_acf6962ecc0a23ba6c55567847c87a98b"><div class="ttname"><a href="class_swift___key_cache___null_key_cache.html#acf6962ecc0a23ba6c55567847c87a98b">Swift_KeyCache_NullKeyCache\clearKey</a></div><div class="ttdeci">clearKey($nsKey, $itemKey)</div><div class="ttdef"><b>Definition:</b> <a href="_null_key_cache_8php_source.html#l00098">NullKeyCache.php:98</a></div></div>
+<div class="ttc" id="class_swift___key_cache___null_key_cache_html_abbc4f07c32aaa86df0b72b5d96f8303c"><div class="ttname"><a href="class_swift___key_cache___null_key_cache.html#abbc4f07c32aaa86df0b72b5d96f8303c">Swift_KeyCache_NullKeyCache\importFromByteStream</a></div><div class="ttdeci">importFromByteStream($nsKey, $itemKey, Swift_OutputByteStream $os, $mode)</div><div class="ttdef"><b>Definition:</b> <a href="_null_key_cache_8php_source.html#l00045">NullKeyCache.php:45</a></div></div>
+<div class="ttc" id="interface_swift___output_byte_stream_html"><div class="ttname"><a href="interface_swift___output_byte_stream.html">Swift_OutputByteStream</a></div><div class="ttdef"><b>Definition:</b> <a href="_output_byte_stream_8php_source.html#l00019">OutputByteStream.php:19</a></div></div>
+<div class="ttc" id="modules_2user_groups_2views_2user_2view_8php_html_a564783307b025aaab648d406a0606930"><div class="ttname"><a href="modules_2user_groups_2views_2user_2view_8php.html#a564783307b025aaab648d406a0606930">$mode</a></div><div class="ttdeci">else $mode</div><div class="ttdef"><b>Definition:</b> <a href="modules_2user_groups_2views_2user_2view_8php_source.html#l00017">view.php:17</a></div></div>
+<div class="ttc" id="class_swift___key_cache___null_key_cache_html_af53676e367a412f16ab93df15279f109"><div class="ttname"><a href="class_swift___key_cache___null_key_cache.html#af53676e367a412f16ab93df15279f109">Swift_KeyCache_NullKeyCache\clearAll</a></div><div class="ttdeci">clearAll($nsKey)</div><div class="ttdef"><b>Definition:</b> <a href="_null_key_cache_8php_source.html#l00106">NullKeyCache.php:106</a></div></div>
+<div class="ttc" id="class_swift___key_cache___null_key_cache_html"><div class="ttname"><a href="class_swift___key_cache___null_key_cache.html">Swift_KeyCache_NullKeyCache</a></div><div class="ttdef"><b>Definition:</b> <a href="_null_key_cache_8php_source.html#l00022">NullKeyCache.php:22</a></div></div>
+<div class="ttc" id="interface_swift___input_byte_stream_html"><div class="ttname"><a href="interface_swift___input_byte_stream.html">Swift_InputByteStream</a></div><div class="ttdef"><b>Definition:</b> <a href="_input_byte_stream_8php_source.html#l00019">InputByteStream.php:19</a></div></div>
+<div class="ttc" id="class_swift___key_cache___null_key_cache_html_ac5378a03697786da83093b2d34c6370a"><div class="ttname"><a href="class_swift___key_cache___null_key_cache.html#ac5378a03697786da83093b2d34c6370a">Swift_KeyCache_NullKeyCache\getString</a></div><div class="ttdeci">getString($nsKey, $itemKey)</div><div class="ttdef"><b>Definition:</b> <a href="_null_key_cache_8php_source.html#l00068">NullKeyCache.php:68</a></div></div>
+<div class="ttc" id="class_swift___key_cache___null_key_cache_html_a38a90ff7c90ade1b8d6aa82333274f39"><div class="ttname"><a href="class_swift___key_cache___null_key_cache.html#a38a90ff7c90ade1b8d6aa82333274f39">Swift_KeyCache_NullKeyCache\setString</a></div><div class="ttdeci">setString($nsKey, $itemKey, $string, $mode)</div><div class="ttdef"><b>Definition:</b> <a href="_null_key_cache_8php_source.html#l00033">NullKeyCache.php:33</a></div></div>
+<div class="ttc" id="interface_swift___key_cache_html"><div class="ttname"><a href="interface_swift___key_cache.html">Swift_KeyCache</a></div><div class="ttdef"><b>Definition:</b> <a href="_key_cache_8php_source.html#l00020">KeyCache.php:20</a></div></div>
+<div class="ttc" id="class_swift___key_cache___null_key_cache_html_ac1f3ed135fee2b807a754f0849434c20"><div class="ttname"><a href="class_swift___key_cache___null_key_cache.html#ac1f3ed135fee2b807a754f0849434c20">Swift_KeyCache_NullKeyCache\hasKey</a></div><div class="ttdeci">hasKey($nsKey, $itemKey)</div><div class="ttdef"><b>Definition:</b> <a href="_null_key_cache_8php_source.html#l00088">NullKeyCache.php:88</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

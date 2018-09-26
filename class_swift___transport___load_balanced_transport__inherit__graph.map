@@ -1,0 +1,6 @@
+<map id="Swift_Transport_LoadBalancedTransport" name="Swift_Transport_LoadBalancedTransport">
+<area shape="rect" id="node3" href="$class_swift___load_balanced_transport.html" title="{Swift_LoadBalancedTransport\n||+ __construct()\l+ newInstance()\l}" alt="" coords="5,455,205,541"/>
+<area shape="rect" id="node4" href="$class_swift___transport___failover_transport.html" title="{Swift_Transport_Failover\lTransport\n||+ __construct()\l+ send()\l# _getNextTransport()\l# _killCurrentTransport()\l}" alt="" coords="229,435,398,561"/>
+<area shape="rect" id="node2" href="$interface_swift___transport.html" title="{Swift_Transport\n||+ isStarted()\l+ start()\l+ stop()\l+ send()\l+ registerPlugin()\l}" alt="" coords="147,5,271,132"/>
+<area shape="rect" id="node5" href="$class_swift___failover_transport.html" title="{Swift_FailoverTransport\n||+ __construct()\l+ newInstance()\l}" alt="" coords="232,609,394,696"/>
+</map>
